@@ -1,0 +1,121 @@
+{
+  "project": {
+    "name": "BOT-vCSGO-Beta V2",
+    "version": "2.0.0",
+    "description": "Scraper simplificado de CS:GO para uso personal",
+    "author": "ZoluGames",
+    "environment": "development"
+  },
+  "scrapers": {
+    "default_interval": 60,
+    "default_timeout": 30,
+    "default_retries": 5,
+    "use_proxy_by_default": false,
+    "parallel_execution": false,
+    "retry_backoff_factor": 0.3,
+    "user_agent_rotation": true,
+    "connection_pooling": true,
+    "validate_ssl": true,
+    "follow_redirects": true
+  },
+  "cache": {
+    "enabled": true,
+    "memory_limit_items": 1000,
+    "default_ttl_seconds": 300,
+    "cleanup_interval_minutes": 30,
+    "images": {
+      "permanent_storage": true,
+      "max_size_gb": 10,
+      "preserve_external_cache": true,
+      "compression_enabled": false,
+      "format": "jpg"
+    },
+    "data": {
+      "use_orjson": true,
+      "auto_cleanup_expired": true,
+      "compression_enabled": false,
+      "backup_enabled": false
+    }
+  },
+  "proxy": {
+    "enabled": false,
+    "rotation_enabled": true,
+    "timeout": 10,
+    "max_retries": 3,
+    "retry_delay": 2,
+    "file_path": "proxy.txt",
+    "validation_enabled": true,
+    "blacklist_failed": true
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "save_to_file": true,
+    "file_path": "logs/bot_v2.log",
+    "rotation": {
+      "enabled": true,
+      "max_size_mb": 10,
+      "backup_count": 5
+    },
+    "console_output": true,
+    "debug_scrapers": false
+  },
+  "api": {
+    "rate_limiting": {
+      "enabled": true,
+      "requests_per_minute": 60,
+      "burst_size": 10
+    },
+    "timeout": {
+      "connect": 10,
+      "read": 30,
+      "total": 60
+    },
+    "retries": {
+      "max_attempts": 3,
+      "backoff_factor": 1.0,
+      "status_codes": [429, 500, 502, 503, 504]
+    }
+  },
+  "database": {
+    "enabled": false,
+    "type": "sqlite",
+    "path": "data/bot_v2.db",
+    "backup": {
+      "enabled": false,
+      "interval_hours": 24,
+      "max_backups": 7
+    }
+  },
+  "notifications": {
+    "enabled": false,
+    "channels": [],
+    "thresholds": {
+      "error_count": 10,
+      "success_rate": 80
+    }
+  },
+  "features": {
+    "simple_interface": true,
+    "personal_use_optimized": true,
+    "enterprise_features_disabled": true,
+    "web_interface": false,
+    "database_integration": false,
+    "auto_update": false,
+    "metrics_collection": false
+  },
+  "performance": {
+    "max_concurrent_scrapers": 3,
+    "memory_limit_mb": 512,
+    "cpu_limit_percent": 50,
+    "disk_space_check": true,
+    "min_free_space_gb": 1
+  },
+  "security": {
+    "api_key_encryption": false,
+    "secure_headers": true,
+    "rate_limiting": true,
+    "input_validation": true,
+    "sanitize_logs": true
+  }
+}

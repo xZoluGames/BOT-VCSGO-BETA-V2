@@ -1,0 +1,332 @@
+{
+  "presets": {
+    "profitable_5": {
+      "name": "Profitable 5%+",
+      "description": "Items with at least 5% profit margin",
+      "filters": {
+        "profit_percent": {
+          "min": 5,
+          "max": null
+        },
+        "price_range": {
+          "min": null,
+          "max": null
+        },
+        "platforms": [],
+        "date_range": {
+          "from": null,
+          "to": null
+        },
+        "text_search": ""
+      }
+    },
+    "profitable_10": {
+      "name": "Profitable 10%+",
+      "description": "Items with at least 10% profit margin",
+      "filters": {
+        "profit_percent": {
+          "min": 10,
+          "max": null
+        },
+        "price_range": {
+          "min": null,
+          "max": null
+        },
+        "platforms": [],
+        "date_range": {
+          "from": null,
+          "to": null
+        },
+        "text_search": ""
+      }
+    },
+    "profitable_20": {
+      "name": "Profitable 20%+",
+      "description": "Items with at least 20% profit margin",
+      "filters": {
+        "profit_percent": {
+          "min": 20,
+          "max": null
+        },
+        "price_range": {
+          "min": null,
+          "max": null
+        },
+        "platforms": [],
+        "date_range": {
+          "from": null,
+          "to": null
+        },
+        "text_search": ""
+      }
+    },
+    "cheap_items": {
+      "name": "Cheap Items (<$10)",
+      "description": "Items under $10 with good profit potential",
+      "filters": {
+        "profit_percent": {
+          "min": 5,
+          "max": null
+        },
+        "price_range": {
+          "min": null,
+          "max": 10
+        },
+        "platforms": [],
+        "date_range": {
+          "from": null,
+          "to": null
+        },
+        "text_search": ""
+      }
+    },
+    "high_value": {
+      "name": "High Value (>$100)",
+      "description": "High value items with profit potential",
+      "filters": {
+        "profit_percent": {
+          "min": 3,
+          "max": null
+        },
+        "price_range": {
+          "min": 100,
+          "max": null
+        },
+        "platforms": [],
+        "date_range": {
+          "from": null,
+          "to": null
+        },
+        "text_search": ""
+      }
+    },
+    "recent_items": {
+      "name": "Recent Items",
+      "description": "Items updated in the last 24 hours",
+      "filters": {
+        "profit_percent": {
+          "min": null,
+          "max": null
+        },
+        "price_range": {
+          "min": null,
+          "max": null
+        },
+        "platforms": [],
+        "date_range": {
+          "from": "today",
+          "to": null
+        },
+        "text_search": ""
+      }
+    },
+    "knives": {
+      "name": "Knives",
+      "description": "All knife items",
+      "filters": {
+        "profit_percent": {
+          "min": null,
+          "max": null
+        },
+        "price_range": {
+          "min": null,
+          "max": null
+        },
+        "platforms": [],
+        "date_range": {
+          "from": null,
+          "to": null
+        },
+        "text_search": "knife"
+      }
+    },
+    "ak47": {
+      "name": "AK-47 Skins",
+      "description": "All AK-47 weapon skins",
+      "filters": {
+        "profit_percent": {
+          "min": null,
+          "max": null
+        },
+        "price_range": {
+          "min": null,
+          "max": null
+        },
+        "platforms": [],
+        "date_range": {
+          "from": null,
+          "to": null
+        },
+        "text_search": "AK-47"
+      }
+    },
+    "awp": {
+      "name": "AWP Skins",
+      "description": "All AWP weapon skins",
+      "filters": {
+        "profit_percent": {
+          "min": null,
+          "max": null
+        },
+        "price_range": {
+          "min": null,
+          "max": null
+        },
+        "platforms": [],
+        "date_range": {
+          "from": null,
+          "to": null
+        },
+        "text_search": "AWP"
+      }
+    },
+    "gloves": {
+      "name": "Gloves",
+      "description": "All glove items",
+      "filters": {
+        "profit_percent": {
+          "min": null,
+          "max": null
+        },
+        "price_range": {
+          "min": null,
+          "max": null
+        },
+        "platforms": [],
+        "date_range": {
+          "from": null,
+          "to": null
+        },
+        "text_search": "gloves"
+      }
+    }
+  },
+  "custom_filters": {
+    "last_used": {
+      "profit_percent": {
+        "min": null,
+        "max": null
+      },
+      "price_range": {
+        "min": null,
+        "max": null
+      },
+      "platforms": [],
+      "date_range": {
+        "from": null,
+        "to": null
+      },
+      "text_search": ""
+    }
+  },
+  "platforms": [
+    {
+      "id": "steam_market",
+      "name": "Steam Market",
+      "enabled": true,
+      "color": "#1B2838"
+    },
+    {
+      "id": "waxpeer",
+      "name": "Waxpeer",
+      "enabled": true,
+      "color": "#FF6B35"
+    },
+    {
+      "id": "skinport",
+      "name": "Skinport",
+      "enabled": true,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "csdeals",
+      "name": "CS.Deals",
+      "enabled": true,
+      "color": "#10B981"
+    },
+    {
+      "id": "empire",
+      "name": "CSGOEmpire",
+      "enabled": true,
+      "color": "#F59E0B"
+    },
+    {
+      "id": "shadowpay",
+      "name": "ShadowPay",
+      "enabled": true,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "lisskins",
+      "name": "LisSkins",
+      "enabled": true,
+      "color": "#EF4444"
+    },
+    {
+      "id": "tradeit",
+      "name": "TradeIt",
+      "enabled": true,
+      "color": "#06B6D4"
+    },
+    {
+      "id": "manncostore",
+      "name": "ManncoStore",
+      "enabled": true,
+      "color": "#84CC16"
+    },
+    {
+      "id": "marketcsgo",
+      "name": "Market.CSGO",
+      "enabled": true,
+      "color": "#F97316"
+    },
+    {
+      "id": "bitskins",
+      "name": "BitSkins",
+      "enabled": true,
+      "color": "#EC4899"
+    },
+    {
+      "id": "skinout",
+      "name": "SkinOut",
+      "enabled": true,
+      "color": "#6366F1"
+    },
+    {
+      "id": "skindeck",
+      "name": "SkinDeck",
+      "enabled": true,
+      "color": "#14B8A6"
+    },
+    {
+      "id": "white",
+      "name": "White",
+      "enabled": true,
+      "color": "#64748B"
+    },
+    {
+      "id": "rapidskins",
+      "name": "RapidSkins",
+      "enabled": true,
+      "color": "#DC2626"
+    },
+    {
+      "id": "cstrade",
+      "name": "CS.Trade",
+      "enabled": true,
+      "color": "#7C3AED"
+    }
+  ],
+  "settings": {
+    "auto_save_filters": true,
+    "max_saved_filters": 10,
+    "default_preset": "profitable_5",
+    "results_per_page": 100,
+    "auto_refresh_results": false,
+    "refresh_interval": 30,
+    "export_format": "json",
+    "date_format": "YYYY-MM-DD",
+    "currency_symbol": "$",
+    "decimal_places": 2
+  }
+}

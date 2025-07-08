@@ -1,0 +1,122 @@
+{
+  "bitskins_scraper": {
+    "enabled": 1,
+    "use_proxy": 0,
+    "run_in_loop": 0,
+    "timeout": 39.0,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "waxpeer_scraper": {
+    "enabled": 1,
+    "use_proxy": false,
+    "run_in_loop": 1,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "skinport_scraper": {
+    "enabled": true,
+    "use_proxy": false,
+    "run_in_loop": false,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "csdeals_scraper": {
+    "enabled": 1,
+    "use_proxy": false,
+    "run_in_loop": false,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "empire_scraper": {
+    "enabled": true,
+    "use_proxy": false,
+    "run_in_loop": false,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "shadowpay_scraper": {
+    "enabled": true,
+    "use_proxy": false,
+    "run_in_loop": false,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "lisskins_scraper": {
+    "enabled": true,
+    "use_proxy": false,
+    "run_in_loop": false,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "tradeit_scraper": {
+    "enabled": true,
+    "use_proxy": false,
+    "run_in_loop": false,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "rapidskins_scraper": {
+    "enabled": 1,
+    "use_proxy": false,
+    "run_in_loop": false,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "manncostore_scraper": {
+    "enabled": true,
+    "use_proxy": false,
+    "run_in_loop": false,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "marketcsgo_scraper": {
+    "enabled": true,
+    "use_proxy": false,
+    "run_in_loop": false,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "skindeck_scraper": {
+    "enabled": true,
+    "use_proxy": false,
+    "run_in_loop": false,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "skinout_scraper": {
+    "enabled": true,
+    "use_proxy": false,
+    "run_in_loop": false,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "white_scraper": {
+    "enabled": true,
+    "use_proxy": false,
+    "run_in_loop": false,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  },
+  "cstrade_scraper": {
+    "enabled": 0,
+    "use_proxy": false,
+    "run_in_loop": false,
+    "timeout": 30,
+    "delay": 2.0,
+    "max_retries": 3
+  }
+}

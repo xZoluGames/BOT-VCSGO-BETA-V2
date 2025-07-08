@@ -1,0 +1,54 @@
+2025-06-29 12:47:56,604 - scraper.skinport - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 12:47:56,608 - scraper.skinport - INFO - Profitability engine disponible
+2025-06-29 12:47:56,610 - scraper.skinport - INFO - Scraper skinport inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 12:47:56,610 - scraper.skinport - INFO - Skinport scraper inicializado
+2025-06-29 12:47:56,611 - scraper.skinport - INFO - Iniciando scraper skinport
+2025-06-29 12:47:56,611 - scraper.skinport - INFO - Obteniendo datos de Skinport API...
+2025-06-29 12:47:56,963 - scraper.skinport - WARNING - Error en petición (intento 1/3): 406 Client Error: Not Acceptable for url: https://api.skinport.com/v1/items?app_id=730&currency=USD
+2025-06-29 12:47:56,965 - scraper.skinport - INFO - Esperando 2 segundos antes de reintentar...
+2025-06-29 12:47:59,036 - scraper.skinport - WARNING - Error en petición (intento 2/3): 406 Client Error: Not Acceptable for url: https://api.skinport.com/v1/items?app_id=730&currency=USD
+2025-06-29 12:47:59,037 - scraper.skinport - INFO - Esperando 4 segundos antes de reintentar...
+2025-06-29 12:48:03,120 - scraper.skinport - WARNING - Error en petición (intento 3/3): 406 Client Error: Not Acceptable for url: https://api.skinport.com/v1/items?app_id=730&currency=USD
+2025-06-29 12:48:03,122 - scraper.skinport - ERROR - Falló después de 3 intentos: https://api.skinport.com/v1/items?app_id=730&currency=USD
+2025-06-29 12:48:03,123 - scraper.skinport - ERROR - No se pudo obtener respuesta de Skinport
+2025-06-29 12:48:03,124 - scraper.skinport - WARNING - No se obtuvieron datos
+2025-06-29 12:58:14,257 - scraper.skinport - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 12:58:14,259 - scraper.skinport - INFO - Profitability engine disponible
+2025-06-29 12:58:14,260 - scraper.skinport - INFO - Scraper skinport inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 12:58:14,261 - scraper.skinport - INFO - Skinport scraper inicializado - Modo proxy: False, Intervalo: 120s
+2025-06-29 12:58:14,261 - scraper.skinport - INFO - Iniciando scraper skinport
+2025-06-29 12:58:14,261 - scraper.skinport - INFO - Obteniendo datos de Skinport API (sin proxy)...
+2025-06-29 12:58:19,887 - scraper.skinport - INFO - Parseados 21270 items de Skinport
+2025-06-29 12:58:19,907 - scraper.skinport - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-06-29 12:58:19,935 - scraper.skinport - INFO - Datos guardados en /mnt/c/Users/Zolu/Documents/aa-Proyecto CSGO-aa/BOT-VCSGO-BETA-V2/data/skinport_data.json (21270 items)
+2025-06-29 12:58:19,937 - scraper.skinport - INFO - Scraper completado: 21270 items válidos obtenidos
+2025-06-29 12:58:19,938 - scraper.skinport - INFO - Estadísticas - Requests: 1, Fallos: 0, Items: 21270, Éxito: 100.0%
+2025-06-29 12:58:42,739 - scraper.skinport - INFO - Iniciando bucle infinito para skinport (intervalo: 120s, proxy: No)
+2025-06-29 12:58:42,741 - scraper.skinport - INFO - Iniciando scraper skinport
+2025-06-29 12:58:42,742 - scraper.skinport - INFO - Obteniendo datos de Skinport API (sin proxy)...
+2025-06-29 12:58:45,285 - scraper.skinport - INFO - Parseados 21270 items de Skinport
+2025-06-29 12:58:45,302 - scraper.skinport - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-06-29 12:58:45,332 - scraper.skinport - INFO - Datos guardados en /mnt/c/Users/Zolu/Documents/aa-Proyecto CSGO-aa/BOT-VCSGO-BETA-V2/data/skinport_data.json (21270 items)
+2025-06-29 12:58:45,335 - scraper.skinport - INFO - Scraper completado: 21270 items válidos obtenidos
+2025-06-29 12:58:45,335 - scraper.skinport - INFO - Estadísticas - Requests: 2, Fallos: 0, Items: 21270, Éxito: 100.0%
+2025-06-29 12:58:45,338 - scraper.skinport - INFO - Esperando 120 segundos...
+2025-06-29 13:00:22,858 - scraper.skinport - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 13:00:22,860 - scraper.skinport - INFO - Profitability engine disponible
+2025-06-29 13:00:22,862 - scraper.skinport - INFO - Scraper skinport inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 13:00:22,862 - scraper.skinport - INFO - Skinport scraper inicializado - Modo proxy: False, Intervalo: 120s
+2025-06-29 13:00:22,863 - scraper.skinport - INFO - Iniciando scraper skinport
+2025-06-29 13:00:22,863 - scraper.skinport - INFO - Obteniendo datos de Skinport API (sin proxy)...
+2025-06-29 13:00:25,880 - scraper.skinport - INFO - Parseados 21270 items de Skinport
+2025-06-29 13:00:25,896 - scraper.skinport - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-06-29 13:00:25,924 - scraper.skinport - INFO - Datos guardados en /mnt/c/Users/Zolu/Documents/aa-Proyecto CSGO-aa/BOT-VCSGO-BETA-V2/data/skinport_data.json (21270 items)
+2025-06-29 13:00:25,925 - scraper.skinport - INFO - Scraper completado: 21270 items válidos obtenidos
+2025-06-29 13:00:25,926 - scraper.skinport - INFO - Estadísticas - Requests: 1, Fallos: 0, Items: 21270, Éxito: 100.0%
+2025-06-29 13:00:28,833 - scraper.skinport - INFO - Iniciando bucle infinito para skinport (intervalo: 120s, proxy: No)
+2025-06-29 13:00:28,835 - scraper.skinport - INFO - Iniciando scraper skinport
+2025-06-29 13:00:28,836 - scraper.skinport - INFO - Obteniendo datos de Skinport API (sin proxy)...
+2025-06-29 13:00:32,223 - scraper.skinport - INFO - Parseados 21270 items de Skinport
+2025-06-29 13:00:32,240 - scraper.skinport - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-06-29 13:00:32,271 - scraper.skinport - INFO - Datos guardados en /mnt/c/Users/Zolu/Documents/aa-Proyecto CSGO-aa/BOT-VCSGO-BETA-V2/data/skinport_data.json (21270 items)
+2025-06-29 13:00:32,272 - scraper.skinport - INFO - Scraper completado: 21270 items válidos obtenidos
+2025-06-29 13:00:32,273 - scraper.skinport - INFO - Estadísticas - Requests: 2, Fallos: 0, Items: 21270, Éxito: 100.0%
+2025-06-29 13:00:32,276 - scraper.skinport - INFO - Esperando 120 segundos...

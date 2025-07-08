@@ -1,0 +1,94 @@
+2025-06-29 08:13:35,536 - scraper.empire - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 08:13:35,543 - scraper.empire - INFO - Profitability engine disponible
+2025-06-29 08:13:35,543 - scraper.empire - INFO - Scraper empire inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-06-29 08:13:35,544 - scraper.empire - INFO - CSGOEmpire scraper inicializado - API: https://csgoempire.com/api/v2/trading/items, API Key: Sí, Conversión: 0.6154 USD por moneda
+2025-06-29 08:13:35,546 - scraper.empire - INFO - Iniciando scraper empire
+2025-06-29 08:13:35,547 - scraper.empire - INFO - Obteniendo datos de CSGOEmpire...
+2025-06-29 08:13:35,549 - scraper.empire - INFO - Obteniendo items con auction=yes...
+2025-06-29 08:13:36,217 - scraper.empire - WARNING - Error en petición (intento 1/5): 403 Client Error: Forbidden for url: https://csgoempire.com/api/v2/trading/items?per_page=2500&page=1&order=market_value&sort=asc&auction=yes
+2025-06-29 08:13:36,217 - scraper.empire - INFO - Esperando 2 segundos antes de reintentar...
+2025-06-29 08:13:38,301 - scraper.empire - WARNING - Error en petición (intento 2/5): 403 Client Error: Forbidden for url: https://csgoempire.com/api/v2/trading/items?per_page=2500&page=1&order=market_value&sort=asc&auction=yes
+2025-06-29 08:13:38,302 - scraper.empire - INFO - Esperando 4 segundos antes de reintentar...
+2025-06-29 08:13:42,370 - scraper.empire - WARNING - Error en petición (intento 3/5): 403 Client Error: Forbidden for url: https://csgoempire.com/api/v2/trading/items?per_page=2500&page=1&order=market_value&sort=asc&auction=yes
+2025-06-29 08:13:42,371 - scraper.empire - INFO - Esperando 6 segundos antes de reintentar...
+2025-06-29 08:13:48,427 - scraper.empire - WARNING - Error en petición (intento 4/5): 403 Client Error: Forbidden for url: https://csgoempire.com/api/v2/trading/items?per_page=2500&page=1&order=market_value&sort=asc&auction=yes
+2025-06-29 08:13:48,427 - scraper.empire - INFO - Esperando 8 segundos antes de reintentar...
+2025-06-29 08:13:56,525 - scraper.empire - WARNING - Error en petición (intento 5/5): 403 Client Error: Forbidden for url: https://csgoempire.com/api/v2/trading/items?per_page=2500&page=1&order=market_value&sort=asc&auction=yes
+2025-06-29 08:13:56,526 - scraper.empire - ERROR - Falló después de 5 intentos: https://csgoempire.com/api/v2/trading/items
+2025-06-29 08:13:56,527 - scraper.empire - WARNING - No se pudo obtener página 1 para auction=yes
+2025-06-29 08:13:56,533 - scraper.empire - INFO - Total items únicos obtenidos con auction=yes: 0
+2025-06-29 08:13:56,533 - scraper.empire - INFO - Obteniendo items con auction=no...
+2025-06-29 08:13:56,609 - scraper.empire - WARNING - Error en petición (intento 1/5): 403 Client Error: Forbidden for url: https://csgoempire.com/api/v2/trading/items?per_page=2500&page=1&order=market_value&sort=asc&auction=no
+2025-06-29 08:13:56,609 - scraper.empire - INFO - Esperando 2 segundos antes de reintentar...
+2025-06-29 08:13:58,674 - scraper.empire - WARNING - Error en petición (intento 2/5): 403 Client Error: Forbidden for url: https://csgoempire.com/api/v2/trading/items?per_page=2500&page=1&order=market_value&sort=asc&auction=no
+2025-06-29 08:13:58,677 - scraper.empire - INFO - Esperando 4 segundos antes de reintentar...
+2025-06-29 08:14:02,751 - scraper.empire - WARNING - Error en petición (intento 3/5): 403 Client Error: Forbidden for url: https://csgoempire.com/api/v2/trading/items?per_page=2500&page=1&order=market_value&sort=asc&auction=no
+2025-06-29 08:14:02,752 - scraper.empire - INFO - Esperando 6 segundos antes de reintentar...
+2025-06-29 08:14:08,814 - scraper.empire - WARNING - Error en petición (intento 4/5): 403 Client Error: Forbidden for url: https://csgoempire.com/api/v2/trading/items?per_page=2500&page=1&order=market_value&sort=asc&auction=no
+2025-06-29 08:14:08,814 - scraper.empire - INFO - Esperando 8 segundos antes de reintentar...
+2025-06-29 08:22:29,591 - scraper.empire - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 08:22:29,593 - scraper.empire - INFO - Profitability engine disponible
+2025-06-29 08:22:29,594 - scraper.empire - INFO - Scraper empire inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-06-29 08:22:29,594 - scraper.empire - INFO - CSGOEmpire scraper inicializado - API: https://csgoempire.com/api/v2/trading/items, API Key: Sí, Conversión: 0.6154 USD por moneda
+2025-06-29 08:22:29,595 - scraper.empire - INFO - Iniciando scraper empire
+2025-06-29 08:22:29,595 - scraper.empire - INFO - Obteniendo datos de CSGOEmpire...
+2025-06-29 08:22:29,596 - scraper.empire - INFO - Obteniendo items con auction=yes...
+2025-06-29 08:22:32,908 - scraper.empire - INFO - No hay más items en página 2 para auction=yes
+2025-06-29 08:22:32,908 - scraper.empire - INFO - Total items únicos obtenidos con auction=yes: 73
+2025-06-29 08:22:32,908 - scraper.empire - INFO - Obteniendo items con auction=no...
+2025-06-29 08:23:18,626 - scraper.empire - INFO - No hay más items en página 14 para auction=no
+2025-06-29 08:26:42,129 - scraper.empire - INFO - Total items únicos obtenidos con auction=no: 6208
+2025-06-29 08:26:42,134 - scraper.empire - INFO - CSGOEmpire scraping completado - Auction: 73, Direct: 6208, Final: 6221
+2025-06-29 08:26:42,145 - scraper.empire - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-06-29 08:26:42,149 - scraper.empire - INFO - Datos guardados en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\empire_data.json (6221 items)
+2025-06-29 08:26:42,149 - scraper.empire - INFO - Scraper completado: 6221 items válidos obtenidos
+2025-06-29 08:26:42,150 - scraper.empire - INFO - Estadísticas - Requests: 16, Fallos: 0, Items: 6221, Éxito: 100.0%
+2025-06-29 08:32:01,075 - scraper.empire - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 08:32:01,077 - scraper.empire - INFO - Profitability engine disponible
+2025-06-29 08:32:01,078 - scraper.empire - INFO - Scraper empire inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-06-29 08:32:01,078 - scraper.empire - INFO - CSGOEmpire scraper inicializado - API: https://csgoempire.com/api/v2/trading/items, API Key: Sí, Conversión: 0.6154 USD por moneda
+2025-06-29 08:32:01,079 - scraper.empire - INFO - Iniciando scraper empire
+2025-06-29 08:32:01,080 - scraper.empire - INFO - Obteniendo datos de CSGOEmpire...
+2025-06-29 08:32:01,080 - scraper.empire - INFO - Obteniendo items con auction=yes...
+2025-06-29 08:32:03,711 - scraper.empire - INFO - No hay más items en página 2 para auction=yes
+2025-06-29 08:32:03,711 - scraper.empire - INFO - Total items únicos obtenidos con auction=yes: 42
+2025-06-29 08:32:03,712 - scraper.empire - INFO - Obteniendo items con auction=no...
+2025-06-29 08:32:56,303 - scraper.empire - INFO - No hay más items en página 14 para auction=no
+2025-06-29 08:34:23,684 - scraper.empire - INFO - Total items únicos obtenidos con auction=no: 6250
+2025-06-29 08:34:23,692 - scraper.empire - INFO - CSGOEmpire scraping completado - Auction: 42, Direct: 6250, Final: 6262
+2025-06-29 08:34:23,704 - scraper.empire - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-06-29 08:34:23,707 - scraper.empire - INFO - Datos guardados en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\empire_data.json (6262 items)
+2025-06-29 08:34:23,708 - scraper.empire - INFO - Scraper completado: 6262 items válidos obtenidos
+2025-06-29 08:34:23,708 - scraper.empire - INFO - Estadísticas - Requests: 16, Fallos: 0, Items: 6262, Éxito: 100.0%
+2025-07-07 13:50:46,081 - scraper.empire - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 13:50:46,102 - scraper.empire - INFO - Profitability engine disponible
+2025-07-07 13:50:46,116 - scraper.empire - INFO - Scraper empire inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-07-07 13:50:46,227 - scraper.empire - INFO - CSGOEmpire scraper inicializado - API: https://csgoempire.com/api/v2/trading/items, API Key: Sí, Conversión: 0.6154 USD por moneda
+2025-07-07 13:50:46,244 - scraper.empire - INFO - Iniciando scraper empire
+2025-07-07 13:50:46,246 - scraper.empire - INFO - Obteniendo datos de CSGOEmpire...
+2025-07-07 13:50:46,247 - scraper.empire - INFO - Obteniendo items con auction=yes...
+2025-07-07 13:50:49,875 - scraper.empire - INFO - No hay más items en página 2 para auction=yes
+2025-07-07 13:50:49,875 - scraper.empire - INFO - Total items únicos obtenidos con auction=yes: 30
+2025-07-07 13:50:49,876 - scraper.empire - INFO - Obteniendo items con auction=no...
+2025-07-07 20:10:50,722 - scraper.empire - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 20:10:50,739 - scraper.empire - INFO - Profitability engine disponible
+2025-07-07 20:10:50,741 - scraper.empire - INFO - Scraper empire inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-07-07 20:10:50,745 - scraper.empire - INFO - CSGOEmpire scraper inicializado - API: , API Key: Sí, Conversión: 0.6154 USD por moneda
+2025-07-07 20:10:50,753 - scraper.empire - INFO - Iniciando scraper empire
+2025-07-07 20:10:50,755 - scraper.empire - INFO - Obteniendo datos de CSGOEmpire...
+2025-07-07 20:10:50,777 - scraper.empire - INFO - Obteniendo items con auction=yes...
+2025-07-07 20:10:50,780 - scraper.empire - WARNING - Error en petición (intento 1/5): Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-07-07 20:10:50,782 - scraper.empire - INFO - Esperando 2 segundos antes de reintentar...
+2025-07-07 20:10:52,785 - scraper.empire - WARNING - Error en petición (intento 2/5): Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-07-07 20:10:52,787 - scraper.empire - INFO - Esperando 4 segundos antes de reintentar...
+2025-07-07 20:10:56,788 - scraper.empire - WARNING - Error en petición (intento 3/5): Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-07-07 20:10:56,789 - scraper.empire - INFO - Esperando 6 segundos antes de reintentar...
+2025-07-07 20:11:02,790 - scraper.empire - WARNING - Error en petición (intento 4/5): Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-07-07 20:11:02,791 - scraper.empire - INFO - Esperando 8 segundos antes de reintentar...
+2025-07-07 20:11:10,793 - scraper.empire - WARNING - Error en petición (intento 5/5): Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-07-07 20:11:10,794 - scraper.empire - ERROR - Falló después de 5 intentos: 
+2025-07-07 20:11:10,795 - scraper.empire - WARNING - No se pudo obtener página 1 para auction=yes
+2025-07-07 20:11:10,796 - scraper.empire - INFO - Total items únicos obtenidos con auction=yes: 0
+2025-07-07 20:11:10,796 - scraper.empire - INFO - Obteniendo items con auction=no...
+2025-07-07 20:11:10,797 - scraper.empire - WARNING - Error en petición (intento 1/5): Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-07-07 20:11:10,797 - scraper.empire - INFO - Esperando 2 segundos antes de reintentar...

@@ -1,0 +1,583 @@
+2025-06-28 21:37:14,318 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-28 21:37:14,319 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-06-28 21:37:14,321 - scraper.profitability - INFO - Datos de Steam cargados: 0 items únicos
+2025-06-28 21:37:14,321 - scraper.profitability - ERROR - No hay datos de Steam disponibles
+2025-06-28 21:38:58,426 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-28 21:38:58,426 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-06-28 21:38:58,428 - scraper.profitability - INFO - Datos de Steam cargados: 0 items únicos
+2025-06-28 21:38:58,429 - scraper.profitability - ERROR - No hay datos de Steam disponibles
+2025-06-28 20:42:14,147 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-28 20:42:26,355 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-28 20:42:30,282 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-06-28 20:42:30,283 - scraper.profitability - INFO - Datos de Steam cargados: 0 items únicos
+2025-06-28 20:42:30,284 - scraper.profitability - ERROR - No hay datos de Steam disponibles
+2025-06-28 20:42:40,022 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-06-28 20:42:40,023 - scraper.profitability - INFO - Datos de Steam cargados: 0 items únicos
+2025-06-28 20:42:40,024 - scraper.profitability - ERROR - No hay datos de Steam disponibles
+2025-06-28 20:42:41,949 - scraper.profitability - INFO - Calculando oportunidades - Modo: fast, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-06-28 20:42:41,950 - scraper.profitability - INFO - Datos de Steam cargados: 0 items únicos
+2025-06-28 20:42:41,951 - scraper.profitability - ERROR - No hay datos de Steam disponibles
+2025-06-28 22:52:03,708 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 07:05:27,508 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 07:05:30,486 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-06-29 07:05:30,487 - scraper.profitability - INFO - Datos de Steam cargados: 0 items únicos
+2025-06-29 07:05:30,487 - scraper.profitability - ERROR - No hay datos de Steam disponibles
+2025-06-29 07:07:55,803 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 07:09:13,167 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 07:09:23,364 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 07:13:12,649 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 07:27:21,533 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 07:31:23,777 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 07:35:34,512 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 07:40:12,839 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 07:40:51,222 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 07:45:51,340 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 07:50:00,601 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 07:53:45,267 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:03:12,254 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:04:06,411 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:08:34,529 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:11:04,981 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:11:37,305 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:13:35,542 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:22:29,592 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:32:01,077 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:36:36,469 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:40:08,009 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:46:56,216 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:49:45,600 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:50:04,391 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 08:50:39,073 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 09:01:53,677 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 09:04:44,323 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 10:08:45,714 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 10:12:17,268 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 10:14:32,144 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 10:16:50,420 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 09:17:19,483 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 09:27:43,343 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 10:38:10,729 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 09:38:55,734 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 09:40:33,179 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 09:42:13,970 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 09:47:36,193 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 10:50:33,087 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 10:52:04,847 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 10:52:14,397 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 10:53:26,394 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:00:49,853 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:04:12,591 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:04:49,528 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:05:31,905 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:07:05,583 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:09:39,093 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:13:00,550 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:20:13,904 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:21:06,469 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:21:51,522 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:30:00,190 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:36:45,417 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 10:38:15,353 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:38:39,650 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:43:54,825 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:47:54,480 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 11:55:42,699 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:03:42,133 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:07:58,609 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:08:53,784 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:09:02,909 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:12:22,778 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:14:05,778 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:16:44,492 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:20:17,357 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:21:34,755 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:25:29,179 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:30:39,704 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:35:04,976 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:35:25,683 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:36:35,197 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:41:37,677 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:43:25,261 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:47:56,607 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 12:58:14,259 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 13:00:22,860 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 13:11:43,055 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 13:16:16,683 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 13:21:35,919 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 13:29:08,438 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 13:38:09,718 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 13:41:45,336 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 13:43:51,317 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 13:45:13,501 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 13:47:53,749 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 13:48:46,863 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 13:12:03,154 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 13:12:06,074 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-06-29 13:12:06,075 - scraper.profitability - INFO - Datos de Steam cargados: 0 items únicos
+2025-06-29 13:12:06,075 - scraper.profitability - ERROR - No hay datos de Steam disponibles
+2025-06-29 13:12:41,572 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 14:13:14,622 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 14:40:19,910 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 14:13:12,873 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 14:13:46,012 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 17:57:23,835 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 17:59:18,718 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 18:03:35,502 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 18:03:35,669 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 18:06:15,590 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 18:06:15,760 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 18:10:49,454 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 18:10:49,610 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 18:57:42,334 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 18:57:42,497 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 18:59:53,280 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 18:59:53,424 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 19:01:10,670 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 19:01:10,821 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 19:03:46,972 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 19:03:47,113 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-29 19:07:10,283 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 05:30:57,514 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 05:32:15,004 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 06:19:00,585 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 06:19:08,894 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 06:19:46,400 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 06:19:52,699 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 06:20:10,636 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 09:58:47,635 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 10:12:14,883 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 10:39:56,572 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 10:40:56,825 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 10:53:09,966 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 10:53:44,680 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 10:59:09,020 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 11:09:22,014 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 11:13:38,130 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 11:16:53,582 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 11:18:12,425 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 11:27:32,680 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 11:28:57,133 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 12:03:14,999 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 12:04:14,194 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 12:06:15,020 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 12:11:43,088 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 12:15:41,448 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 12:17:13,419 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 12:26:10,612 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 12:33:10,422 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 12:33:48,747 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 12:35:40,145 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 13:41:52,601 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 13:42:37,641 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 13:43:25,645 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 13:44:21,825 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 13:44:55,518 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 13:47:18,027 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 13:48:17,721 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 13:49:34,396 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 13:50:30,186 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 13:53:59,473 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 13:54:31,664 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 13:58:26,298 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 14:00:11,204 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 14:13:59,847 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 14:15:13,709 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 14:16:49,954 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 14:18:00,204 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 17:21:56,964 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 17:24:11,074 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 17:25:07,442 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 17:33:34,748 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 17:38:16,058 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 17:40:26,342 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 17:49:23,927 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 17:50:36,091 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 18:04:04,568 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 18:22:19,250 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 18:24:37,672 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 18:27:28,767 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 18:33:16,690 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 18:36:43,471 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 18:37:57,186 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 18:40:19,545 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 18:43:46,458 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 18:51:04,396 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 19:02:09,452 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 19:04:56,601 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 19:05:07,745 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 20:02:50,164 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 20:06:23,412 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 20:08:12,200 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 20:09:26,615 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 20:09:57,322 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 20:12:30,747 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 20:34:18,846 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 20:37:01,912 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 20:48:24,471 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 20:55:00,798 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 20:57:47,363 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 21:32:29,276 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 21:34:57,364 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 21:35:11,953 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 21:41:48,155 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 21:44:12,885 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 21:45:17,227 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 22:06:47,430 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 22:10:53,253 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-06-30 22:22:49,738 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-04 04:31:34,033 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-04 04:53:05,689 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-04 04:53:18,708 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-04 05:48:18,174 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-04 05:49:00,855 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-05 21:55:43,690 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-05 21:55:46,521 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-05 21:56:15,512 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-05 21:56:21,722 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-05 23:01:29,554 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-06 00:18:29,161 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-06 00:19:27,638 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-06 00:19:28,446 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-06 00:19:28,845 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 03:01:35,594 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 03:06:52,186 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 03:13:08,536 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 03:14:51,891 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 03:15:09,366 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 03:15:09,367 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-07-07 03:15:09,369 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 03:15:09,743 - scraper.profitability - INFO - Análisis completado en 0.38s - Plataformas: 15, Items analizados: 227119, Oportunidades: 0
+2025-07-07 03:15:50,221 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 03:15:50,221 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1.0%, Precio min: $0.1
+2025-07-07 03:15:50,225 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 03:15:50,610 - scraper.profitability - INFO - Análisis completado en 0.39s - Plataformas: 15, Items analizados: 227119, Oportunidades: 6
+2025-07-07 03:15:50,611 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 0.1%, Precio min: $0.01
+2025-07-07 03:15:50,615 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 03:15:50,668 - scraper.profitability - INFO - Análisis completado en 0.06s - Plataformas: 15, Items analizados: 227119, Oportunidades: 6
+2025-07-07 03:24:06,935 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 03:25:40,991 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 03:50:09,633 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:01:33,167 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:01:33,167 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-07-07 04:01:33,170 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:01:33,516 - scraper.profitability - INFO - Análisis completado en 0.35s - Plataformas: 15, Items analizados: 227118, Oportunidades: 0
+2025-07-07 04:02:20,777 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:02:20,777 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-07-07 04:02:20,784 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:02:21,142 - scraper.profitability - INFO - Análisis completado en 0.36s - Plataformas: 15, Items analizados: 227118, Oportunidades: 0
+2025-07-07 04:02:44,765 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:02:44,766 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-07-07 04:02:44,769 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:03:06,101 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:03:06,102 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-07-07 04:03:06,105 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:03:06,511 - scraper.profitability - INFO - Análisis completado en 0.41s - Plataformas: 15, Items analizados: 227118, Oportunidades: 0
+2025-07-07 04:03:19,753 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:03:19,754 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-07-07 04:03:19,757 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:03:20,145 - scraper.profitability - INFO - Análisis completado en 0.39s - Plataformas: 15, Items analizados: 227118, Oportunidades: 0
+2025-07-07 04:04:11,019 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:04:11,019 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 5.0%, Precio min: $1.0
+2025-07-07 04:04:11,023 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:04:35,012 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:04:35,013 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1.0%, Precio min: $1.0
+2025-07-07 04:04:35,016 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:04:35,401 - scraper.profitability - INFO - Análisis completado en 0.39s - Plataformas: 15, Items analizados: 227118, Oportunidades: 6
+2025-07-07 04:04:35,406 - scraper.profitability - INFO - Oportunidades guardadas en /mnt/c/Users/Zolu/Documents/aa-Proyecto CSGO-aa/BOT-VCSGO-BETA-V2/data/profitability_20250707_040435.json
+2025-07-07 04:06:48,521 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:06:48,521 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1.0%, Precio min: $1.0
+2025-07-07 04:06:48,524 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:06:48,838 - scraper.profitability - INFO - Análisis completado en 0.32s - Plataformas: 15, Items analizados: 227118, Oportunidades: 6
+2025-07-07 04:06:48,841 - scraper.profitability - INFO - Oportunidades guardadas en /mnt/c/Users/Zolu/Documents/aa-Proyecto CSGO-aa/BOT-VCSGO-BETA-V2/data/profitability_20250707_040648.json
+2025-07-07 04:07:09,477 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:09:47,573 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:14:16,751 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:14:16,751 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1.0%, Precio min: $1.0
+2025-07-07 04:14:16,752 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:14:16,940 - scraper.profitability - INFO - Análisis completado en 0.19s - Plataformas: 15, Items analizados: 227119, Oportunidades: 6
+2025-07-07 04:14:16,948 - scraper.profitability - INFO - Oportunidades guardadas en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\profitability_20250707_041416.json
+2025-07-07 04:14:25,239 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:14:25,239 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1.0%, Precio min: $1.0
+2025-07-07 04:14:25,240 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:14:25,422 - scraper.profitability - INFO - Análisis completado en 0.18s - Plataformas: 15, Items analizados: 227119, Oportunidades: 6
+2025-07-07 04:14:25,433 - scraper.profitability - INFO - Oportunidades guardadas en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\profitability_20250707_041425.json
+2025-07-07 04:29:35,480 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:29:44,657 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:29:44,657 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1.0%, Precio min: $1.0
+2025-07-07 04:29:44,663 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:29:44,974 - scraper.profitability - INFO - Análisis completado en 0.32s - Plataformas: 15, Items analizados: 227119, Oportunidades: 6
+2025-07-07 04:29:44,977 - scraper.profitability - INFO - Oportunidades guardadas en /mnt/c/Users/Zolu/Documents/aa-Proyecto CSGO-aa/BOT-VCSGO-BETA-V2/data/profitability_data.json (entrada actual + historial)
+2025-07-07 04:32:01,974 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:32:01,975 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1.0%, Precio min: $1.0
+2025-07-07 04:32:01,978 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:32:02,343 - scraper.profitability - INFO - Análisis completado en 0.37s - Plataformas: 15, Items analizados: 227119, Oportunidades: 6
+2025-07-07 04:32:02,348 - scraper.profitability - INFO - Oportunidades guardadas en /mnt/c/Users/Zolu/Documents/aa-Proyecto CSGO-aa/BOT-VCSGO-BETA-V2/data/profitability_data.json (entrada actual + historial)
+2025-07-07 04:32:35,693 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:32:35,693 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1.0%, Precio min: $1.0
+2025-07-07 04:32:35,694 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:32:35,872 - scraper.profitability - INFO - Análisis completado en 0.18s - Plataformas: 15, Items analizados: 227119, Oportunidades: 6
+2025-07-07 04:32:35,874 - scraper.profitability - INFO - Oportunidades guardadas en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\profitability_data.json (entrada actual + historial)
+2025-07-07 04:32:39,570 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 04:32:39,571 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1.0%, Precio min: $1.0
+2025-07-07 04:32:39,572 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 04:32:39,740 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 227119, Oportunidades: 6
+2025-07-07 04:32:39,741 - scraper.profitability - INFO - Oportunidades guardadas en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\profitability_data.json (entrada actual + historial)
+2025-07-07 13:48:37,204 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:06,247 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:45,929 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:45,974 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:45,978 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:46,071 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:46,098 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:46,099 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:46,106 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:46,116 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:46,227 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:46,227 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:46,237 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:46,238 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 13:50:46,240 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:26,352 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:46,515 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:50,728 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:50,728 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:50,728 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:50,730 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:50,732 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:50,734 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:50,734 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:50,734 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:50,735 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:50,735 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:50,735 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:10:50,735 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:16:58,946 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:16:58,947 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1.0%, Precio min: $1.0
+2025-07-07 20:16:58,948 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 20:16:59,128 - scraper.profitability - INFO - Análisis completado en 0.18s - Plataformas: 15, Items analizados: 236175, Oportunidades: 8
+2025-07-07 20:16:59,135 - scraper.profitability - INFO - Oportunidades guardadas en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\profitability_data.json (entrada actual + historial)
+2025-07-07 20:17:06,263 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:17:06,263 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1.0%, Precio min: $1.0
+2025-07-07 20:17:06,264 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 20:17:06,445 - scraper.profitability - INFO - Análisis completado en 0.18s - Plataformas: 15, Items analizados: 236175, Oportunidades: 8
+2025-07-07 20:17:06,451 - scraper.profitability - INFO - Oportunidades guardadas en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\profitability_data.json (entrada actual + historial)
+2025-07-07 20:24:15,499 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:24:15,499 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-07 20:24:15,500 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 20:24:15,666 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 236175, Oportunidades: 0
+2025-07-07 20:24:56,838 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:26:05,126 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:26:15,624 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:26:33,721 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:27:07,118 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:27:52,502 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:28:58,624 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:29:55,451 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:30:02,171 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:30:40,962 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:31:57,682 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:33:39,281 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:34:43,907 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:37:12,181 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:38:34,185 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:38:50,936 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:38:50,936 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-07 20:38:50,937 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 20:38:51,117 - scraper.profitability - INFO - Análisis completado en 0.18s - Plataformas: 15, Items analizados: 236188, Oportunidades: 0
+2025-07-07 20:38:54,298 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:39:52,124 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:51:58,011 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:52:06,384 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:54:45,847 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:54:45,848 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-07 20:54:45,849 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 20:54:46,027 - scraper.profitability - INFO - Análisis completado en 0.18s - Plataformas: 15, Items analizados: 236208, Oportunidades: 0
+2025-07-07 20:54:53,853 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:55:07,927 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:55:19,171 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:55:45,619 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 20:57:50,915 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:00:07,432 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:00:07,433 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-07 21:00:07,434 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:00:07,599 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 236407, Oportunidades: 0
+2025-07-07 21:00:20,242 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:00:20,242 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-07 21:00:20,243 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:00:20,412 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 236407, Oportunidades: 0
+2025-07-07 21:14:09,901 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:16:20,811 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:16:20,812 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-07 21:16:20,813 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:16:20,993 - scraper.profitability - INFO - Análisis completado en 0.18s - Plataformas: 15, Items analizados: 232677, Oportunidades: 0
+2025-07-07 21:17:54,948 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:17:54,949 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1.0%, Precio min: $1.0
+2025-07-07 21:17:54,950 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:17:55,139 - scraper.profitability - INFO - Análisis completado en 0.19s - Plataformas: 15, Items analizados: 232677, Oportunidades: 6
+2025-07-07 21:17:55,146 - scraper.profitability - INFO - Oportunidades guardadas en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\profitability_data.json (entrada actual + historial)
+2025-07-07 21:17:57,948 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:17:57,949 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-07 21:17:57,950 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:17:58,130 - scraper.profitability - INFO - Análisis completado en 0.18s - Plataformas: 15, Items analizados: 232677, Oportunidades: 0
+2025-07-07 21:24:50,704 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:24:50,706 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1.0%, Precio min: $1.0
+2025-07-07 21:24:50,707 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:24:50,873 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 232677, Oportunidades: 6
+2025-07-07 21:24:50,879 - scraper.profitability - INFO - Oportunidades guardadas en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\profitability_data.json (entrada actual + historial)
+2025-07-07 21:25:51,870 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:25:51,870 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-07 21:25:51,872 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:25:52,037 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 232677, Oportunidades: 0
+2025-07-07 21:28:17,892 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:31:47,306 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:34:12,497 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:34:12,497 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-07 21:34:12,499 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:34:12,663 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231875, Oportunidades: 0
+2025-07-07 21:35:00,328 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:35:00,328 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-07 21:35:00,330 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:35:00,500 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231875, Oportunidades: 0
+2025-07-07 21:35:24,339 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:35:24,339 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-07 21:35:24,341 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:35:24,508 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231875, Oportunidades: 0
+2025-07-07 21:35:29,795 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:35:29,795 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1000.0%, Precio min: $1.0
+2025-07-07 21:35:29,797 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:35:29,953 - scraper.profitability - INFO - Análisis completado en 0.16s - Plataformas: 15, Items analizados: 231875, Oportunidades: 0
+2025-07-07 21:35:30,660 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:35:30,660 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1000.0%, Precio min: $1.0
+2025-07-07 21:35:30,662 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:35:30,824 - scraper.profitability - INFO - Análisis completado en 0.16s - Plataformas: 15, Items analizados: 231875, Oportunidades: 0
+2025-07-07 21:35:36,015 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:35:36,015 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 10000.0%, Precio min: $1.0
+2025-07-07 21:35:36,016 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:35:36,183 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231875, Oportunidades: 0
+2025-07-07 21:44:06,456 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-07 21:44:06,457 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-07 21:44:06,458 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-07 21:44:06,637 - scraper.profitability - INFO - Análisis completado en 0.18s - Plataformas: 15, Items analizados: 231875, Oportunidades: 0
+2025-07-07 21:45:22,254 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:38:01,119 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:38:01,120 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 03:38:01,121 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 03:38:01,303 - scraper.profitability - INFO - Análisis completado en 0.18s - Plataformas: 15, Items analizados: 231873, Oportunidades: 0
+2025-07-08 03:47:19,690 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:47:19,691 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 03:47:19,692 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 03:47:19,851 - scraper.profitability - INFO - Análisis completado en 0.16s - Plataformas: 15, Items analizados: 231873, Oportunidades: 0
+2025-07-08 03:47:33,353 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:47:33,354 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 03:47:33,355 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 03:47:33,520 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231873, Oportunidades: 0
+2025-07-08 03:47:51,326 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:47:51,326 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 1000.0%, Precio min: $1.0
+2025-07-08 03:47:51,328 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 03:47:51,489 - scraper.profitability - INFO - Análisis completado en 0.16s - Plataformas: 15, Items analizados: 231873, Oportunidades: 0
+2025-07-08 03:47:58,111 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:47:58,112 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 10000.0%, Precio min: $1.0
+2025-07-08 03:47:58,114 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 03:47:58,262 - scraper.profitability - INFO - Análisis completado en 0.15s - Plataformas: 15, Items analizados: 231873, Oportunidades: 0
+2025-07-08 03:49:50,576 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:50:14,000 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:52:26,079 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:52:26,080 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 03:52:26,081 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 03:52:26,247 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231866, Oportunidades: 0
+2025-07-08 03:52:47,601 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:53:00,074 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:53:14,893 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:53:25,176 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:53:36,630 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:53:36,630 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 03:53:36,631 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 03:53:36,798 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231992, Oportunidades: 0
+2025-07-08 03:53:41,101 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:53:41,101 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 10000.0%, Precio min: $1.0
+2025-07-08 03:53:41,103 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 03:53:41,259 - scraper.profitability - INFO - Análisis completado en 0.16s - Plataformas: 15, Items analizados: 231992, Oportunidades: 0
+2025-07-08 03:53:42,438 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:53:42,438 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 10000.0%, Precio min: $1.0
+2025-07-08 03:53:42,440 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 03:53:42,599 - scraper.profitability - INFO - Análisis completado en 0.16s - Plataformas: 15, Items analizados: 231992, Oportunidades: 0
+2025-07-08 03:53:43,908 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 03:53:43,908 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 10000.0%, Precio min: $1.0
+2025-07-08 03:53:43,910 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 03:53:44,070 - scraper.profitability - INFO - Análisis completado en 0.16s - Plataformas: 15, Items analizados: 231992, Oportunidades: 0
+2025-07-08 04:04:25,173 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:04:25,174 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:04:25,175 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:04:25,338 - scraper.profitability - INFO - Análisis completado en 0.16s - Plataformas: 15, Items analizados: 231992, Oportunidades: 0
+2025-07-08 04:12:01,063 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:12:01,064 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:12:01,065 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:12:01,246 - scraper.profitability - INFO - Análisis completado en 0.18s - Plataformas: 15, Items analizados: 231992, Oportunidades: 0
+2025-07-08 04:12:33,144 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:13:07,226 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:13:48,325 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:13:48,326 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:13:48,327 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:13:48,490 - scraper.profitability - INFO - Análisis completado en 0.16s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:14:03,774 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:14:03,774 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:14:03,775 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:14:03,932 - scraper.profitability - INFO - Análisis completado en 0.16s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:14:10,353 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:14:10,354 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 300.0%, Precio min: $1.0
+2025-07-08 04:14:10,356 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:14:10,513 - scraper.profitability - INFO - Análisis completado en 0.16s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:14:12,466 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:14:12,466 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 300.0%, Precio min: $1.0
+2025-07-08 04:14:12,468 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:14:12,636 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:15:54,264 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:15:54,264 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:15:54,265 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:15:54,434 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:20:24,971 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:20:24,971 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:20:24,972 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:20:25,139 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:20:45,047 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:20:45,048 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:20:45,049 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:20:45,217 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:21:28,943 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:21:28,943 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:21:28,946 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:21:29,110 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:21:56,570 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:21:56,570 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:21:56,572 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:21:56,745 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:23:01,222 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:23:01,222 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:23:01,224 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:23:01,396 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:27:43,134 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:27:43,135 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:27:43,136 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:27:43,310 - scraper.profitability - INFO - Análisis completado en 0.17s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:28:42,178 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:30:20,361 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:30:20,362 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:30:20,363 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:30:20,554 - scraper.profitability - INFO - Análisis completado en 0.19s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:36:24,582 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:36:24,583 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:36:24,586 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:36:24,777 - scraper.profitability - INFO - Análisis completado en 0.19s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:40:32,550 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:40:32,550 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:40:32,551 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:40:32,728 - scraper.profitability - INFO - Análisis completado en 0.18s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:42:34,667 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:42:34,668 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:42:34,672 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:42:36,025 - scraper.profitability - INFO - Análisis completado en 1.36s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:44:12,940 - scraper.profitability - INFO - Motor de profitabilidad inicializado
+2025-07-08 04:44:12,941 - scraper.profitability - INFO - Calculando oportunidades - Modo: complete, Rentabilidad min: 100.0%, Precio min: $1.0
+2025-07-08 04:44:12,947 - scraper.profitability - INFO - Datos de Steam cargados: 10 items únicos
+2025-07-08 04:44:13,232 - scraper.profitability - INFO - Análisis completado en 0.29s - Plataformas: 15, Items analizados: 231989, Oportunidades: 0
+2025-07-08 04:44:46,800 - scraper.profitability - INFO - Motor de profitabilidad inicializado

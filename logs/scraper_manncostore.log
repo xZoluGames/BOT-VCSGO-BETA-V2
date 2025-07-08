@@ -1,0 +1,403 @@
+2025-06-28 21:54:29,092 - scraper.manncostore - INFO - Scraper manncostore inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-28 21:54:29,092 - scraper.manncostore - INFO - ManncoStore scraper inicializado
+2025-06-28 21:54:29,093 - scraper.manncostore - INFO - Iniciando scraper manncostore
+2025-06-28 21:54:29,093 - scraper.manncostore - INFO - Iniciando scraping de ManncoStore...
+2025-06-28 21:54:29,094 - scraper.manncostore - INFO - Obteniendo items desde skip=0...
+2025-06-28 21:54:29,373 - scraper.manncostore - WARNING - Error en petición (intento 1/5): 403 Client Error: Forbidden for url: https://mannco.store/items/get?price=DESC&page=1&i=0&game=730&skip=0
+2025-06-28 21:54:29,374 - scraper.manncostore - INFO - Esperando 2 segundos antes de reintentar...
+2025-06-28 21:54:31,627 - scraper.manncostore - WARNING - Error en petición (intento 2/5): 403 Client Error: Forbidden for url: https://mannco.store/items/get?price=DESC&page=1&i=0&game=730&skip=0
+2025-06-28 21:54:31,628 - scraper.manncostore - INFO - Esperando 4 segundos antes de reintentar...
+2025-06-28 21:54:35,907 - scraper.manncostore - WARNING - Error en petición (intento 3/5): 403 Client Error: Forbidden for url: https://mannco.store/items/get?price=DESC&page=1&i=0&game=730&skip=0
+2025-06-28 21:54:35,908 - scraper.manncostore - INFO - Esperando 6 segundos antes de reintentar...
+2025-06-28 21:54:42,245 - scraper.manncostore - WARNING - Error en petición (intento 4/5): 403 Client Error: Forbidden for url: https://mannco.store/items/get?price=DESC&page=1&i=0&game=730&skip=0
+2025-06-28 21:54:42,247 - scraper.manncostore - INFO - Esperando 8 segundos antes de reintentar...
+2025-06-28 21:54:50,486 - scraper.manncostore - WARNING - Error en petición (intento 5/5): 403 Client Error: Forbidden for url: https://mannco.store/items/get?price=DESC&page=1&i=0&game=730&skip=0
+2025-06-28 21:54:50,487 - scraper.manncostore - ERROR - Falló después de 5 intentos: https://mannco.store/items/get
+2025-06-28 21:54:50,488 - scraper.manncostore - INFO - No se encontraron más items en skip=0, finalizando
+2025-06-28 21:54:50,489 - scraper.manncostore - WARNING - No se obtuvieron items válidos de ManncoStore
+2025-06-28 21:54:50,490 - scraper.manncostore - WARNING - No se obtuvieron datos
+2025-06-29 08:40:08,003 - scraper.manncostore - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 08:40:08,009 - scraper.manncostore - INFO - Profitability engine disponible
+2025-06-29 08:40:08,010 - scraper.manncostore - INFO - Scraper manncostore inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 08:40:08,010 - scraper.manncostore - INFO - ManncoStore scraper inicializado
+2025-06-29 08:40:08,010 - scraper.manncostore - INFO - Iniciando scraper manncostore
+2025-06-29 08:40:08,010 - scraper.manncostore - INFO - Iniciando scraping de ManncoStore...
+2025-06-29 08:40:08,011 - scraper.manncostore - INFO - Obteniendo items desde skip=0...
+2025-06-29 08:40:08,410 - scraper.manncostore - WARNING - Error en petición (intento 1/5): 403 Client Error: Forbidden for url: https://mannco.store/items/get?price=DESC&page=1&i=0&game=730&skip=0
+2025-06-29 08:40:08,410 - scraper.manncostore - INFO - Esperando 2 segundos antes de reintentar...
+2025-06-29 08:40:10,704 - scraper.manncostore - WARNING - Error en petición (intento 2/5): 403 Client Error: Forbidden for url: https://mannco.store/items/get?price=DESC&page=1&i=0&game=730&skip=0
+2025-06-29 08:40:10,704 - scraper.manncostore - INFO - Esperando 4 segundos antes de reintentar...
+2025-06-29 08:40:15,065 - scraper.manncostore - WARNING - Error en petición (intento 3/5): 403 Client Error: Forbidden for url: https://mannco.store/items/get?price=DESC&page=1&i=0&game=730&skip=0
+2025-06-29 08:40:15,066 - scraper.manncostore - INFO - Esperando 6 segundos antes de reintentar...
+2025-06-29 08:40:21,343 - scraper.manncostore - WARNING - Error en petición (intento 4/5): 403 Client Error: Forbidden for url: https://mannco.store/items/get?price=DESC&page=1&i=0&game=730&skip=0
+2025-06-29 08:40:21,344 - scraper.manncostore - INFO - Esperando 8 segundos antes de reintentar...
+2025-06-29 08:40:29,696 - scraper.manncostore - WARNING - Error en petición (intento 5/5): 403 Client Error: Forbidden for url: https://mannco.store/items/get?price=DESC&page=1&i=0&game=730&skip=0
+2025-06-29 08:40:29,697 - scraper.manncostore - ERROR - Falló después de 5 intentos: https://mannco.store/items/get
+2025-06-29 08:40:29,698 - scraper.manncostore - INFO - No se encontraron más items en skip=0, finalizando
+2025-06-29 08:40:29,698 - scraper.manncostore - WARNING - No se obtuvieron items válidos de ManncoStore
+2025-06-29 08:40:29,698 - scraper.manncostore - WARNING - No se obtuvieron datos
+2025-06-29 08:46:56,215 - scraper.manncostore - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 08:46:56,217 - scraper.manncostore - INFO - Profitability engine disponible
+2025-06-29 08:46:56,217 - scraper.manncostore - INFO - Scraper manncostore inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 08:46:56,218 - scraper.manncostore - INFO - ManncoStore scraper inicializado (urllib.request)
+2025-06-29 08:46:56,218 - scraper.manncostore - INFO - Iniciando scraping de ManncoStore...
+2025-06-29 08:46:56,218 - scraper.manncostore - INFO - Obteniendo items desde skip=0...
+2025-06-29 08:46:56,902 - scraper.manncostore - INFO - Skip 0: 50 items obtenidos
+2025-06-29 08:46:56,903 - scraper.manncostore - INFO - Cantidad de items menor al esperado, probablemente última página
+2025-06-29 08:46:56,904 - scraper.manncostore - INFO - ManncoStore scraping completado: 50 items en 1 requests (precio promedio: $391.56, rango: $175.99-$1099.99)
+2025-06-29 08:49:45,599 - scraper.manncostore - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 08:49:45,600 - scraper.manncostore - INFO - Profitability engine disponible
+2025-06-29 08:49:45,601 - scraper.manncostore - INFO - Scraper manncostore inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 08:49:45,601 - scraper.manncostore - INFO - ManncoStore scraper inicializado (urllib.request)
+2025-06-29 08:49:45,602 - scraper.manncostore - INFO - Iniciando scraping de ManncoStore...
+2025-06-29 08:49:45,602 - scraper.manncostore - INFO - Obteniendo items desde skip=0...
+2025-06-29 08:49:46,230 - scraper.manncostore - INFO - Skip 0: 50 items obtenidos
+2025-06-29 08:49:46,230 - scraper.manncostore - INFO - Cantidad de items menor al esperado, probablemente última página
+2025-06-29 08:49:46,231 - scraper.manncostore - INFO - ManncoStore scraping completado: 50 items en 1 requests (precio promedio: $391.56, rango: $175.99-$1099.99)
+2025-06-29 08:50:04,390 - scraper.manncostore - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 08:50:04,391 - scraper.manncostore - INFO - Profitability engine disponible
+2025-06-29 08:50:04,392 - scraper.manncostore - INFO - Scraper manncostore inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 08:50:04,392 - scraper.manncostore - INFO - ManncoStore scraper inicializado (urllib.request)
+2025-06-29 08:50:04,393 - scraper.manncostore - INFO - Iniciando scraping de ManncoStore...
+2025-06-29 08:50:04,393 - scraper.manncostore - INFO - Obteniendo items desde skip=0...
+2025-06-29 08:50:05,191 - scraper.manncostore - INFO - Skip 0: 50 items obtenidos
+2025-06-29 08:50:05,192 - scraper.manncostore - INFO - Cantidad de items menor al esperado, probablemente última página
+2025-06-29 08:50:05,193 - scraper.manncostore - INFO - ManncoStore scraping completado: 50 items en 1 requests (precio promedio: $391.56, rango: $175.99-$1099.99)
+2025-06-29 08:50:39,072 - scraper.manncostore - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 08:50:39,073 - scraper.manncostore - INFO - Profitability engine disponible
+2025-06-29 08:50:39,074 - scraper.manncostore - INFO - Scraper manncostore inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 08:50:39,074 - scraper.manncostore - INFO - ManncoStore scraper inicializado
+2025-06-29 08:50:39,074 - scraper.manncostore - INFO - Obteniendo datos de MannCo Store...
+2025-06-29 08:50:45,039 - scraper.manncostore - INFO - Obtenidos 50 items (total: 50)
+2025-06-29 08:50:46,153 - scraper.manncostore - INFO - Obtenidos 50 items (total: 100)
+2025-06-29 08:50:47,245 - scraper.manncostore - INFO - Obtenidos 50 items (total: 150)
+2025-06-29 08:50:48,354 - scraper.manncostore - INFO - Obtenidos 50 items (total: 200)
+2025-06-29 08:50:49,501 - scraper.manncostore - INFO - Obtenidos 50 items (total: 250)
+2025-06-29 08:50:50,624 - scraper.manncostore - INFO - Obtenidos 50 items (total: 300)
+2025-06-29 08:50:51,854 - scraper.manncostore - INFO - Obtenidos 50 items (total: 350)
+2025-06-29 08:50:52,994 - scraper.manncostore - INFO - Obtenidos 50 items (total: 400)
+2025-06-29 08:50:54,000 - scraper.manncostore - INFO - Obtenidos 50 items (total: 450)
+2025-06-29 08:50:55,107 - scraper.manncostore - INFO - Obtenidos 50 items (total: 500)
+2025-06-29 08:50:56,234 - scraper.manncostore - INFO - Obtenidos 50 items (total: 550)
+2025-06-29 08:50:57,235 - scraper.manncostore - INFO - Obtenidos 50 items (total: 600)
+2025-06-29 08:50:58,336 - scraper.manncostore - INFO - Obtenidos 50 items (total: 650)
+2025-06-29 08:50:59,491 - scraper.manncostore - INFO - Obtenidos 50 items (total: 700)
+2025-06-29 08:51:00,586 - scraper.manncostore - INFO - Obtenidos 50 items (total: 750)
+2025-06-29 08:51:01,726 - scraper.manncostore - INFO - Obtenidos 50 items (total: 800)
+2025-06-29 08:51:02,780 - scraper.manncostore - INFO - Obtenidos 50 items (total: 850)
+2025-06-29 08:51:03,839 - scraper.manncostore - INFO - Obtenidos 50 items (total: 900)
+2025-06-29 08:51:04,891 - scraper.manncostore - INFO - Obtenidos 50 items (total: 950)
+2025-06-29 08:51:05,907 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1000)
+2025-06-29 08:51:07,140 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1050)
+2025-06-29 08:51:08,339 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1100)
+2025-06-29 08:51:09,319 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1150)
+2025-06-29 08:51:10,416 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1200)
+2025-06-29 08:51:11,439 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1250)
+2025-06-29 08:51:12,390 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1300)
+2025-06-29 08:51:13,558 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1350)
+2025-06-29 08:51:14,539 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1400)
+2025-06-29 08:51:15,533 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1450)
+2025-06-29 08:51:16,519 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1500)
+2025-06-29 08:51:17,529 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1550)
+2025-06-29 08:51:18,494 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1600)
+2025-06-29 08:51:19,636 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1650)
+2025-06-29 08:51:20,629 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1700)
+2025-06-29 08:51:21,605 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1750)
+2025-06-29 08:51:22,640 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1800)
+2025-06-29 08:51:23,609 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1850)
+2025-06-29 08:51:24,580 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1900)
+2025-06-29 08:51:25,584 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1950)
+2025-06-29 08:51:26,596 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2000)
+2025-06-29 08:51:27,752 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2050)
+2025-06-29 08:51:28,773 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2100)
+2025-06-29 08:51:29,789 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2150)
+2025-06-29 08:51:30,768 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2200)
+2025-06-29 08:51:31,826 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2250)
+2025-06-29 08:51:32,852 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2300)
+2025-06-29 08:51:33,818 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2350)
+2025-06-29 08:51:34,837 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2400)
+2025-06-29 08:51:35,827 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2450)
+2025-06-29 08:51:36,821 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2500)
+2025-06-29 08:51:37,801 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2550)
+2025-06-29 08:51:38,786 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2600)
+2025-06-29 08:51:39,796 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2650)
+2025-06-29 08:51:40,862 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2700)
+2025-06-29 08:51:41,884 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2750)
+2025-06-29 08:51:42,861 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2800)
+2025-06-29 08:51:43,890 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2850)
+2025-06-29 08:51:45,028 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2900)
+2025-06-29 08:51:46,089 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2950)
+2025-06-29 08:51:47,107 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3000)
+2025-06-29 08:51:48,100 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3050)
+2025-06-29 08:51:49,156 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3100)
+2025-06-29 08:51:50,252 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3150)
+2025-06-29 08:51:51,305 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3200)
+2025-06-29 08:51:52,302 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3250)
+2025-06-29 08:51:53,271 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3300)
+2025-06-29 08:51:54,242 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3350)
+2025-06-29 08:51:55,225 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3400)
+2025-06-29 08:51:56,303 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3450)
+2025-06-29 08:51:57,281 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3500)
+2025-06-29 08:51:58,258 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3550)
+2025-06-29 08:51:59,214 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3600)
+2025-06-29 08:52:00,201 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3650)
+2025-06-29 08:52:01,188 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3700)
+2025-06-29 08:52:02,179 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3750)
+2025-06-29 08:52:03,154 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3800)
+2025-06-29 08:52:04,661 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3850)
+2025-06-29 08:52:05,630 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3900)
+2025-06-29 08:52:06,703 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3950)
+2025-06-29 08:52:07,787 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4000)
+2025-06-29 08:52:08,895 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4050)
+2025-06-29 08:52:09,877 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4100)
+2025-06-29 08:52:10,865 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4150)
+2025-06-29 08:52:11,900 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4200)
+2025-06-29 08:52:12,859 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4250)
+2025-06-29 08:52:13,923 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4300)
+2025-06-29 08:52:14,978 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4350)
+2025-06-29 08:52:15,956 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4400)
+2025-06-29 08:52:16,941 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4450)
+2025-06-29 08:52:17,925 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4500)
+2025-06-29 08:52:18,903 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4550)
+2025-06-29 08:52:19,880 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4600)
+2025-06-29 08:52:20,730 - scraper.manncostore - INFO - Obtenidos 1 items (total: 4601)
+2025-06-29 08:52:21,582 - scraper.manncostore - INFO - Total items obtenidos de MannCo Store: 4601
+2025-06-29 09:01:53,676 - scraper.manncostore - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 09:01:53,678 - scraper.manncostore - INFO - Profitability engine disponible
+2025-06-29 09:01:53,678 - scraper.manncostore - INFO - Scraper manncostore inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 09:01:53,678 - scraper.manncostore - INFO - ManncoStore scraper inicializado
+2025-06-29 09:01:53,679 - scraper.manncostore - INFO - Obteniendo datos de MannCo Store...
+2025-06-29 09:01:54,318 - scraper.manncostore - INFO - Obtenidos 50 items (total: 50)
+2025-06-29 09:01:55,421 - scraper.manncostore - INFO - Obtenidos 50 items (total: 100)
+2025-06-29 09:01:56,556 - scraper.manncostore - INFO - Obtenidos 50 items (total: 150)
+2025-06-29 09:01:57,684 - scraper.manncostore - INFO - Obtenidos 50 items (total: 200)
+2025-06-29 09:01:58,820 - scraper.manncostore - INFO - Obtenidos 50 items (total: 250)
+2025-06-29 09:01:59,812 - scraper.manncostore - INFO - Obtenidos 50 items (total: 300)
+2025-06-29 09:02:00,897 - scraper.manncostore - INFO - Obtenidos 50 items (total: 350)
+2025-06-29 09:02:02,205 - scraper.manncostore - INFO - Obtenidos 50 items (total: 400)
+2025-06-29 09:02:03,296 - scraper.manncostore - INFO - Obtenidos 50 items (total: 450)
+2025-06-29 09:02:04,454 - scraper.manncostore - INFO - Obtenidos 50 items (total: 500)
+2025-06-29 09:02:05,440 - scraper.manncostore - INFO - Obtenidos 50 items (total: 550)
+2025-06-29 09:02:06,402 - scraper.manncostore - INFO - Obtenidos 50 items (total: 600)
+2025-06-29 09:02:07,507 - scraper.manncostore - INFO - Obtenidos 50 items (total: 650)
+2025-06-29 09:02:08,594 - scraper.manncostore - INFO - Obtenidos 50 items (total: 700)
+2025-06-29 09:02:09,617 - scraper.manncostore - INFO - Obtenidos 50 items (total: 750)
+2025-06-29 09:02:10,744 - scraper.manncostore - INFO - Obtenidos 50 items (total: 800)
+2025-06-29 09:02:11,871 - scraper.manncostore - INFO - Obtenidos 50 items (total: 850)
+2025-06-29 09:02:12,959 - scraper.manncostore - INFO - Obtenidos 50 items (total: 900)
+2025-06-29 09:02:13,979 - scraper.manncostore - INFO - Obtenidos 50 items (total: 950)
+2025-06-29 09:02:15,003 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1000)
+2025-06-29 09:02:15,991 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1050)
+2025-06-29 09:02:17,089 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1100)
+2025-06-29 09:02:18,053 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1150)
+2025-06-29 09:02:19,023 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1200)
+2025-06-29 09:02:20,010 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1250)
+2025-06-29 09:02:20,996 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1300)
+2025-06-29 09:02:21,998 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1350)
+2025-06-29 09:02:22,971 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1400)
+2025-06-29 09:02:23,978 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1450)
+2025-06-29 09:02:24,958 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1500)
+2025-06-29 09:02:25,930 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1550)
+2025-06-29 09:02:26,995 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1600)
+2025-06-29 09:02:27,937 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1650)
+2025-06-29 09:02:28,907 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1700)
+2025-06-29 09:02:29,977 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1750)
+2025-06-29 09:02:30,953 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1800)
+2025-06-29 09:02:31,928 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1850)
+2025-06-29 09:02:32,898 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1900)
+2025-06-29 09:02:33,881 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1950)
+2025-06-29 09:02:34,851 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2000)
+2025-06-29 09:02:35,928 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2050)
+2025-06-29 09:02:36,884 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2100)
+2025-06-29 09:02:37,890 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2150)
+2025-06-29 09:02:38,845 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2200)
+2025-06-29 09:02:39,911 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2250)
+2025-06-29 09:02:40,908 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2300)
+2025-06-29 09:02:41,876 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2350)
+2025-06-29 09:02:42,828 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2400)
+2025-06-29 09:02:43,880 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2450)
+2025-06-29 09:02:44,884 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2500)
+2025-06-29 09:02:45,852 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2550)
+2025-06-29 09:02:46,808 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2600)
+2025-06-29 09:02:47,768 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2650)
+2025-06-29 09:02:48,757 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2700)
+2025-06-29 09:02:49,752 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2750)
+2025-06-29 09:02:50,763 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2800)
+2025-06-29 09:02:51,771 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2850)
+2025-06-29 09:02:52,820 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2900)
+2025-06-29 09:02:53,776 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2950)
+2025-06-29 09:02:54,756 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3000)
+2025-06-29 09:02:55,728 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3050)
+2025-06-29 09:02:56,696 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3100)
+2025-06-29 09:02:57,656 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3150)
+2025-06-29 09:02:58,594 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3200)
+2025-06-29 09:02:59,591 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3250)
+2025-06-29 09:03:00,560 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3300)
+2025-06-29 09:03:01,584 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3350)
+2025-06-29 09:03:02,586 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3400)
+2025-06-29 09:03:03,560 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3450)
+2025-06-29 09:03:04,563 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3500)
+2025-06-29 09:03:05,586 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3550)
+2025-06-29 09:03:06,563 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3600)
+2025-06-29 09:03:07,522 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3650)
+2025-06-29 09:03:08,497 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3700)
+2025-06-29 09:03:09,461 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3750)
+2025-06-29 09:03:10,455 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3800)
+2025-06-29 09:03:11,429 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3850)
+2025-06-29 09:03:12,408 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3900)
+2025-06-29 09:03:13,494 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3950)
+2025-06-29 09:03:14,497 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4000)
+2025-06-29 09:03:15,524 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4050)
+2025-06-29 09:03:17,779 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4100)
+2025-06-29 09:03:18,743 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4150)
+2025-06-29 09:03:19,726 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4200)
+2025-06-29 09:03:20,746 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4250)
+2025-06-29 09:03:21,736 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4300)
+2025-06-29 09:03:22,729 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4350)
+2025-06-29 09:03:23,726 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4400)
+2025-06-29 09:03:25,534 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4450)
+2025-06-29 09:03:26,832 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4500)
+2025-06-29 09:03:27,893 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4550)
+2025-06-29 09:03:29,016 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4600)
+2025-06-29 09:03:29,893 - scraper.manncostore - INFO - Obtenidos 1 items (total: 4601)
+2025-06-29 09:03:30,785 - scraper.manncostore - INFO - Total items obtenidos de MannCo Store: 4601
+2025-06-29 09:03:30,809 - scraper.manncostore - INFO - Datos guardados en: C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\manncostore_data.json
+2025-06-29 09:03:30,810 - scraper.manncostore - INFO - Scraping completado: 4601 items obtenidos y guardados
+2025-06-29 09:04:44,322 - scraper.manncostore - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 09:04:44,324 - scraper.manncostore - INFO - Profitability engine disponible
+2025-06-29 09:04:44,324 - scraper.manncostore - INFO - Scraper manncostore inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 09:04:44,324 - scraper.manncostore - INFO - ManncoStore scraper inicializado
+2025-06-29 09:04:44,325 - scraper.manncostore - INFO - Obteniendo datos de MannCo Store...
+2025-06-29 09:04:44,960 - scraper.manncostore - INFO - Obtenidos 50 items (total: 50)
+2025-06-29 09:04:46,043 - scraper.manncostore - INFO - Obtenidos 50 items (total: 100)
+2025-06-29 09:04:47,054 - scraper.manncostore - INFO - Obtenidos 50 items (total: 150)
+2025-06-29 09:04:48,242 - scraper.manncostore - INFO - Obtenidos 50 items (total: 200)
+2025-06-29 09:04:49,390 - scraper.manncostore - INFO - Obtenidos 50 items (total: 250)
+2025-06-29 09:04:50,475 - scraper.manncostore - INFO - Obtenidos 50 items (total: 300)
+2025-06-29 09:04:51,474 - scraper.manncostore - INFO - Obtenidos 50 items (total: 350)
+2025-06-29 09:04:52,699 - scraper.manncostore - INFO - Obtenidos 50 items (total: 400)
+2025-06-29 09:04:53,723 - scraper.manncostore - INFO - Obtenidos 50 items (total: 450)
+2025-06-29 09:04:54,704 - scraper.manncostore - INFO - Obtenidos 50 items (total: 500)
+2025-06-29 09:04:55,713 - scraper.manncostore - INFO - Obtenidos 50 items (total: 550)
+2025-06-29 09:04:56,959 - scraper.manncostore - INFO - Obtenidos 50 items (total: 600)
+2025-06-29 09:04:57,934 - scraper.manncostore - INFO - Obtenidos 50 items (total: 650)
+2025-06-29 09:04:59,148 - scraper.manncostore - INFO - Obtenidos 50 items (total: 700)
+2025-06-29 09:05:00,150 - scraper.manncostore - INFO - Obtenidos 50 items (total: 750)
+2025-06-29 09:05:01,259 - scraper.manncostore - INFO - Obtenidos 50 items (total: 800)
+2025-06-29 09:05:02,237 - scraper.manncostore - INFO - Obtenidos 50 items (total: 850)
+2025-06-29 09:05:03,279 - scraper.manncostore - INFO - Obtenidos 50 items (total: 900)
+2025-06-29 09:05:04,274 - scraper.manncostore - INFO - Obtenidos 50 items (total: 950)
+2025-06-29 09:05:05,400 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1000)
+2025-06-29 09:05:06,383 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1050)
+2025-06-29 09:05:07,481 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1100)
+2025-06-29 09:05:08,681 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1150)
+2025-06-29 09:05:09,724 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1200)
+2025-06-29 09:05:10,685 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1250)
+2025-06-29 09:05:11,671 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1300)
+2025-06-29 09:05:12,641 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1350)
+2025-06-29 09:05:13,590 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1400)
+2025-06-29 09:05:14,710 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1450)
+2025-06-29 09:05:15,672 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1500)
+2025-06-29 09:05:16,767 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1550)
+2025-06-29 09:05:17,958 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1600)
+2025-06-29 09:05:18,949 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1650)
+2025-06-29 09:05:19,988 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1700)
+2025-06-29 09:05:20,939 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1750)
+2025-06-29 09:05:22,131 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1800)
+2025-06-29 09:05:23,119 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1850)
+2025-06-29 09:05:24,196 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1900)
+2025-06-29 09:05:25,153 - scraper.manncostore - INFO - Obtenidos 50 items (total: 1950)
+2025-06-29 09:05:26,125 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2000)
+2025-06-29 09:05:27,126 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2050)
+2025-06-29 09:05:28,107 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2100)
+2025-06-29 09:05:29,195 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2150)
+2025-06-29 09:05:30,163 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2200)
+2025-06-29 09:05:31,198 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2250)
+2025-06-29 09:05:32,347 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2300)
+2025-06-29 09:05:33,360 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2350)
+2025-06-29 09:05:34,340 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2400)
+2025-06-29 09:05:45,141 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2450)
+2025-06-29 09:05:46,180 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2500)
+2025-06-29 09:05:47,174 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2550)
+2025-06-29 09:05:48,142 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2600)
+2025-06-29 09:05:49,119 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2650)
+2025-06-29 09:05:50,108 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2700)
+2025-06-29 09:05:51,170 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2750)
+2025-06-29 09:05:52,195 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2800)
+2025-06-29 09:05:53,205 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2850)
+2025-06-29 09:05:54,229 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2900)
+2025-06-29 09:05:55,312 - scraper.manncostore - INFO - Obtenidos 50 items (total: 2950)
+2025-06-29 09:05:56,342 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3000)
+2025-06-29 09:05:57,314 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3050)
+2025-06-29 09:05:58,289 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3100)
+2025-06-29 09:05:59,249 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3150)
+2025-06-29 09:06:00,240 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3200)
+2025-06-29 09:06:01,259 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3250)
+2025-06-29 09:06:02,258 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3300)
+2025-06-29 09:06:03,229 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3350)
+2025-06-29 09:06:04,314 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3400)
+2025-06-29 09:06:05,361 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3450)
+2025-06-29 09:06:06,381 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3500)
+2025-06-29 09:06:07,344 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3550)
+2025-06-29 09:06:08,305 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3600)
+2025-06-29 09:06:09,320 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3650)
+2025-06-29 09:06:10,283 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3700)
+2025-06-29 09:06:11,251 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3750)
+2025-06-29 09:06:12,206 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3800)
+2025-06-29 09:06:13,200 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3850)
+2025-06-29 09:06:14,184 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3900)
+2025-06-29 09:06:15,247 - scraper.manncostore - INFO - Obtenidos 50 items (total: 3950)
+2025-06-29 09:06:16,255 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4000)
+2025-06-29 09:06:17,233 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4050)
+2025-06-29 09:06:18,213 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4100)
+2025-06-29 09:06:19,233 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4150)
+2025-06-29 09:06:20,341 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4200)
+2025-06-29 09:06:21,409 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4250)
+2025-06-29 09:06:22,403 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4300)
+2025-06-29 09:06:23,383 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4350)
+2025-06-29 09:06:24,416 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4400)
+2025-06-29 09:06:25,577 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4450)
+2025-06-29 09:06:26,645 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4500)
+2025-06-29 09:06:27,624 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4550)
+2025-06-29 09:06:28,588 - scraper.manncostore - INFO - Obtenidos 50 items (total: 4600)
+2025-06-29 09:06:29,478 - scraper.manncostore - INFO - Obtenidos 1 items (total: 4601)
+2025-06-29 09:06:30,336 - scraper.manncostore - INFO - Total items obtenidos de MannCo Store: 4601
+2025-06-29 09:06:30,366 - scraper.manncostore - INFO - Datos guardados en: C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\manncostore_data.json
+2025-06-29 09:06:30,366 - scraper.manncostore - INFO - Scraping completado: 4601 items obtenidos y guardados
+2025-07-07 13:50:46,105 - scraper.manncostore - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 13:50:46,226 - scraper.manncostore - INFO - Profitability engine disponible
+2025-07-07 13:50:46,229 - scraper.manncostore - INFO - Scraper manncostore inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-07 13:50:46,243 - scraper.manncostore - INFO - ManncoStore scraper inicializado
+2025-07-07 13:50:46,247 - scraper.manncostore - INFO - Obteniendo datos de MannCo Store...
+2025-07-07 13:50:46,934 - scraper.manncostore - INFO - Obtenidos 50 items (total: 50)
+2025-07-07 13:50:48,217 - scraper.manncostore - INFO - Obtenidos 50 items (total: 100)
+2025-07-07 13:50:50,551 - scraper.manncostore - INFO - Obtenidos 50 items (total: 150)
+2025-07-07 13:50:56,131 - scraper.manncostore - INFO - Obtenidos 50 items (total: 200)
+2025-07-07 13:50:57,121 - scraper.manncostore - INFO - Obtenidos 50 items (total: 250)
+2025-07-07 13:50:58,133 - scraper.manncostore - INFO - Obtenidos 50 items (total: 300)
+2025-07-07 13:50:59,363 - scraper.manncostore - INFO - Obtenidos 50 items (total: 350)
+2025-07-07 13:51:00,558 - scraper.manncostore - INFO - Obtenidos 50 items (total: 400)
+2025-07-07 13:51:01,715 - scraper.manncostore - INFO - Obtenidos 50 items (total: 450)
+2025-07-07 13:51:03,048 - scraper.manncostore - INFO - Obtenidos 50 items (total: 500)
+2025-07-07 20:10:50,726 - scraper.manncostore - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 20:10:50,745 - scraper.manncostore - INFO - Profitability engine disponible
+2025-07-07 20:10:50,748 - scraper.manncostore - INFO - Scraper manncostore inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-07 20:10:50,750 - scraper.manncostore - INFO - ManncoStore scraper inicializado
+2025-07-07 20:10:50,752 - scraper.manncostore - INFO - Obteniendo datos de MannCo Store...
+2025-07-07 20:10:51,631 - scraper.manncostore - INFO - Obtenidos 50 items (total: 50)
+2025-07-07 20:10:53,154 - scraper.manncostore - INFO - Obtenidos 50 items (total: 100)
+2025-07-07 20:10:54,416 - scraper.manncostore - INFO - Obtenidos 50 items (total: 150)
+2025-07-07 20:10:55,699 - scraper.manncostore - INFO - Obtenidos 50 items (total: 200)
+2025-07-07 20:10:56,916 - scraper.manncostore - INFO - Obtenidos 50 items (total: 250)
+2025-07-07 20:10:58,211 - scraper.manncostore - INFO - Obtenidos 50 items (total: 300)
+2025-07-07 20:10:59,402 - scraper.manncostore - INFO - Obtenidos 50 items (total: 350)
+2025-07-07 20:11:00,893 - scraper.manncostore - INFO - Obtenidos 50 items (total: 400)
+2025-07-07 20:11:02,137 - scraper.manncostore - INFO - Obtenidos 50 items (total: 450)
+2025-07-07 20:11:03,378 - scraper.manncostore - INFO - Obtenidos 50 items (total: 500)
+2025-07-07 20:11:04,580 - scraper.manncostore - INFO - Obtenidos 50 items (total: 550)
+2025-07-07 20:11:06,148 - scraper.manncostore - INFO - Obtenidos 50 items (total: 600)
+2025-07-07 20:11:07,320 - scraper.manncostore - INFO - Obtenidos 50 items (total: 650)
+2025-07-07 20:11:08,533 - scraper.manncostore - INFO - Obtenidos 50 items (total: 700)
+2025-07-07 20:11:09,802 - scraper.manncostore - INFO - Obtenidos 50 items (total: 750)
+2025-07-07 20:11:11,048 - scraper.manncostore - INFO - Obtenidos 50 items (total: 800)
+2025-07-07 20:11:12,232 - scraper.manncostore - INFO - Obtenidos 50 items (total: 850)

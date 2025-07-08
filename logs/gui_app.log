@@ -1,0 +1,20 @@
+2025-07-07 03:50:06,521 - ModernScraperApp - INFO - Logging system initialized
+2025-07-07 03:50:09,579 - config_manager - INFO - ConfigManager inicializado con directorio: C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\config
+2025-07-07 03:50:09,580 - config_manager - INFO - Configuración cargada desde C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\config\scrapers.json
+2025-07-07 03:50:09,580 - config_manager - INFO - Configuración cargada desde C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\config\settings.json
+2025-07-07 03:50:09,580 - config_manager - INFO - Cargados 0 proxies desde proxy.txt
+2025-07-07 03:50:09,581 - config_manager - INFO - Configuración cargada desde C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\config\api_keys.json
+2025-07-07 03:50:09,632 - cache_v2 - INFO - Cache V2 inicializado en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\cache
+2025-07-07 04:09:44,821 - ModernScraperApp - INFO - Logging system initialized
+2025-07-07 04:09:47,524 - config_manager - INFO - ConfigManager inicializado con directorio: C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\config
+2025-07-07 04:09:47,525 - config_manager - INFO - Configuración cargada desde C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\config\scrapers.json
+2025-07-07 04:09:47,526 - config_manager - INFO - Configuración cargada desde C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\config\settings.json
+2025-07-07 04:09:47,527 - config_manager - INFO - Cargados 0 proxies desde proxy.txt
+2025-07-07 04:09:47,527 - config_manager - INFO - Configuración cargada desde C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\config\api_keys.json
+2025-07-07 04:09:47,572 - cache_v2 - INFO - Cache V2 inicializado en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\cache
+2025-07-07 04:29:59,790 - ModernScraperApp - INFO - Logging system initialized
+2025-07-07 04:32:07,576 - ModernScraperApp - INFO - Logging system initialized
+2025-07-07 04:32:35,691 - config_manager - INFO - ConfigManager inicializado con directorio: C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\config
+2025-07-07 04:32:35,692 - config_manager - INFO - Configuración cargada desde C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\config\settings.json
+2025-07-07 09:55:03,754 - ModernScraperApp - INFO - Logging system initialized
+2025-07-07 10:08:51,595 - ModernScraperApp - INFO - Logging system initialized

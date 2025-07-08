@@ -1,0 +1,77 @@
+2025-06-29 07:45:51,334 - scraper.csdeals - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 07:45:51,340 - scraper.csdeals - INFO - Profitability engine disponible
+2025-06-29 07:45:51,341 - scraper.csdeals - INFO - Scraper csdeals inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-06-29 07:45:51,341 - scraper.csdeals - INFO - CSDeals scraper inicializado
+2025-06-29 07:45:51,341 - scraper.csdeals - INFO - Iniciando scraper csdeals
+2025-06-29 07:45:51,342 - scraper.csdeals - INFO - Obteniendo datos de CSDeals API...
+2025-06-29 07:45:56,321 - scraper.csdeals - INFO - Parseados 4199 items de CSDeals
+2025-06-29 07:45:56,325 - scraper.csdeals - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-06-29 07:45:56,327 - scraper.csdeals - INFO - Datos guardados en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\csdeals_data.json (4199 items)
+2025-06-29 07:45:56,327 - scraper.csdeals - INFO - Scraper completado: 4199 items válidos obtenidos
+2025-06-29 07:45:56,328 - scraper.csdeals - INFO - Estadísticas - Requests: 1, Fallos: 0, Items: 4199, Éxito: 100.0%
+2025-06-29 07:50:00,600 - scraper.csdeals - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 07:50:00,601 - scraper.csdeals - INFO - Profitability engine disponible
+2025-06-29 07:50:00,601 - scraper.csdeals - INFO - Scraper csdeals inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-06-29 07:50:00,602 - scraper.csdeals - INFO - CSDeals scraper inicializado
+2025-06-29 07:50:00,602 - scraper.csdeals - INFO - Iniciando scraper csdeals
+2025-06-29 07:50:00,603 - scraper.csdeals - INFO - Obteniendo datos de CSDeals API...
+2025-06-29 07:50:02,047 - scraper.csdeals - INFO - Parseados 4199 items de CSDeals
+2025-06-29 07:50:02,051 - scraper.csdeals - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-06-29 07:50:02,053 - scraper.csdeals - INFO - Datos guardados en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\csdeals_data.json (4199 items)
+2025-06-29 07:50:02,055 - scraper.csdeals - INFO - Scraper completado: 4199 items válidos obtenidos
+2025-06-29 07:50:02,056 - scraper.csdeals - INFO - Estadísticas - Requests: 1, Fallos: 0, Items: 4199, Éxito: 100.0%
+2025-06-30 06:19:52,699 - scraper.csdeals - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-30 06:19:52,701 - scraper.csdeals - INFO - Profitability engine disponible
+2025-06-30 06:19:52,701 - scraper.csdeals - INFO - Scraper csdeals inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-06-30 06:19:52,702 - scraper.csdeals - INFO - CSDeals scraper inicializado
+2025-06-30 06:19:52,702 - scraper.csdeals - INFO - Iniciando scraper csdeals
+2025-06-30 06:19:52,703 - scraper.csdeals - INFO - Obteniendo datos de CSDeals API...
+2025-06-30 06:19:54,726 - scraper.csdeals - INFO - Parseados 4187 items de CSDeals
+2025-06-30 06:19:54,729 - scraper.csdeals - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-06-30 06:19:54,731 - scraper.csdeals - INFO - Datos guardados en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\csdeals_data.json (4187 items)
+2025-06-30 06:19:54,732 - scraper.csdeals - INFO - Scraper completado: 4187 items válidos obtenidos
+2025-06-30 06:19:54,732 - scraper.csdeals - INFO - Estadísticas - Requests: 1, Fallos: 0, Items: 4187, Éxito: 100.0%
+2025-07-07 13:50:46,047 - scraper.csdeals - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 13:50:46,081 - scraper.csdeals - INFO - Profitability engine disponible
+2025-07-07 13:50:46,082 - scraper.csdeals - INFO - Scraper csdeals inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-07-07 13:50:46,098 - scraper.csdeals - INFO - CSDeals scraper inicializado
+2025-07-07 13:50:46,105 - scraper.csdeals - INFO - Iniciando scraper csdeals
+2025-07-07 13:50:46,123 - scraper.csdeals - INFO - Obteniendo datos de CSDeals API...
+2025-07-07 13:50:48,215 - scraper.csdeals - INFO - Parseados 4136 items de CSDeals
+2025-07-07 13:50:48,221 - scraper.csdeals - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-07-07 13:50:48,229 - scraper.csdeals - INFO - Datos guardados en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\csdeals_data.json (4136 items)
+2025-07-07 13:50:48,234 - scraper.csdeals - INFO - Scraper completado: 4136 items válidos obtenidos
+2025-07-07 13:50:48,235 - scraper.csdeals - INFO - Estadísticas - Requests: 1, Fallos: 0, Items: 4136, Éxito: 100.0%
+2025-07-07 20:10:50,724 - scraper.csdeals - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 20:10:50,746 - scraper.csdeals - INFO - Profitability engine disponible
+2025-07-07 20:10:50,752 - scraper.csdeals - INFO - Scraper csdeals inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-07-07 20:10:50,756 - scraper.csdeals - INFO - CSDeals scraper inicializado
+2025-07-07 20:10:50,780 - scraper.csdeals - INFO - Iniciando scraper csdeals
+2025-07-07 20:10:50,783 - scraper.csdeals - INFO - Obteniendo datos de CSDeals API...
+2025-07-07 20:10:53,186 - scraper.csdeals - INFO - Parseados 4144 items de CSDeals
+2025-07-07 20:10:53,189 - scraper.csdeals - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-07-07 20:10:53,192 - scraper.csdeals - INFO - Datos guardados en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\csdeals_data.json (4144 items)
+2025-07-07 20:10:53,193 - scraper.csdeals - INFO - Scraper completado: 4144 items válidos obtenidos
+2025-07-07 20:10:53,195 - scraper.csdeals - INFO - Estadísticas - Requests: 1, Fallos: 0, Items: 4144, Éxito: 100.0%
+2025-07-07 20:26:33,720 - scraper.csdeals - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 20:26:33,721 - scraper.csdeals - INFO - Profitability engine disponible
+2025-07-07 20:26:33,721 - scraper.csdeals - INFO - Scraper csdeals inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-07-07 20:26:33,722 - scraper.csdeals - INFO - CSDeals scraper inicializado
+2025-07-07 20:26:33,722 - scraper.csdeals - INFO - Iniciando scraper csdeals
+2025-07-07 20:26:33,723 - scraper.csdeals - INFO - Obteniendo datos de CSDeals API...
+2025-07-07 20:26:35,431 - scraper.csdeals - INFO - Parseados 4144 items de CSDeals
+2025-07-07 20:26:35,434 - scraper.csdeals - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-07-07 20:26:35,435 - scraper.csdeals - INFO - Datos guardados en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\csdeals_data.json (4144 items)
+2025-07-07 20:26:35,436 - scraper.csdeals - INFO - Scraper completado: 4144 items válidos obtenidos
+2025-07-07 20:26:35,436 - scraper.csdeals - INFO - Estadísticas - Requests: 1, Fallos: 0, Items: 4144, Éxito: 100.0%
+2025-07-07 20:55:45,619 - scraper.csdeals - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 20:55:45,620 - scraper.csdeals - INFO - Profitability engine disponible
+2025-07-07 20:55:45,620 - scraper.csdeals - INFO - Scraper csdeals inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-07-07 20:55:45,620 - scraper.csdeals - INFO - CSDeals scraper inicializado
+2025-07-07 20:55:45,621 - scraper.csdeals - INFO - Iniciando scraper csdeals
+2025-07-07 20:55:45,621 - scraper.csdeals - INFO - Obteniendo datos de CSDeals API...
+2025-07-07 20:55:47,127 - scraper.csdeals - INFO - Parseados 4144 items de CSDeals
+2025-07-07 20:55:47,130 - scraper.csdeals - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-07-07 20:55:47,132 - scraper.csdeals - INFO - Datos guardados en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\csdeals_data.json (4144 items)
+2025-07-07 20:55:47,132 - scraper.csdeals - INFO - Scraper completado: 4144 items válidos obtenidos
+2025-07-07 20:55:47,133 - scraper.csdeals - INFO - Estadísticas - Requests: 1, Fallos: 0, Items: 4144, Éxito: 100.0%

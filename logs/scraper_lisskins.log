@@ -1,0 +1,45 @@
+2025-06-29 08:36:36,468 - scraper.lisskins - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 08:36:36,470 - scraper.lisskins - INFO - Profitability engine disponible
+2025-06-29 08:36:36,471 - scraper.lisskins - INFO - Scraper lisskins inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 08:36:36,471 - scraper.lisskins - INFO - LisSkins scraper inicializado (migrado desde BOT-vCSGO-Beta)
+2025-06-29 08:36:36,472 - scraper.lisskins - INFO - Iniciando scraper lisskins
+2025-06-29 08:36:36,472 - scraper.lisskins - INFO - Obteniendo datos de LisSkins API (usando lógica BOT-vCSGO-Beta)...
+2025-06-29 08:37:06,763 - scraper.lisskins - INFO - Parseados 18854 items de LisSkins (deduplicados por precio)
+2025-06-29 08:37:06,981 - scraper.lisskins - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-06-29 08:37:06,993 - scraper.lisskins - INFO - Datos guardados en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\lisskins_data.json (18854 items)
+2025-06-29 08:37:06,995 - scraper.lisskins - INFO - Scraper completado: 18854 items válidos obtenidos
+2025-06-29 08:37:06,996 - scraper.lisskins - INFO - Estadísticas - Requests: 1, Fallos: 0, Items: 18854, Éxito: 100.0%
+2025-07-07 13:50:46,102 - scraper.lisskins - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 13:50:46,154 - scraper.lisskins - INFO - Profitability engine disponible
+2025-07-07 13:50:46,229 - scraper.lisskins - INFO - Scraper lisskins inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-07 13:50:46,240 - scraper.lisskins - INFO - LisSkins scraper inicializado (migrado desde BOT-vCSGO-Beta)
+2025-07-07 13:50:46,244 - scraper.lisskins - INFO - Iniciando scraper lisskins
+2025-07-07 13:50:46,248 - scraper.lisskins - INFO - Obteniendo datos de LisSkins API (usando lógica BOT-vCSGO-Beta)...
+2025-07-07 20:10:50,725 - scraper.lisskins - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 20:10:50,735 - scraper.lisskins - INFO - Profitability engine disponible
+2025-07-07 20:10:50,736 - scraper.lisskins - INFO - Scraper lisskins inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-07 20:10:50,738 - scraper.lisskins - INFO - LisSkins scraper inicializado (migrado desde BOT-vCSGO-Beta)
+2025-07-07 20:10:50,740 - scraper.lisskins - INFO - Iniciando scraper lisskins
+2025-07-07 20:10:50,745 - scraper.lisskins - INFO - Obteniendo datos de LisSkins API (usando lógica BOT-vCSGO-Beta)...
+2025-07-07 21:28:17,890 - scraper.lisskins - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 21:28:17,892 - scraper.lisskins - INFO - Profitability engine disponible
+2025-07-07 21:28:17,893 - scraper.lisskins - INFO - Scraper lisskins inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-07 21:28:17,894 - scraper.lisskins - INFO - LisSkins scraper inicializado (migrado desde BOT-vCSGO-Beta)
+2025-07-07 21:28:17,894 - scraper.lisskins - INFO - Iniciando scraper lisskins
+2025-07-07 21:28:17,894 - scraper.lisskins - INFO - Obteniendo datos de LisSkins API (usando lógica BOT-vCSGO-Beta)...
+2025-07-07 21:31:26,305 - scraper.lisskins - INFO - Parseados 18162 items de LisSkins (deduplicados por precio)
+2025-07-07 21:31:26,479 - scraper.lisskins - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-07-07 21:31:26,493 - scraper.lisskins - INFO - Datos guardados en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\lisskins_data.json (18162 items)
+2025-07-07 21:31:26,495 - scraper.lisskins - INFO - Scraper completado: 18162 items válidos obtenidos
+2025-07-07 21:31:26,496 - scraper.lisskins - INFO - Estadísticas - Requests: 1, Fallos: 0, Items: 18162, Éxito: 100.0%
+2025-07-07 21:31:47,303 - scraper.lisskins - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 21:31:47,306 - scraper.lisskins - INFO - Profitability engine disponible
+2025-07-07 21:31:47,307 - scraper.lisskins - INFO - Scraper lisskins inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-07 21:31:47,308 - scraper.lisskins - INFO - LisSkins scraper inicializado (migrado desde BOT-vCSGO-Beta)
+2025-07-07 21:31:47,308 - scraper.lisskins - INFO - Iniciando scraper lisskins
+2025-07-07 21:31:47,309 - scraper.lisskins - INFO - Obteniendo datos de LisSkins API (usando lógica BOT-vCSGO-Beta)...
+2025-07-07 21:32:50,386 - scraper.lisskins - INFO - Parseados 18052 items de LisSkins (deduplicados por precio)
+2025-07-07 21:32:50,550 - scraper.lisskins - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-07-07 21:32:50,576 - scraper.lisskins - INFO - Datos guardados en /mnt/c/Users/Zolu/Documents/aa-Proyecto CSGO-aa/BOT-VCSGO-BETA-V2/data/lisskins_data.json (18052 items)
+2025-07-07 21:32:50,578 - scraper.lisskins - INFO - Scraper completado: 18052 items válidos obtenidos
+2025-07-07 21:32:50,579 - scraper.lisskins - INFO - Estadísticas - Requests: 1, Fallos: 0, Items: 18052, Éxito: 100.0%

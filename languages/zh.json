@@ -1,0 +1,91 @@
+{
+  "main": {
+    "app_title": "🕷️ CS:GO 高级爬虫管理器",
+    "scrapers": "🕷️ 爬虫",
+    "profit_analysis": "💰 盈利分析",
+    "search_filters": "🔍 搜索和过滤器",
+    "configuration": "⚙️ 配置",
+    "help": "帮助",
+    "about": "关于",
+    "ready": "就绪",
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "warning": "警告",
+    "info": "信息"
+  },
+  "scrapers": {
+    "panel_title": "爬虫控制面板",
+    "overview": "概览",
+    "cards": "卡片",
+    "consoles": "控制台",
+    "settings": "设置",
+    "start_all": "▶️ 启动全部",
+    "stop_all": "⏹️ 停止全部",
+    "show_all": "👁️ 显示全部",
+    "hide_all": "🚫 隐藏全部",
+    "refresh": "🔄 刷新",
+    "status_running": "🟢 运行中",
+    "status_stopped": "⚫ 已停止",
+    "status_error": "🔴 错误",
+    "total_scrapers": "总爬虫数",
+    "active_scrapers": "活跃爬虫",
+    "items_found": "找到物品"
+  },
+  "profit": {
+    "title": "盈利分析",
+    "profitable_items": "盈利物品",
+    "all_items": "所有物品",
+    "analytics": "分析",
+    "filters": "过滤器",
+    "refresh": "🔄 刷新",
+    "export": "📤 导出",
+    "total_items": "总物品数",
+    "best_margin": "最佳利润率"
+  },
+  "search": {
+    "title": "高级搜索",
+    "search_text": "搜索文本",
+    "search_placeholder": "输入物品名称...",
+    "price_range": "价格范围",
+    "from": "从",
+    "to": "到",
+    "min": "最小",
+    "max": "最大",
+    "apply_filters": "应用过滤器",
+    "clear_filters": "清除过滤器"
+  },
+  "config": {
+    "title": "配置",
+    "save": "💾 保存",
+    "reset": "🔄 重置",
+    "enabled": "启用",
+    "disabled": "禁用"
+  },
+  "common": {
+    "ok": "确定",
+    "cancel": "取消",
+    "yes": "是",
+    "no": "否",
+    "save": "保存",
+    "close": "关闭",
+    "help": "帮助",
+    "exit": "退出",
+    "refresh": "刷新",
+    "search": "搜索",
+    "settings": "设置"
+  },
+  "errors": {
+    "generic_error": "发生错误",
+    "network_error": "网络连接错误",
+    "timeout_error": "请求超时",
+    "api_error": "API错误",
+    "file_not_found": "文件未找到"
+  },
+  "dialogs": {
+    "confirm_delete": "您确定要删除此项目吗？",
+    "confirm_exit": "您确定要退出吗？",
+    "loading_data": "正在加载数据，请稍候...",
+    "processing": "正在处理，请稍候..."
+  }
+}

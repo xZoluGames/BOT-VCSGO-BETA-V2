@@ -1,0 +1,335 @@
+2025-06-29 13:16:16,680 - scraper.tradeit - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 13:16:16,683 - scraper.tradeit - INFO - Profitability engine disponible
+2025-06-29 13:16:16,685 - scraper.tradeit - INFO - Scraper tradeit inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 13:16:16,685 - scraper.tradeit - INFO - TradeIt scraper inicializado (migrado desde BOT-vCSGO-Beta)
+2025-06-29 13:16:16,686 - scraper.tradeit - INFO - Iniciando scraper tradeit
+2025-06-29 13:16:16,686 - scraper.tradeit - INFO - Iniciando obtención de datos de TradeIt (usando lógica BOT-vCSGO-Beta)...
+2025-06-29 13:16:16,688 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 0
+2025-06-29 13:16:19,476 - scraper.tradeit - INFO - Fetched 500 items at offset 0. Total so far: 500
+2025-06-29 13:16:19,978 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 500
+2025-06-29 13:16:21,636 - scraper.tradeit - INFO - Fetched 402 items at offset 500. Total so far: 902
+2025-06-29 13:16:22,138 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 902
+2025-06-29 13:16:23,477 - scraper.tradeit - INFO - Fetched 353 items at offset 902. Total so far: 1255
+2025-06-29 13:16:23,979 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1255
+2025-06-29 13:16:25,607 - scraper.tradeit - INFO - Fetched 348 items at offset 1255. Total so far: 1603
+2025-06-29 13:16:26,108 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1603
+2025-06-29 13:16:27,874 - scraper.tradeit - INFO - Fetched 356 items at offset 1603. Total so far: 1959
+2025-06-29 13:16:28,376 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1959
+2025-06-29 13:16:30,082 - scraper.tradeit - INFO - Fetched 342 items at offset 1959. Total so far: 2301
+2025-06-29 13:16:30,584 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 2301
+2025-06-29 13:16:31,797 - scraper.tradeit - INFO - Fetched 335 items at offset 2301. Total so far: 2636
+2025-06-29 13:16:32,298 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 2636
+2025-06-29 13:16:33,381 - scraper.tradeit - INFO - Fetched 346 items at offset 2636. Total so far: 2982
+2025-06-29 13:16:33,883 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 2982
+2025-06-29 13:16:35,796 - scraper.tradeit - INFO - Fetched 364 items at offset 2982. Total so far: 3346
+2025-06-29 13:16:36,298 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 3346
+2025-06-29 13:16:37,682 - scraper.tradeit - INFO - Fetched 349 items at offset 3346. Total so far: 3695
+2025-06-29 13:16:38,184 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 3695
+2025-06-29 13:16:39,513 - scraper.tradeit - INFO - Fetched 347 items at offset 3695. Total so far: 4042
+2025-06-29 13:16:40,014 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 4042
+2025-06-29 13:16:41,162 - scraper.tradeit - INFO - Fetched 330 items at offset 4042. Total so far: 4372
+2025-06-29 13:16:41,664 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 4372
+2025-06-29 13:16:43,389 - scraper.tradeit - INFO - Fetched 332 items at offset 4372. Total so far: 4704
+2025-06-29 13:16:43,891 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 4704
+2025-06-29 13:16:45,303 - scraper.tradeit - INFO - Fetched 349 items at offset 4704. Total so far: 5053
+2025-06-29 13:16:45,805 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 5053
+2025-06-29 13:16:46,924 - scraper.tradeit - INFO - Fetched 370 items at offset 5053. Total so far: 5423
+2025-06-29 13:16:47,426 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 5423
+2025-06-29 13:16:49,160 - scraper.tradeit - INFO - Fetched 365 items at offset 5423. Total so far: 5788
+2025-06-29 13:16:49,662 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 5788
+2025-06-29 13:16:51,646 - scraper.tradeit - INFO - Fetched 372 items at offset 5788. Total so far: 6160
+2025-06-29 13:16:52,148 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 6160
+2025-06-29 13:16:53,366 - scraper.tradeit - INFO - Fetched 361 items at offset 6160. Total so far: 6521
+2025-06-29 13:16:53,867 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 6521
+2025-06-29 13:16:55,412 - scraper.tradeit - INFO - Fetched 353 items at offset 6521. Total so far: 6874
+2025-06-29 13:16:55,913 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 6874
+2025-06-29 13:17:04,157 - scraper.tradeit - INFO - Fetched 354 items at offset 6874. Total so far: 7228
+2025-06-29 13:17:04,659 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 7228
+2025-06-29 13:17:06,515 - scraper.tradeit - INFO - Fetched 367 items at offset 7228. Total so far: 7595
+2025-06-29 13:17:07,016 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 7595
+2025-06-29 13:17:08,578 - scraper.tradeit - INFO - Fetched 349 items at offset 7595. Total so far: 7944
+2025-06-29 13:17:09,079 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 7944
+2025-06-29 13:17:10,420 - scraper.tradeit - INFO - Fetched 351 items at offset 7944. Total so far: 8295
+2025-06-29 13:17:10,922 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 8295
+2025-06-29 13:17:12,467 - scraper.tradeit - INFO - Fetched 339 items at offset 8295. Total so far: 8634
+2025-06-29 13:17:12,968 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 8634
+2025-06-29 13:17:14,856 - scraper.tradeit - INFO - Fetched 342 items at offset 8634. Total so far: 8976
+2025-06-29 13:17:15,357 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 8976
+2025-06-29 13:17:16,985 - scraper.tradeit - INFO - Fetched 354 items at offset 8976. Total so far: 9330
+2025-06-29 13:17:17,487 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9330
+2025-06-29 13:17:19,308 - scraper.tradeit - INFO - Fetched 352 items at offset 9330. Total so far: 9682
+2025-06-29 13:17:19,810 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9682
+2025-06-29 13:17:20,136 - scraper.tradeit - WARNING - No items found at offset 9682. Retry count: 1/5
+2025-06-29 13:17:20,138 - scraper.tradeit - INFO - Waiting 1 seconds before retrying...
+2025-06-29 13:17:21,139 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9682
+2025-06-29 13:17:21,219 - scraper.tradeit - WARNING - No items found at offset 9682. Retry count: 2/5
+2025-06-29 13:17:21,221 - scraper.tradeit - INFO - Waiting 1 seconds before retrying...
+2025-06-29 13:17:22,222 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9682
+2025-06-29 13:17:22,320 - scraper.tradeit - WARNING - No items found at offset 9682. Retry count: 3/5
+2025-06-29 13:17:22,321 - scraper.tradeit - INFO - Waiting 1 seconds before retrying...
+2025-06-29 13:17:23,322 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9682
+2025-06-29 13:17:23,428 - scraper.tradeit - WARNING - No items found at offset 9682. Retry count: 4/5
+2025-06-29 13:17:23,429 - scraper.tradeit - INFO - Waiting 1 seconds before retrying...
+2025-06-29 13:17:24,431 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9682
+2025-06-29 13:17:24,518 - scraper.tradeit - WARNING - No items found at offset 9682. Retry count: 5/5
+2025-06-29 13:17:24,520 - scraper.tradeit - INFO - Max retry limit (5) reached. Stopping scraping.
+2025-06-29 13:17:24,520 - scraper.tradeit - INFO - Scraping completed. Total items collected: 9682
+2025-06-29 13:17:24,527 - scraper.tradeit - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-06-29 13:17:24,543 - scraper.tradeit - INFO - Datos guardados en /mnt/c/Users/Zolu/Documents/aa-Proyecto CSGO-aa/BOT-VCSGO-BETA-V2/data/tradeit_data.json (9682 items)
+2025-06-29 13:17:24,544 - scraper.tradeit - INFO - Scraper completado: 9682 items válidos obtenidos
+2025-06-29 13:17:24,544 - scraper.tradeit - INFO - Estadísticas - Requests: 0, Fallos: 0, Items: 9682, Éxito: 0.0%
+2025-06-29 13:21:35,917 - scraper.tradeit - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 13:21:35,919 - scraper.tradeit - INFO - Profitability engine disponible
+2025-06-29 13:21:35,920 - scraper.tradeit - INFO - Scraper tradeit inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 13:21:35,921 - scraper.tradeit - INFO - TradeIt scraper inicializado (migrado desde BOT-vCSGO-Beta)
+2025-06-29 13:21:35,921 - scraper.tradeit - INFO - Iniciando scraper tradeit
+2025-06-29 13:21:35,922 - scraper.tradeit - INFO - Iniciando obtención de datos de TradeIt (usando lógica BOT-vCSGO-Beta)...
+2025-06-29 13:21:35,922 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 0
+2025-06-29 13:21:37,194 - scraper.tradeit - INFO - Fetched 100 items at offset 0. Total so far: 100
+2025-06-29 13:21:37,696 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 100
+2025-06-29 13:21:38,770 - scraper.tradeit - INFO - Fetched 100 items at offset 100. Total so far: 200
+2025-06-29 13:21:39,271 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 200
+2025-06-29 13:21:40,100 - scraper.tradeit - INFO - Fetched 100 items at offset 200. Total so far: 300
+2025-06-29 13:21:40,601 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 300
+2025-06-29 13:21:42,074 - scraper.tradeit - INFO - Fetched 100 items at offset 300. Total so far: 400
+2025-06-29 13:21:42,576 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 400
+2025-06-29 13:21:43,998 - scraper.tradeit - INFO - Fetched 100 items at offset 400. Total so far: 500
+2025-06-29 13:21:44,500 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 500
+2025-06-29 13:21:45,429 - scraper.tradeit - INFO - Fetched 100 items at offset 500. Total so far: 600
+2025-06-29 13:21:45,931 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 600
+2025-06-29 13:21:47,283 - scraper.tradeit - INFO - Fetched 77 items at offset 600. Total so far: 677
+2025-06-29 13:21:47,785 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 677
+2025-06-29 13:21:48,338 - scraper.tradeit - INFO - Fetched 61 items at offset 677. Total so far: 738
+2025-06-29 13:21:48,840 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 738
+2025-06-29 13:21:49,281 - scraper.tradeit - INFO - Fetched 76 items at offset 738. Total so far: 814
+2025-06-29 13:21:49,783 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 814
+2025-06-29 13:21:50,656 - scraper.tradeit - INFO - Fetched 73 items at offset 814. Total so far: 887
+2025-06-29 13:21:51,158 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 887
+2025-06-29 13:21:52,355 - scraper.tradeit - INFO - Fetched 74 items at offset 887. Total so far: 961
+2025-06-29 13:21:52,856 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 961
+2025-06-29 13:21:53,583 - scraper.tradeit - INFO - Fetched 73 items at offset 961. Total so far: 1034
+2025-06-29 13:21:54,085 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1034
+2025-06-29 13:21:54,872 - scraper.tradeit - INFO - Fetched 73 items at offset 1034. Total so far: 1107
+2025-06-29 13:21:55,374 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1107
+2025-06-29 13:21:56,440 - scraper.tradeit - INFO - Fetched 71 items at offset 1107. Total so far: 1178
+2025-06-29 13:21:56,942 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1178
+2025-06-29 13:21:57,940 - scraper.tradeit - INFO - Fetched 75 items at offset 1178. Total so far: 1253
+2025-06-29 13:21:58,441 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1253
+2025-06-29 13:21:59,221 - scraper.tradeit - INFO - Fetched 67 items at offset 1253. Total so far: 1320
+2025-06-29 13:21:59,723 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1320
+2025-06-29 13:22:01,172 - scraper.tradeit - INFO - Fetched 69 items at offset 1320. Total so far: 1389
+2025-06-29 13:22:01,674 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1389
+2025-06-29 13:22:02,635 - scraper.tradeit - INFO - Fetched 72 items at offset 1389. Total so far: 1461
+2025-06-29 13:22:03,136 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1461
+2025-06-29 13:22:04,085 - scraper.tradeit - INFO - Fetched 71 items at offset 1461. Total so far: 1532
+2025-06-29 13:22:04,587 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1532
+2025-06-29 13:22:05,358 - scraper.tradeit - INFO - Fetched 60 items at offset 1532. Total so far: 1592
+2025-06-29 13:22:05,860 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1592
+2025-06-29 13:22:07,020 - scraper.tradeit - INFO - Fetched 69 items at offset 1592. Total so far: 1661
+2025-06-29 13:22:07,521 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1661
+2025-06-29 13:22:08,672 - scraper.tradeit - INFO - Fetched 71 items at offset 1661. Total so far: 1732
+2025-06-29 13:22:09,174 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1732
+2025-06-29 13:22:09,617 - scraper.tradeit - INFO - Fetched 67 items at offset 1732. Total so far: 1799
+2025-06-29 13:22:10,119 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1799
+2025-06-29 13:22:10,781 - scraper.tradeit - INFO - Fetched 74 items at offset 1799. Total so far: 1873
+2025-06-29 13:22:11,282 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1873
+2025-06-29 13:22:12,764 - scraper.tradeit - INFO - Fetched 70 items at offset 1873. Total so far: 1943
+2025-06-29 13:22:13,266 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1943
+2025-06-29 13:22:13,789 - scraper.tradeit - INFO - Fetched 71 items at offset 1943. Total so far: 2014
+2025-06-29 13:22:14,291 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 2014
+2025-06-29 13:29:08,436 - scraper.tradeit - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 13:29:08,439 - scraper.tradeit - INFO - Profitability engine disponible
+2025-06-29 13:29:08,440 - scraper.tradeit - INFO - Scraper tradeit inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 13:29:08,440 - scraper.tradeit - INFO - TradeIt scraper inicializado (migrado desde BOT-vCSGO-Beta)
+2025-06-29 13:29:08,441 - scraper.tradeit - INFO - Iniciando scraper tradeit
+2025-06-29 13:29:08,441 - scraper.tradeit - INFO - Iniciando obtención de datos de TradeIt (usando lógica BOT-vCSGO-Beta)...
+2025-06-29 13:29:08,442 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 0
+2025-06-29 13:29:12,480 - scraper.tradeit - INFO - Fetched 498 items at offset 0. Total so far: 498
+2025-06-29 13:29:12,982 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 498
+2025-06-29 13:29:15,652 - scraper.tradeit - INFO - Fetched 404 items at offset 498. Total so far: 902
+2025-06-29 13:29:16,154 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 902
+2025-06-29 13:29:22,771 - scraper.tradeit - INFO - Fetched 354 items at offset 902. Total so far: 1256
+2025-06-29 13:29:23,273 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1256
+2025-06-29 13:29:25,669 - scraper.tradeit - INFO - Fetched 356 items at offset 1256. Total so far: 1612
+2025-06-29 13:29:26,171 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1612
+2025-06-29 13:29:31,512 - scraper.tradeit - INFO - Fetched 365 items at offset 1612. Total so far: 1977
+2025-06-29 13:29:32,013 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1977
+2025-06-29 13:29:34,458 - scraper.tradeit - INFO - Fetched 346 items at offset 1977. Total so far: 2323
+2025-06-29 13:29:34,959 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 2323
+2025-06-29 13:29:37,652 - scraper.tradeit - INFO - Fetched 337 items at offset 2323. Total so far: 2660
+2025-06-29 13:29:38,154 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 2660
+2025-06-29 13:29:40,744 - scraper.tradeit - INFO - Fetched 359 items at offset 2660. Total so far: 3019
+2025-06-29 13:29:41,246 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 3019
+2025-06-29 13:29:43,249 - scraper.tradeit - INFO - Fetched 339 items at offset 3019. Total so far: 3358
+2025-06-29 13:29:43,751 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 3358
+2025-06-29 13:29:45,831 - scraper.tradeit - INFO - Fetched 339 items at offset 3358. Total so far: 3697
+2025-06-29 13:29:46,333 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 3697
+2025-06-29 13:29:48,813 - scraper.tradeit - INFO - Fetched 364 items at offset 3697. Total so far: 4061
+2025-06-29 13:29:49,315 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 4061
+2025-06-29 13:29:51,692 - scraper.tradeit - INFO - Fetched 362 items at offset 4061. Total so far: 4423
+2025-06-29 13:29:52,194 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 4423
+2025-06-29 13:29:56,953 - scraper.tradeit - INFO - Fetched 354 items at offset 4423. Total so far: 4777
+2025-06-29 13:29:57,455 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 4777
+2025-06-29 13:29:59,888 - scraper.tradeit - INFO - Fetched 372 items at offset 4777. Total so far: 5149
+2025-06-29 13:30:00,390 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 5149
+2025-06-29 13:30:02,528 - scraper.tradeit - INFO - Fetched 372 items at offset 5149. Total so far: 5521
+2025-06-29 13:30:03,030 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 5521
+2025-06-29 13:30:06,946 - scraper.tradeit - INFO - Fetched 347 items at offset 5521. Total so far: 5868
+2025-06-29 13:30:07,448 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 5868
+2025-06-29 13:30:09,395 - scraper.tradeit - INFO - Fetched 357 items at offset 5868. Total so far: 6225
+2025-06-29 13:30:09,897 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 6225
+2025-06-29 13:30:12,394 - scraper.tradeit - INFO - Fetched 328 items at offset 6225. Total so far: 6553
+2025-06-29 13:30:12,895 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 6553
+2025-06-29 13:30:15,144 - scraper.tradeit - INFO - Fetched 329 items at offset 6553. Total so far: 6882
+2025-06-29 13:30:15,646 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 6882
+2025-06-29 13:30:18,036 - scraper.tradeit - INFO - Fetched 356 items at offset 6882. Total so far: 7238
+2025-06-29 13:30:18,537 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 7238
+2025-06-29 13:30:19,894 - scraper.tradeit - INFO - Fetched 337 items at offset 7238. Total so far: 7575
+2025-06-29 13:30:20,396 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 7575
+2025-06-29 13:30:22,684 - scraper.tradeit - INFO - Fetched 338 items at offset 7575. Total so far: 7913
+2025-06-29 13:30:23,185 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 7913
+2025-06-29 13:30:25,920 - scraper.tradeit - INFO - Fetched 368 items at offset 7913. Total so far: 8281
+2025-06-29 13:30:26,422 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 8281
+2025-06-29 13:30:29,334 - scraper.tradeit - INFO - Fetched 343 items at offset 8281. Total so far: 8624
+2025-06-29 13:30:29,836 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 8624
+2025-06-29 13:30:32,626 - scraper.tradeit - INFO - Fetched 328 items at offset 8624. Total so far: 8952
+2025-06-29 13:30:33,127 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 8952
+2025-06-29 13:30:35,618 - scraper.tradeit - INFO - Fetched 349 items at offset 8952. Total so far: 9301
+2025-06-29 13:30:36,119 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9301
+2025-06-29 13:30:38,103 - scraper.tradeit - INFO - Fetched 350 items at offset 9301. Total so far: 9651
+2025-06-29 13:30:38,605 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9651
+2025-06-29 13:30:39,337 - scraper.tradeit - WARNING - No items found at offset 9651. Retry count: 1/5
+2025-06-29 13:30:39,339 - scraper.tradeit - INFO - Waiting 0.5 seconds before retrying...
+2025-06-29 13:30:39,840 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9651
+2025-06-29 13:30:39,885 - scraper.tradeit - WARNING - No items found at offset 9651. Retry count: 2/5
+2025-06-29 13:30:39,886 - scraper.tradeit - INFO - Waiting 0.5 seconds before retrying...
+2025-06-29 13:30:40,388 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9651
+2025-06-29 13:30:40,472 - scraper.tradeit - WARNING - No items found at offset 9651. Retry count: 3/5
+2025-06-29 13:30:40,474 - scraper.tradeit - INFO - Waiting 0.5 seconds before retrying...
+2025-06-29 13:30:40,975 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9651
+2025-06-29 13:30:41,060 - scraper.tradeit - WARNING - No items found at offset 9651. Retry count: 4/5
+2025-06-29 13:30:41,062 - scraper.tradeit - INFO - Waiting 0.5 seconds before retrying...
+2025-06-29 13:30:41,564 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9651
+2025-06-29 13:30:41,691 - scraper.tradeit - WARNING - No items found at offset 9651. Retry count: 5/5
+2025-06-29 13:30:41,692 - scraper.tradeit - INFO - Max retry limit (5) reached. Stopping scraping.
+2025-06-29 13:30:41,694 - scraper.tradeit - INFO - Scraping completed. Total items collected: 9651
+2025-06-29 13:30:41,704 - scraper.tradeit - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-06-29 13:30:41,721 - scraper.tradeit - INFO - Datos guardados en /mnt/c/Users/Zolu/Documents/aa-Proyecto CSGO-aa/BOT-VCSGO-BETA-V2/data/tradeit_data.json (9651 items)
+2025-06-29 13:30:41,722 - scraper.tradeit - INFO - Scraper completado: 9651 items válidos obtenidos
+2025-06-29 13:30:41,722 - scraper.tradeit - INFO - Estadísticas - Requests: 0, Fallos: 0, Items: 9651, Éxito: 0.0%
+2025-06-29 13:38:09,716 - scraper.tradeit - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-06-29 13:38:09,718 - scraper.tradeit - INFO - Profitability engine disponible
+2025-06-29 13:38:09,720 - scraper.tradeit - INFO - Scraper tradeit inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-06-29 13:38:09,720 - scraper.tradeit - INFO - TradeIt scraper inicializado (migrado desde BOT-vCSGO-Beta)
+2025-06-29 13:38:09,720 - scraper.tradeit - INFO - Iniciando scraper tradeit
+2025-06-29 13:38:09,721 - scraper.tradeit - INFO - Iniciando obtención de datos de TradeIt (usando lógica BOT-vCSGO-Beta)...
+2025-06-29 13:38:09,721 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 0
+2025-06-29 13:38:11,859 - scraper.tradeit - INFO - Fetched 498 items at offset 0. Total so far: 498
+2025-06-29 13:38:12,360 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 498
+2025-06-29 13:38:13,862 - scraper.tradeit - INFO - Fetched 404 items at offset 498. Total so far: 902
+2025-06-29 13:38:14,364 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 902
+2025-06-29 13:38:15,731 - scraper.tradeit - INFO - Fetched 352 items at offset 902. Total so far: 1254
+2025-06-29 13:38:16,232 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1254
+2025-06-29 13:38:17,852 - scraper.tradeit - INFO - Fetched 358 items at offset 1254. Total so far: 1612
+2025-06-29 13:38:18,354 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1612
+2025-06-29 13:38:19,805 - scraper.tradeit - INFO - Fetched 365 items at offset 1612. Total so far: 1977
+2025-06-29 13:38:20,307 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1977
+2025-06-29 13:38:20,914 - scraper.tradeit - INFO - Fetched 346 items at offset 1977. Total so far: 2323
+2025-06-29 13:38:21,415 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 2323
+2025-06-29 13:38:22,456 - scraper.tradeit - INFO - Fetched 358 items at offset 2323. Total so far: 2681
+2025-06-29 13:38:22,958 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 2681
+2025-06-29 13:38:23,921 - scraper.tradeit - INFO - Fetched 350 items at offset 2681. Total so far: 3031
+2025-06-29 13:38:24,422 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 3031
+2025-06-29 13:38:25,225 - scraper.tradeit - INFO - Fetched 339 items at offset 3031. Total so far: 3370
+2025-06-29 13:38:25,728 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 3370
+2025-06-29 13:38:27,095 - scraper.tradeit - INFO - Fetched 338 items at offset 3370. Total so far: 3708
+2025-06-29 13:38:27,597 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 3708
+2025-06-29 13:38:32,789 - scraper.tradeit - INFO - Fetched 364 items at offset 3708. Total so far: 4072
+2025-06-29 13:38:33,291 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 4072
+2025-06-29 13:38:34,632 - scraper.tradeit - INFO - Fetched 367 items at offset 4072. Total so far: 4439
+2025-06-29 13:38:35,134 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 4439
+2025-06-29 13:38:37,431 - scraper.tradeit - INFO - Fetched 331 items at offset 4439. Total so far: 4770
+2025-06-29 13:38:37,933 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 4770
+2025-06-29 13:38:39,572 - scraper.tradeit - INFO - Fetched 343 items at offset 4770. Total so far: 5113
+2025-06-29 13:38:40,074 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 5113
+2025-06-29 13:38:41,594 - scraper.tradeit - INFO - Fetched 330 items at offset 5113. Total so far: 5443
+2025-06-29 13:38:42,096 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 5443
+2025-06-29 13:38:43,086 - scraper.tradeit - INFO - Fetched 340 items at offset 5443. Total so far: 5783
+2025-06-29 13:38:43,588 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 5783
+2025-06-29 13:38:44,900 - scraper.tradeit - INFO - Fetched 356 items at offset 5783. Total so far: 6139
+2025-06-29 13:38:45,402 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 6139
+2025-06-29 13:38:46,812 - scraper.tradeit - INFO - Fetched 363 items at offset 6139. Total so far: 6502
+2025-06-29 13:38:47,314 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 6502
+2025-06-29 13:38:47,871 - scraper.tradeit - INFO - Fetched 365 items at offset 6502. Total so far: 6867
+2025-06-29 13:38:48,373 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 6867
+2025-06-29 13:38:49,714 - scraper.tradeit - INFO - Fetched 347 items at offset 6867. Total so far: 7214
+2025-06-29 13:38:50,215 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 7214
+2025-06-29 13:38:51,227 - scraper.tradeit - INFO - Fetched 337 items at offset 7214. Total so far: 7551
+2025-06-29 13:38:51,728 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 7551
+2025-06-29 13:38:53,580 - scraper.tradeit - INFO - Fetched 348 items at offset 7551. Total so far: 7899
+2025-06-29 13:38:54,082 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 7899
+2025-06-29 13:38:56,327 - scraper.tradeit - INFO - Fetched 348 items at offset 7899. Total so far: 8247
+2025-06-29 13:38:56,828 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 8247
+2025-06-29 13:38:59,107 - scraper.tradeit - INFO - Fetched 335 items at offset 8247. Total so far: 8582
+2025-06-29 13:38:59,608 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 8582
+2025-06-29 13:39:00,905 - scraper.tradeit - INFO - Fetched 340 items at offset 8582. Total so far: 8922
+2025-06-29 13:39:01,406 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 8922
+2025-06-29 13:39:02,844 - scraper.tradeit - INFO - Fetched 336 items at offset 8922. Total so far: 9258
+2025-06-29 13:39:03,346 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9258
+2025-06-29 13:39:04,742 - scraper.tradeit - INFO - Fetched 319 items at offset 9258. Total so far: 9577
+2025-06-29 13:39:05,243 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9577
+2025-06-29 13:39:05,545 - scraper.tradeit - WARNING - No items found at offset 9577. Retry count: 1/5
+2025-06-29 13:39:05,546 - scraper.tradeit - INFO - Waiting 0.5 seconds before retrying...
+2025-06-29 13:39:06,048 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9577
+2025-06-29 13:39:06,120 - scraper.tradeit - WARNING - No items found at offset 9577. Retry count: 2/5
+2025-06-29 13:39:06,122 - scraper.tradeit - INFO - Waiting 0.5 seconds before retrying...
+2025-06-29 13:39:06,624 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9577
+2025-06-29 13:39:06,770 - scraper.tradeit - WARNING - No items found at offset 9577. Retry count: 3/5
+2025-06-29 13:39:06,772 - scraper.tradeit - INFO - Waiting 0.5 seconds before retrying...
+2025-06-29 13:39:07,273 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9577
+2025-06-29 13:39:07,385 - scraper.tradeit - WARNING - No items found at offset 9577. Retry count: 4/5
+2025-06-29 13:39:07,387 - scraper.tradeit - INFO - Waiting 0.5 seconds before retrying...
+2025-06-29 13:39:07,888 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 9577
+2025-06-29 13:39:07,963 - scraper.tradeit - WARNING - No items found at offset 9577. Retry count: 5/5
+2025-06-29 13:39:07,964 - scraper.tradeit - INFO - Max retry limit (5) reached. Stopping scraping.
+2025-06-29 13:39:07,965 - scraper.tradeit - INFO - Scraping completed. Total items collected: 9577
+2025-06-29 13:39:07,971 - scraper.tradeit - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-06-29 13:39:07,985 - scraper.tradeit - INFO - Datos guardados en /mnt/c/Users/Zolu/Documents/aa-Proyecto CSGO-aa/BOT-VCSGO-BETA-V2/data/tradeit_data.json (9577 items)
+2025-06-29 13:39:07,987 - scraper.tradeit - INFO - Scraper completado: 9577 items válidos obtenidos
+2025-06-29 13:39:07,987 - scraper.tradeit - INFO - Estadísticas - Requests: 0, Fallos: 0, Items: 9577, Éxito: 0.0%
+2025-07-07 13:50:46,229 - scraper.tradeit - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 13:50:46,247 - scraper.tradeit - INFO - Profitability engine disponible
+2025-07-07 13:50:46,248 - scraper.tradeit - INFO - Scraper tradeit inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-07 13:50:46,275 - scraper.tradeit - INFO - TradeIt scraper inicializado (migrado desde BOT-vCSGO-Beta)
+2025-07-07 13:50:46,281 - scraper.tradeit - INFO - Iniciando scraper tradeit
+2025-07-07 13:50:46,282 - scraper.tradeit - INFO - Iniciando obtención de datos de TradeIt (usando lógica BOT-vCSGO-Beta)...
+2025-07-07 13:50:46,284 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 0
+2025-07-07 13:50:52,772 - scraper.tradeit - INFO - Fetched 498 items at offset 0. Total so far: 498
+2025-07-07 13:50:53,275 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 498
+2025-07-07 20:10:50,729 - scraper.tradeit - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-07 20:10:50,740 - scraper.tradeit - INFO - Profitability engine disponible
+2025-07-07 20:10:50,742 - scraper.tradeit - INFO - Scraper tradeit inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-07 20:10:50,745 - scraper.tradeit - INFO - TradeIt scraper inicializado (migrado desde BOT-vCSGO-Beta)
+2025-07-07 20:10:50,751 - scraper.tradeit - INFO - Iniciando scraper tradeit
+2025-07-07 20:10:50,752 - scraper.tradeit - INFO - Iniciando obtención de datos de TradeIt (usando lógica BOT-vCSGO-Beta)...
+2025-07-07 20:10:50,755 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 0
+2025-07-07 20:10:53,921 - scraper.tradeit - INFO - Fetched 498 items at offset 0. Total so far: 498
+2025-07-07 20:10:54,424 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 498
+2025-07-07 20:10:56,190 - scraper.tradeit - INFO - Fetched 391 items at offset 498. Total so far: 889
+2025-07-07 20:10:56,691 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 889
+2025-07-07 20:10:58,696 - scraper.tradeit - INFO - Fetched 345 items at offset 889. Total so far: 1234
+2025-07-07 20:10:59,197 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1234
+2025-07-07 20:11:00,838 - scraper.tradeit - INFO - Fetched 358 items at offset 1234. Total so far: 1592
+2025-07-07 20:11:01,339 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1592
+2025-07-07 20:11:02,774 - scraper.tradeit - INFO - Fetched 349 items at offset 1592. Total so far: 1941
+2025-07-07 20:11:03,275 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 1941
+2025-07-07 20:11:04,430 - scraper.tradeit - INFO - Fetched 346 items at offset 1941. Total so far: 2287
+2025-07-07 20:11:04,931 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 2287
+2025-07-07 20:11:05,981 - scraper.tradeit - INFO - Fetched 339 items at offset 2287. Total so far: 2626
+2025-07-07 20:11:06,483 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 2626
+2025-07-07 20:11:08,064 - scraper.tradeit - INFO - Fetched 341 items at offset 2626. Total so far: 2967
+2025-07-07 20:11:08,566 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 2967
+2025-07-07 20:11:09,336 - scraper.tradeit - INFO - Fetched 361 items at offset 2967. Total so far: 3328
+2025-07-07 20:11:09,837 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 3328
+2025-07-07 20:11:11,207 - scraper.tradeit - INFO - Fetched 355 items at offset 3328. Total so far: 3683
+2025-07-07 20:11:11,708 - scraper.tradeit - INFO - Fetching data from TradeIt API: offset 3683

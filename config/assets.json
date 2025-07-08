@@ -1,0 +1,153 @@
+{
+  "fonts": {
+    "primary": {
+      "family": "Arial",
+      "size": 12,
+      "weight": "normal",
+      "file": null
+    },
+    "secondary": {
+      "family": "Consolas",
+      "size": 11,
+      "weight": "normal",
+      "file": null
+    },
+    "console": {
+      "family": "Monaco",
+      "size": 10,
+      "weight": "normal",
+      "file": null
+    },
+    "heading": {
+      "family": "Arial",
+      "size": 16,
+      "weight": "bold",
+      "file": null
+    },
+    "title": {
+      "family": "Arial",
+      "size": 20,
+      "weight": "bold",
+      "file": null
+    }
+  },
+  "icons": {
+    "app_icon": {
+      "name": "CS:GO Scraper Manager",
+      "file": "assets/icons/app_icon.ico",
+      "sizes": ["16x16", "32x32", "48x48", "64x64", "128x128", "256x256"]
+    },
+    "scrapers": {
+      "steam_market": "assets/icons/scrapers/steam.png",
+      "waxpeer": "assets/icons/scrapers/waxpeer.png",
+      "skinport": "assets/icons/scrapers/skinport.png",
+      "csdeals": "assets/icons/scrapers/csdeals.png",
+      "empire": "assets/icons/scrapers/empire.png",
+      "shadowpay": "assets/icons/scrapers/shadowpay.png",
+      "lisskins": "assets/icons/scrapers/lisskins.png",
+      "tradeit": "assets/icons/scrapers/tradeit.png",
+      "manncostore": "assets/icons/scrapers/manncostore.png",
+      "marketcsgo": "assets/icons/scrapers/marketcsgo.png",
+      "bitskins": "assets/icons/scrapers/bitskins.png",
+      "skinout": "assets/icons/scrapers/skinout.png",
+      "skindeck": "assets/icons/scrapers/skindeck.png",
+      "white": "assets/icons/scrapers/white.png",
+      "rapidskins": "assets/icons/scrapers/rapidskins.png",
+      "cstrade": "assets/icons/scrapers/cstrade.png"
+    },
+    "status": {
+      "running": "🟢",
+      "stopped": "⚫",
+      "error": "🔴",
+      "starting": "🟡",
+      "stopping": "🟡",
+      "warning": "🟠"
+    },
+    "actions": {
+      "start": "▶️",
+      "stop": "⏹️",
+      "pause": "⏸️",
+      "restart": "🔄",
+      "refresh": "🔄",
+      "save": "💾",
+      "load": "📁",
+      "export": "📤",
+      "import": "📥",
+      "delete": "🗑️",
+      "edit": "✏️",
+      "settings": "⚙️",
+      "help": "❓",
+      "info": "ℹ️",
+      "warning": "⚠️",
+      "error": "❌",
+      "success": "✅",
+      "search": "🔍",
+      "filter": "🔽",
+      "sort": "🔀",
+      "copy": "📋",
+      "view": "👁️",
+      "hide": "🚫"
+    },
+    "navigation": {
+      "home": "🏠",
+      "back": "⬅️",
+      "forward": "➡️",
+      "up": "⬆️",
+      "down": "⬇️",
+      "first": "⏮️",
+      "last": "⏭️",
+      "previous": "⏪",
+      "next": "⏩"
+    },
+    "data": {
+      "profit": "💰",
+      "loss": "📉",
+      "chart": "📊",
+      "table": "📋",
+      "list": "📝",
+      "grid": "⊞",
+      "calendar": "📅",
+      "clock": "🕐"
+    }
+  },
+  "themes": {
+    "dark": {
+      "background": "#1a1a1a",
+      "foreground": "#2b2b2b",
+      "card": "#333333",
+      "border": "#444444",
+      "text": "#ffffff",
+      "text_dim": "#999999",
+      "accent": "#3b82f6",
+      "success": "#10b981",
+      "error": "#ef4444",
+      "warning": "#f59e0b",
+      "info": "#06b6d4"
+    },
+    "light": {
+      "background": "#ffffff",
+      "foreground": "#f8f9fa",
+      "card": "#ffffff",
+      "border": "#e5e7eb",
+      "text": "#111827",
+      "text_dim": "#6b7280",
+      "accent": "#3b82f6",
+      "success": "#10b981",
+      "error": "#ef4444",
+      "warning": "#f59e0b",
+      "info": "#06b6d4"
+    }
+  },
+  "sounds": {
+    "enabled": false,
+    "notification": "assets/sounds/notification.wav",
+    "success": "assets/sounds/success.wav",
+    "error": "assets/sounds/error.wav",
+    "warning": "assets/sounds/warning.wav",
+    "click": "assets/sounds/click.wav",
+    "startup": "assets/sounds/startup.wav",
+    "shutdown": "assets/sounds/shutdown.wav"
+  },
+  "assets_version": "2.0.0",
+  "last_updated": "2024-01-01T00:00:00Z"
+}
