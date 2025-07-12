@@ -86,7 +86,7 @@ class ProxyManager:
     
     def __init__(self, 
                  oculus_auth_token: str = '05bd54d2-e21c-41db-bf74-d12e460210a9',
-                 oculus_order_token: str = 'oc_0d0a79f6',
+                 oculus_order_token: str = 'oc_21790259',
                  whitelist_ip: List[str] = None,
                  num_pools: int = 5,
                  proxies_per_pool: int = 10000,
