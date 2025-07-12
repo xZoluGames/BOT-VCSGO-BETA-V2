@@ -1,0 +1,10 @@
+
+
+# Archivos sensibles
+.env
+.env.*
+!.env.example
+config/api_keys.json
+*.backup
+__pycache__/
+*.pyc
