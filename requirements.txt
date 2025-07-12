@@ -1,0 +1,194 @@
+# BOT-VCSGO-BETA-V2 - Dependencias del Proyecto
+# Instalación: pip install -r requirements.txt
+
+# ==============================================
+# Core Dependencies
+# ==============================================
+
+# HTTP y Networking
+requests==2.31.0           # Cliente HTTP síncrono
+aiohttp==3.9.1            # Cliente HTTP asíncrono
+urllib3==2.1.0            # Utilidades HTTP
+certifi==2023.11.17       # Certificados SSL
+
+# Async Support
+asyncio==3.4.3            # Soporte asíncrono (si no está en stdlib)
+aiofiles==23.2.1          # File I/O asíncrono
+aiodns==3.1.1             # DNS resolver asíncrono
+cchardet==2.1.7           # Detección de encoding rápida
+aioboto3==12.0.0          # AWS SDK asíncrono (opcional)
+
+# JSON y Serialización
+orjson==3.9.10            # JSON ultra-rápido
+python-rapidjson==1.13    # JSON rápido alternativo
+
+# Configuración y Variables de Entorno
+python-dotenv==1.0.0      # Carga de archivos .env
+pydantic==2.5.2           # Validación de configuración
+
+# ==============================================
+# Web Scraping
+# ==============================================
+
+# Parsing HTML
+beautifulsoup4==4.12.2    # Parser HTML
+lxml==4.9.3               # Parser XML/HTML rápido
+html5lib==1.1             # Parser HTML5
+
+# Browser Automation (opcional)
+selenium==4.15.2          # Automatización de navegador
+undetected-chromedriver==3.5.4  # Chrome driver sigiloso
+playwright==1.40.0        # Alternativa moderna a Selenium
+
+# Anti-Detection
+fake-useragent==1.4.0     # User agents aleatorios
+cloudscraper==1.2.71      # Bypass de Cloudflare
+
+# ==============================================
+# GUI y Visualización
+# ==============================================
+
+customtkinter==5.2.1      # GUI moderna
+Pillow==10.1.0           # Procesamiento de imágenes
+tkinter-tooltip==2.2.0   # Tooltips para GUI
+darkdetect==0.8.0        # Detección de tema del sistema
+
+# ==============================================
+# Data Processing
+# ==============================================
+
+# DataFrames y Análisis
+pandas==2.1.4            # Análisis de datos
+numpy==1.26.2            # Computación numérica
+pyarrow==14.0.1          # Formato columnar rápido
+
+# Cache y Almacenamiento
+diskcache==5.6.3         # Cache en disco
+redis==5.0.1             # Cache Redis (opcional)
+
+# ==============================================
+# Logging y Monitoring
+# ==============================================
+
+loguru==0.7.2            # Logging moderno
+colorlog==6.8.0          # Logs con colores
+rich==13.7.0             # Terminal formatting rico
+tqdm==4.66.1             # Barras de progreso
+
+# ==============================================
+# Utilidades
+# ==============================================
+
+# Fecha y Hora
+python-dateutil==2.8.2   # Utilidades de fecha
+pytz==2023.3             # Zonas horarias
+freezegun==1.2.2         # Mock de tiempo para tests
+
+# Sistema y Procesos
+psutil==5.9.6            # Información del sistema
+py-cpuinfo==9.0.0        # Info detallada de CPU
+GPUtil==1.4.0            # Información de GPU
+
+# Scheduling
+schedule==1.2.0          # Tareas programadas
+APScheduler==3.10.4      # Scheduler avanzado
+
+# ==============================================
+# Seguridad y Encriptación
+# ==============================================
+
+cryptography==41.0.7     # Encriptación
+python-jose==3.3.0       # JWT tokens
+passlib==1.7.4           # Hashing de contraseñas
+
+# ==============================================
+# Proxy y Networking Avanzado
+# ==============================================
+
+pysocks==1.7.1           # SOCKS proxy support
+httpx==0.25.2            # Cliente HTTP moderno
+dnspython==2.4.2         # Resolución DNS
+
+# ==============================================
+# Optimización y Performance
+# ==============================================
+
+cython==3.0.6            # Compilación a C (opcional)
+numba==0.58.1            # JIT compilation (opcional)
+line_profiler==4.1.1     # Profiling línea por línea
+memory_profiler==0.61.0  # Profiling de memoria
+
+# ==============================================
+# APIs Específicas (opcional)
+# ==============================================
+
+# Steam
+steam==1.4.4             # Steam Web API
+steampy==0.80            # Steam trading
+
+# Discord (notificaciones)
+discord.py==2.3.2        # Bot de Discord
+discord-webhook==1.3.0   # Webhooks simples
+
+# Telegram (notificaciones)
+python-telegram-bot==20.7  # Bot de Telegram
+
+# ==============================================
+# Development Tools (opcional)
+# ==============================================
+
+ipython==8.18.1          # Shell interactivo mejorado
+jupyter==1.0.0           # Notebooks
+jupyterlab==4.0.9        # JupyterLab
+
+# Code Quality
+black==23.11.0           # Formateo de código
+flake8==6.1.0           # Linting
+isort==5.12.0           # Ordenamiento de imports
+autopep8==2.0.4         # Auto-formateo PEP8
+
+# Type Checking
+mypy==1.7.1             # Type checking estático
+types-requests==2.31.0.10  # Type stubs para requests
+types-aiofiles==23.2.0.0   # Type stubs para aiofiles
+
+# Documentation
+sphinx==7.2.6           # Generación de documentación
+sphinx-rtd-theme==2.0.0 # Tema ReadTheDocs
+
+# ==============================================
+# Platform Specific
+# ==============================================
+
+# Windows
+pywin32==306; sys_platform == 'win32'
+windows-curses==2.3.2; sys_platform == 'win32'
+
+# Linux/WSL
+python-xlib==0.33; sys_platform == 'linux'
+
+# ==============================================
+# Optional Advanced Features
+# ==============================================
+
+# Machine Learning (para predicción de precios)
+scikit-learn==1.3.2     # ML básico
+tensorflow==2.15.0      # Deep learning
+torch==2.1.1           # PyTorch alternativo
+
+# Blockchain (para NFTs)
+web3==6.11.3           # Ethereum interaction
+
+# Image Recognition
+opencv-python==4.8.1.78  # Computer vision
+pytesseract==0.3.10     # OCR
+
+# ==============================================
+# Version Constraints
+# ==============================================
+
+# Python version
+# Requires: Python >= 3.8, < 3.12
+
+# Pip version
+# pip >= 21.0

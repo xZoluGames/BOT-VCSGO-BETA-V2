@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-07-09T04:14:16.428614",
+  "platform": "waxpeer",
+  "stats": {
+    "hits": 0,
+    "misses": 1,
+    "hit_rate": "0.00%",
+    "evictions": 0,
+    "total_size_mb": "0.00",
+    "entries": 0,
+    "compression_saved_mb": "0.00"
+  }
+}

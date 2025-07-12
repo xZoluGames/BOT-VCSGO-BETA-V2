@@ -1,0 +1,34 @@
+Reporte de Seguridad - 2025-07-09 04:11:13.672060
+============================================================
+
+[FAIL] Variables de Entorno
+  - Error leyendo .env: 'charmap' codec can't decode byte 0x8f in position 103: character maps to <undefined>
+
+[PASS] Claves API
+  - api_keys.json no existe (correcto)
+
+[FAIL] Credenciales
+  - Oculus Auth Token en proxy_manager.py
+  - Oculus Order Token en proxy_manager.py
+  - IP Hardcodeada en proxy_manager.py
+
+[FAIL] Rutas
+  - Referencia a proyecto antiguo en core\base_scraper.py
+  - Referencia a proyecto antiguo en scrapers\bitskins_scraper.py
+  - Referencia a proyecto antiguo en run.py
+  - Referencia a proyecto antiguo en scrapers\csdeals_scraper.py
+  - Referencia a proyecto antiguo en core\config_manager.py
+  - Referencia a proyecto antiguo en core\scraper_execution_manager.py
+  - Referencia a proyecto antiguo en scrapers\empire_scraper.py
+  - Referencia a proyecto antiguo en core\profitability_engine.py
+  - Referencia a proyecto antiguo en scrapers\marketcsgo_scraper.py
+  - Referencia a proyecto antiguo en tests\test_config_manager.py
+
+[PASS] Gitignore
+  - Todos los archivos sensibles están en .gitignore
+
+[PASS] Imports
+  - Todos los módulos se importan correctamente
+
+
+Resultado: 3/6 verificaciones pasadas

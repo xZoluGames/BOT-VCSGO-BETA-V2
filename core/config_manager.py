@@ -1,13 +1,11 @@
 """
-ConfigManager - Sistema de gestión de configuración para BOT-vCSGO-Beta V2
+ConfigManager - Sistema de gestión de configuración SEGURO para BOT-vCSGO-Beta V2
 
-Funcionalidades:
-- Carga configuraciones desde archivos JSON
-- Soporte para variables de entorno
-- Configuraciones por scraper
-- Gestión de API keys
-- Valores por defecto robustos
-- Validación de configuraciones
+Mejoras de seguridad:
+- Todas las claves API se cargan desde variables de entorno
+- Soporte para archivo .env en desarrollo
+- Validación de claves antes de uso
+- Sin exposición de secretos en logs
 """
 
 import os
@@ -17,47 +15,220 @@ from pathlib import Path
 from typing import Dict, List, Any, Optional
 import logging
 from functools import lru_cache
+from dotenv import load_dotenv  # Necesitarás instalar: pip install python-dotenv
 
-class ConfigManager:
+class SecureConfigManager:
     """
-    Gestor centralizado de configuración para BOT-vCSGO-Beta V2
+    Gestor centralizado de configuración SEGURO para BOT-vCSGO-Beta V2
     
-    Maneja la carga y validación de configuraciones desde:
-    - config/settings.json (configuración principal)
-    - config/scrapers.json (configuración de scrapers)
-    - config/api_keys.json (claves API)
-    - Variables de entorno (sobrescribe archivos)
+    Prioridad de configuración:
+    1. Variables de entorno
+    2. Archivo .env (solo desarrollo)
+    3. Archivos JSON (sin secretos)
     """
     
-    def __init__(self, config_dir: Optional[Path] = None):
+    def __init__(self, config_dir: Optional[Path] = None, env_file: Optional[str] = None):
         """
-        Inicializa el gestor de configuración
+        Inicializa el gestor de configuración seguro
         
         Args:
             config_dir: Directorio de configuración (None = auto-detectar)
+            env_file: Archivo .env opcional para desarrollo
         """
-        self.logger = logging.getLogger("config_manager")
+        self.logger = logging.getLogger("secure_config_manager")
+        
+        # Cargar variables de entorno desde archivo .env si existe
+        if env_file and Path(env_file).exists():
+            load_dotenv(env_file)
+            self.logger.info(f"Variables de entorno cargadas desde {env_file}")
+        else:
+            # Buscar .env en el directorio raíz del proyecto
+            root_env = Path(__file__).parent.parent / ".env"
+            if root_env.exists():
+                load_dotenv(root_env)
+                self.logger.info("Variables de entorno cargadas desde .env")
         
         # Detectar directorio de configuración
         if config_dir is None:
             config_dir = Path(__file__).parent.parent / "config"
         
         self.config_dir = Path(config_dir)
-        
-        # Asegurar que existe el directorio
         self.config_dir.mkdir(exist_ok=True)
         
-        # Archivos de configuración
+        # Archivos de configuración (sin secretos)
         self.settings_file = self.config_dir / "settings.json"
         self.scrapers_file = self.config_dir / "scrapers.json"
-        self.api_keys_file = self.config_dir / "api_keys.json"
+        self.api_keys_template_file = self.config_dir / "api_keys.template.json"
         
         # Cache de configuraciones
         self._settings = None
         self._scrapers = None
         self._api_keys = None
         
-        self.logger.info(f"ConfigManager inicializado con directorio: {self.config_dir}")
+        # Validar que no exista el archivo inseguro
+        self._check_insecure_files()
+        
+        self.logger.info(f"SecureConfigManager inicializado con directorio: {self.config_dir}")
+    
+    def _check_insecure_files(self):
+        """Verifica y advierte sobre archivos inseguros"""
+        insecure_file = self.config_dir / "api_keys.json"
+        if insecure_file.exists():
+            self.logger.warning("⚠️ ADVERTENCIA: Encontrado api_keys.json con claves expuestas!")
+            self.logger.warning("⚠️ Por favor, elimina este archivo y usa variables de entorno")
+            
+            # Crear archivo template si no existe
+            if not self.api_keys_template_file.exists():
+                self._create_api_keys_template()
+    
+    def _create_api_keys_template(self):
+        """Crea un archivo template para documentar las claves necesarias"""
+        template = {
+            "_instructions": {
+                "description": "Este es un archivo TEMPLATE. NO pongas claves reales aquí.",
+                "setup": "Configura las claves usando variables de entorno o archivo .env",
+                "example_env": [
+                    "export WAXPEER_API_KEY=tu_clave_aqui",
+                    "export EMPIRE_API_KEY=tu_clave_aqui",
+                    "export SHADOWPAY_API_KEY=tu_clave_aqui",
+                    "export RUSTSKINS_API_KEY=tu_clave_aqui",
+                    "export OCULUS_AUTH_TOKEN=tu_token_aqui",
+                    "export OCULUS_ORDER_TOKEN=tu_token_aqui"
+                ]
+            },
+            "platforms": {
+                "waxpeer": {"env_var": "WAXPEER_API_KEY", "required": False},
+                "empire": {"env_var": "EMPIRE_API_KEY", "required": True},
+                "shadowpay": {"env_var": "SHADOWPAY_API_KEY", "required": False},
+                "rustskins": {"env_var": "RUSTSKINS_API_KEY", "required": False},
+                "skinport": {"env_var": "SKINPORT_API_KEY", "required": False},
+                "csdeals": {"env_var": "CSDEALS_API_KEY", "required": False},
+                "bitskins": {"env_var": "BITSKINS_API_KEY", "required": False},
+                "cstrade": {"env_var": "CSTRADE_API_KEY", "required": False},
+                "marketcsgo": {"env_var": "MARKETCSGO_API_KEY", "required": False},
+                "tradeit": {"env_var": "TRADEIT_API_KEY", "required": False}
+            },
+            "proxy": {
+                "oculus_auth": {"env_var": "OCULUS_AUTH_TOKEN", "required": True},
+                "oculus_order": {"env_var": "OCULUS_ORDER_TOKEN", "required": True}
+            }
+        }
+        
+        with open(self.api_keys_template_file, 'wb') as f:
+            f.write(orjson.dumps(template, option=orjson.OPT_INDENT_2))
+        
+        self.logger.info(f"Archivo template creado: {self.api_keys_template_file}")
+    
+    @lru_cache(maxsize=1)
+    def get_api_keys(self) -> Dict[str, Any]:
+        """
+        Obtiene las claves API del sistema de forma SEGURA
+        
+        Returns:
+            Diccionario con claves API desde variables de entorno
+        """
+        if self._api_keys is None:
+            self._api_keys = self._load_api_keys_from_env()
+            
+        return self._api_keys
+    
+    def _load_api_keys_from_env(self) -> Dict[str, Any]:
+        """Carga todas las claves API desde variables de entorno"""
+        api_keys = {}
+        
+        # Mapeo de plataformas a variables de entorno
+        platform_env_mapping = {
+            'waxpeer': 'WAXPEER_API_KEY',
+            'empire': 'EMPIRE_API_KEY',
+            'shadowpay': 'SHADOWPAY_API_KEY',
+            'rustskins': 'RUSTSKINS_API_KEY',
+            'skinport': 'SKINPORT_API_KEY',
+            'csdeals': 'CSDEALS_API_KEY',
+            'bitskins': 'BITSKINS_API_KEY',
+            'cstrade': 'CSTRADE_API_KEY',
+            'marketcsgo': 'MARKETCSGO_API_KEY',
+            'tradeit': 'TRADEIT_API_KEY',
+            'steamout': 'STEAMOUT_API_KEY',
+            'lisskins': 'LISSKINS_API_KEY',
+            'white': 'WHITE_API_KEY'
+        }
+        
+        # Cargar claves de plataformas
+        for platform, env_var in platform_env_mapping.items():
+            api_key = os.getenv(env_var)
+            if api_key:
+                api_keys[platform] = {
+                    'api_key': api_key,
+                    'type': 'bearer',  # Por defecto
+                    'active': True
+                }
+                self.logger.debug(f"Clave API cargada para {platform} desde {env_var}")
+        
+        # Configuración especial para proxy Oculus
+        oculus_auth = os.getenv('OCULUS_AUTH_TOKEN')
+        oculus_order = os.getenv('OCULUS_ORDER_TOKEN')
+        
+        if oculus_auth and oculus_order:
+            api_keys['_proxy_config'] = {
+                'oculus_auth_token': oculus_auth,
+                'oculus_order_token': oculus_order,
+                'whitelist_ip': os.getenv('OCULUS_WHITELIST_IP', '').split(',') if os.getenv('OCULUS_WHITELIST_IP') else []
+            }
+            self.logger.debug("Configuración de proxy Oculus cargada")
+        
+        # Validar claves requeridas
+        required_keys = ['empire']  # Empire es requerida según tu config
+        missing_keys = [key for key in required_keys if key not in api_keys]
+        
+        if missing_keys:
+            self.logger.warning(f"⚠️ Claves API requeridas faltantes: {missing_keys}")
+            self.logger.warning("Configura las variables de entorno necesarias")
+        
+        return api_keys
+    
+    def get_api_key(self, platform: str) -> Optional[str]:
+        """
+        Obtiene la clave API para una plataforma específica
+        
+        Args:
+            platform: Nombre de la plataforma
+            
+        Returns:
+            Clave API o None si no existe
+        """
+        api_keys = self.get_api_keys()
+        platform_lower = platform.lower()
+        
+        if platform_lower in api_keys:
+            key_config = api_keys[platform_lower]
+            if isinstance(key_config, dict):
+                return key_config.get('api_key')
+            return key_config
+        
+        return None
+    
+    def get_proxy_config(self) -> Dict[str, Any]:
+        """
+        Obtiene la configuración de proxy de forma segura
+        
+        Returns:
+            Configuración de proxy con credenciales desde env
+        """
+        api_keys = self.get_api_keys()
+        proxy_config = api_keys.get('_proxy_config', {})
+        
+        # Combinar con configuración de settings si existe
+        settings = self.get_settings()
+        base_proxy_config = settings.get('proxy', {})
+        
+        # Sobrescribir con valores seguros
+        base_proxy_config.update({
+            'oculus_auth_token': proxy_config.get('oculus_auth_token'),
+            'oculus_order_token': proxy_config.get('oculus_order_token'),
+            'whitelist_ip': proxy_config.get('whitelist_ip', [])
+        })
+        
+        return base_proxy_config
     
     @lru_cache(maxsize=1)
     def get_settings(self) -> Dict[str, Any]:
@@ -94,25 +265,6 @@ class ConfigManager:
             
         return self._scrapers
     
-    @lru_cache(maxsize=1)
-    def get_api_keys(self) -> Dict[str, Any]:
-        """
-        Obtiene las claves API del sistema
-        
-        Returns:
-            Diccionario con claves API
-        """
-        if self._api_keys is None:
-            self._api_keys = self._load_json_config(
-                self.api_keys_file,
-                self._get_default_api_keys()
-            )
-            
-            # Aplicar claves desde variables de entorno
-            self._apply_api_key_env_overrides(self._api_keys)
-            
-        return self._api_keys
-    
     def get_scraper_config(self, platform: str) -> Dict[str, Any]:
         """
         Obtiene la configuración específica de un scraper
@@ -126,13 +278,9 @@ class ConfigManager:
         scrapers_config = self.get_scrapers_config()
         platform_lower = platform.lower()
         
-        # Obtener configuración específica o usar valores por defecto
         config = scrapers_config.get(platform_lower, {})
-        
-        # Aplicar configuración global si existe
         global_settings = scrapers_config.get('global_settings', {})
         
-        # Mergear con valores por defecto
         default_config = {
             'enabled': True,
             'interval_seconds': 60,
@@ -150,144 +298,16 @@ class ConfigManager:
         
         return final_config
     
-    def get_api_key(self, platform: str) -> Optional[str]:
+    def _load_json_config(self, file_path: Path, default_config: Dict[str, Any]) -> Dict[str, Any]:
         """
-        Obtiene la clave API para una plataforma específica
-        
-        Args:
-            platform: Nombre de la plataforma
-            
-        Returns:
-            Clave API o None si no existe
-        """
-        api_keys = self.get_api_keys()
-        platform_lower = platform.lower()
-        
-        # Buscar en configuración
-        if platform_lower in api_keys:
-            key_config = api_keys[platform_lower]
-            if isinstance(key_config, dict):
-                return key_config.get('api_key')
-            return key_config
-        
-        # Buscar en variables de entorno
-        env_var = f"BOT_API_KEY_{platform.upper()}"
-        return os.getenv(env_var)
-    
-    def get_proxy_config(self) -> Dict[str, Any]:
-        """
-        Obtiene la configuración de proxy
-        
-        Returns:
-            Configuración de proxy
-        """
-        settings = self.get_settings()
-        return settings.get('proxy', {})
-    
-    def get_cache_config(self) -> Dict[str, Any]:
-        """
-        Obtiene la configuración de caché
-        
-        Returns:
-            Configuración de caché
-        """
-        settings = self.get_settings()
-        return settings.get('cache', {})
-    
-    def get_logging_config(self) -> Dict[str, Any]:
-        """
-        Obtiene la configuración de logging
-        
-        Returns:
-            Configuración de logging
-        """
-        settings = self.get_settings()
-        return settings.get('logging', {})
-    
-    def is_scraper_enabled(self, platform: str) -> bool:
-        """
-        Verifica si un scraper está habilitado
-        
-        Args:
-            platform: Nombre de la plataforma
-            
-        Returns:
-            True si el scraper está habilitado
-        """
-        config = self.get_scraper_config(platform)
-        return config.get('enabled', True)
-    
-    def get_scraper_groups(self) -> Dict[str, Dict[str, Any]]:
-        """
-        Obtiene los grupos de scrapers definidos
-        
-        Returns:
-            Diccionario con grupos de scrapers
-        """
-        scrapers_config = self.get_scrapers_config()
-        return scrapers_config.get('groups', {})
-    
-    def get_scrapers_in_group(self, group_name: str) -> List[str]:
-        """
-        Obtiene la lista de scrapers en un grupo específico
-        
-        Args:
-            group_name: Nombre del grupo
-            
-        Returns:
-            Lista de nombres de scrapers
-        """
-        groups = self.get_scraper_groups()
-        if group_name in groups:
-            return groups[group_name].get('scrapers', [])
-        return []
-    
-    def load_proxy_list(self) -> List[str]:
-        """
-        Carga la lista de proxies desde archivo
-        
-        Returns:
-            Lista de proxies
-        """
-        proxy_config = self.get_proxy_config()
-        proxy_file = proxy_config.get('file_path', 'proxy.txt')
-        
-        # Buscar archivo de proxy
-        proxy_path = self.config_dir.parent / proxy_file
-        
-        if not proxy_path.exists():
-            # Buscar en directorio raíz
-            proxy_path = self.config_dir.parent / proxy_file
-            
-        if not proxy_path.exists():
-            self.logger.warning(f"Archivo de proxy no encontrado: {proxy_file}")
-            return []
-        
-        try:
-            with open(proxy_path, 'r', encoding='utf-8') as f:
-                proxies = [
-                    line.strip() 
-                    for line in f 
-                    if line.strip() and not line.startswith('#')
-                ]
-            
-            self.logger.info(f"Cargados {len(proxies)} proxies desde {proxy_file}")
-            return proxies
-            
-        except Exception as e:
-            self.logger.error(f"Error cargando proxies: {e}")
-            return []
-    
-    def _load_json_config(self, file_path: Path, default_config: Dict) -> Dict[str, Any]:
-        """
-        Carga un archivo de configuración JSON con valores por defecto
+        Carga un archivo de configuración JSON
         
         Args:
             file_path: Ruta del archivo
             default_config: Configuración por defecto
             
         Returns:
-            Configuración cargada
+            Configuración cargada o por defecto
         """
         try:
             if file_path.exists():
@@ -342,150 +362,74 @@ class ConfigManager:
         if os.getenv('BOT_DATABASE_ENABLED'):
             settings['database']['enabled'] = os.getenv('BOT_DATABASE_ENABLED').lower() == 'true'
     
-    def _apply_api_key_env_overrides(self, api_keys: Dict[str, Any]):
-        """
-        Aplica claves API desde variables de entorno
-        
-        Args:
-            api_keys: Configuración de API keys a modificar
-        """
-        # Buscar todas las variables de entorno que empiecen con BOT_API_KEY_
-        for env_var in os.environ:
-            if env_var.startswith('BOT_API_KEY_'):
-                platform = env_var.replace('BOT_API_KEY_', '').lower()
-                api_key = os.getenv(env_var)
-                
-                if api_key:
-                    api_keys[platform] = {
-                        'api_key': api_key,
-                        'type': 'bearer',
-                        'source': 'environment'
-                    }
-    
     def _get_default_settings(self) -> Dict[str, Any]:
         """Retorna la configuración por defecto del sistema"""
-        # Si existe el archivo actual, lo mantenemos como base
-        if self.settings_file.exists():
-            try:
-                with open(self.settings_file, 'rb') as f:
-                    return orjson.loads(f.read())
-            except:
-                pass
-        
-        # Configuración por defecto básica
         return {
             "project": {
                 "name": "BOT-vCSGO-Beta V2",
                 "version": "2.0.0",
-                "description": "Scraper mejorado de CS:GO",
+                "description": "Scraper simplificado de CS:GO para uso personal",
                 "author": "ZoluGames",
                 "environment": "development"
             },
-            "proxy": {
-                "enabled": False,
-                "rotation_enabled": True,
-                "timeout": 10,
-                "max_retries": 3,
-                "file_path": "proxy.txt",
-                "validation_enabled": True
+            "scrapers": {
+                "default_interval": 60,
+                "default_timeout": 30,
+                "default_retries": 5,
+                "use_proxy_by_default": False,
+                "parallel_execution": False
             },
             "cache": {
                 "enabled": True,
                 "memory_limit_items": 1000,
                 "default_ttl_seconds": 300
             },
+            "proxy": {
+                "enabled": False,
+                "rotation_enabled": True,
+                "timeout": 10,
+                "max_retries": 3
+            },
             "logging": {
                 "level": "INFO",
                 "save_to_file": True,
-                "file_path": "logs/bot_v2.log",
                 "console_output": True
             }
         }
     
     def _get_default_scrapers(self) -> Dict[str, Any]:
         """Retorna la configuración por defecto de scrapers"""
-        # Si existe el archivo actual, lo mantenemos
-        if self.scrapers_file.exists():
-            try:
-                with open(self.scrapers_file, 'rb') as f:
-                    return orjson.loads(f.read())
-            except:
-                pass
-        
         return {
+            "global_settings": {
+                "enabled": True,
+                "use_proxy": False,
+                "timeout_seconds": 30,
+                "max_retries": 5
+            },
             "waxpeer": {
                 "enabled": True,
-                "api_url": "https://api.waxpeer.com/v1/prices?game=csgo&minified=0",
-                "interval_seconds": 60,
+                "api_url": "https://api.waxpeer.com/v1/prices",
                 "priority": "high"
             },
-            "skinport": {
+            "empire": {
                 "enabled": True,
-                "api_url": "https://api.skinport.com/v1/items?app_id=730&currency=USD",
-                "interval_seconds": 60,
-                "priority": "high"
-            },
-            "csdeals": {
-                "enabled": True,
-                "api_url": "https://cs.deals/API/IPricing/GetLowestPrices/v1?appid=730",
-                "interval_seconds": 60,
-                "priority": "medium"
+                "api_url": "https://csgoempire.com/api/v2/trading/items",
+                "priority": "high",
+                "required_api_key": True
             }
         }
-    
-    def _get_default_api_keys(self) -> Dict[str, Any]:
-        """Retorna la configuración por defecto de API keys"""
-        return {
-            "waxpeer": {
-                "api_key": "",
-                "type": "bearer",
-                "required": False,
-                "description": "API key para Waxpeer (opcional)"
-            },
-            "skinport": {
-                "api_key": "",
-                "type": "bearer", 
-                "required": False,
-                "description": "API key para Skinport (opcional)"
-            },
-            "csdeals": {
-                "api_key": "",
-                "type": "bearer",
-                "required": False,
-                "description": "API key para CS.deals (opcional)"
-            }
-        }
-    
-    def reload_config(self):
-        """Recarga todas las configuraciones desde archivos"""
-        self._settings = None
-        self._scrapers = None
-        self._api_keys = None
-        
-        # Limpiar cache
-        self.get_settings.cache_clear()
-        self.get_scrapers_config.cache_clear()
-        self.get_api_keys.cache_clear()
-        
-        self.logger.info("Configuraciones recargadas")
 
+# Singleton instance
+_config_manager_instance = None
 
-# Instancia global singleton
-_config_manager = None
-
-def get_config_manager(config_dir: Optional[Path] = None) -> ConfigManager:
+def get_config_manager() -> SecureConfigManager:
     """
-    Obtiene la instancia singleton del gestor de configuración
+    Obtiene la instancia singleton del config manager
     
-    Args:
-        config_dir: Directorio de configuración (solo primera vez)
-        
     Returns:
-        Instancia de ConfigManager
+        Instancia de SecureConfigManager
     """
-    global _config_manager
-    
-    if _config_manager is None:
-        _config_manager = ConfigManager(config_dir)
-    
-    return _config_manager
+    global _config_manager_instance
+    if _config_manager_instance is None:
+        _config_manager_instance = SecureConfigManager()
+    return _config_manager_instance

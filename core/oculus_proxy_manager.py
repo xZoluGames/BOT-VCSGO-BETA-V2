@@ -1,13 +1,11 @@
 """
-Oculus Proxy Manager - BOT-vCSGO-Beta V2
-Universal proxy management system for both batch and non-batch operations
+Oculus Proxy Manager - BOT-vCSGO-Beta V2 (VERSIÓN SEGURA)
+Sistema universal de gestión de proxies con credenciales desde variables de entorno
 
-Features:
-- Automatic IP detection and whitelist updates
-- Support for both single pool (non-batch) and multi-pool (batch) operations
-- Intelligent region rotation and proxy refresh
-- Performance tracking and optimization
-- Thread-safe operations
+Mejoras de seguridad:
+- Credenciales cargadas desde variables de entorno
+- Sin tokens hardcodeados
+- Detección automática de IP con fallback configurable
 """
 
 import json
@@ -15,42 +13,39 @@ import time
 import random
 import logging
 import requests
+import os
 from typing import List, Dict, Optional, Union
 from threading import Lock
 from collections import defaultdict
 
 
-class OculusProxyManager:
+class SecureOculusProxyManager:
     """
-    Universal proxy manager for Oculus Proxies API
+    Gestor de proxies SEGURO para Oculus Proxies API
     
-    Supports two modes:
-    - Single Pool Mode: For individual requests (like steamid_scraper)
-    - Multi Pool Mode: For batch operations (like steam_listing_scraper)
+    Carga credenciales desde variables de entorno:
+    - OCULUS_AUTH_TOKEN: Token de autenticación
+    - OCULUS_ORDER_TOKEN: Token de orden
+    - OCULUS_WHITELIST_IP: IP whitelist (opcional)
     """
     
     def __init__(self, mode: str = "single", pool_count: int = 1, proxies_per_pool: int = 1000):
         """
-        Initialize Oculus Proxy Manager
+        Initialize Secure Oculus Proxy Manager
         
         Args:
             mode: "single" for individual requests, "multi" for batch operations
             pool_count: Number of pools for multi mode (ignored in single mode)
             proxies_per_pool: Number of proxies per pool
         """
-        self.logger = logging.getLogger('OculusProxyManager')
+        self.logger = logging.getLogger('SecureOculusProxyManager')
         self.mode = mode
         self.pool_count = pool_count if mode == "multi" else 1
         self.proxies_per_pool = proxies_per_pool
         self._lock = Lock()
         
-        # Oculus Proxies API configuration
-        self.oculus_config = {
-            'auth_token': '05bd54d2-e21c-41db-bf74-d12e460210a9',
-            'order_token': 'oc_0d0a79f6',
-            'whitelist_ip': [],  # Will be auto-detected
-            'api_url': 'https://api.oculusproxies.com/v1/configure/proxy/getProxies'
-        }
+        # Cargar configuración desde variables de entorno
+        self._load_secure_config()
         
         # Available regions (Tier 1 + Tier 2 = most reliable)
         self.available_regions = [
@@ -68,68 +63,78 @@ class OculusProxyManager:
         else:
             raise ValueError(f"Invalid mode: {mode}. Use 'single' or 'multi'")
         
-        # Auto-detect and update IP
-        self._auto_detect_and_update_ip()
+        # Auto-detect IP if not whitelisted
+        if not self.oculus_config['whitelist_ip']:
+            self._auto_detect_ip()
         
-        # Initialize pools
+        # Initialize proxy pools
         self._initialize_pools()
+    
+    def _load_secure_config(self):
+        """Carga configuración de forma segura desde variables de entorno"""
+        # Cargar tokens desde variables de entorno
+        auth_token = os.getenv('OCULUS_AUTH_TOKEN')
+        order_token = os.getenv('OCULUS_ORDER_TOKEN')
         
-        self.logger.info(f"🚀 Oculus Proxy Manager initialized in {mode.upper()} mode")
-        self.logger.info(f"📊 Configuration: {self.pool_count} pools, {self.proxies_per_pool} proxies each")
+        if not auth_token or not order_token:
+            self.logger.error("❌ OCULUS_AUTH_TOKEN y OCULUS_ORDER_TOKEN son requeridos!")
+            self.logger.error("Configura las variables de entorno o archivo .env")
+            raise ValueError("Credenciales de Oculus Proxy no configuradas")
         
+        # Cargar IP whitelist opcional
+        whitelist_ip_str = os.getenv('OCULUS_WHITELIST_IP', '')
+        whitelist_ip = [ip.strip() for ip in whitelist_ip_str.split(',') if ip.strip()]
+        
+        self.oculus_config = {
+            'auth_token': auth_token,
+            'order_token': order_token,
+            'whitelist_ip': whitelist_ip,
+            'api_url': 'https://api.oculusproxies.com/v1/configure/proxy/getProxies'
+        }
+        
+        self.logger.info("✅ Configuración de Oculus cargada de forma segura")
+        
+        # No mostrar tokens en logs
+        self.logger.debug(f"Auth token presente: {'Sí' if auth_token else 'No'}")
+        self.logger.debug(f"Order token presente: {'Sí' if order_token else 'No'}")
+        if whitelist_ip:
+            self.logger.debug(f"IP whitelist configurada: {len(whitelist_ip)} IPs")
+    
     def _init_single_mode(self):
-        """Initialize single pool mode for individual requests"""
-        self.current_region = 'us'
+        """Initialize single pool mode configuration"""
+        self.current_region = random.choice(self.available_regions)
         self.proxy_pool = []
         self.refresh_count = 0
-        self.refresh_interval = 1000
         self.error_count = 0
         self.consecutive_errors = 0
-        
+        self.logger.info(f"🔧 Single mode initialized with region: {self.current_region}")
+    
     def _init_multi_mode(self):
-        """Initialize multi-pool mode for batch operations"""
+        """Initialize multi pool mode configuration"""
         self.region_pools = {}
-        for i in range(self.pool_count):
-            pool_name = f'pool_{i+1}'
-            region = self.available_regions[i % len(self.available_regions)]
-            self.region_pools[pool_name] = {
-                'region': region,
-                'proxies': [],
-                'performance': {
-                    'success_count': 0, 
-                    'error_count': 0, 
-                    'consecutive_errors': 0, 
-                    'last_error_time': 0, 
-                    'response_times': []
-                },
-                'active': True
-            }
-        
-        self.pool_error_threshold = 5
-        self.pool_refresh_interval = 5000
         self.pool_requests = defaultdict(int)
-        
-    def _auto_detect_and_update_ip(self):
-        """Automatically detect current IP and update whitelist"""
+        self.consecutive_pool_errors = defaultdict(int)
+        self.logger.info(f"🔧 Multi mode initialized with {self.pool_count} pools")
+    
+    def _auto_detect_ip(self):
+        """Auto-detect current IP and add to whitelist"""
         try:
-            self.logger.info("🔍 Auto-detecting current IP address...")
+            self.logger.info("🔍 Auto-detecting IP address...")
             
-            # Try multiple IP detection services for reliability
+            # Try multiple services for redundancy
             ip_services = [
                 'https://api.ipify.org?format=json',
-                'https://httpbin.org/ip',
-                'https://api.myip.com',
-                'https://ipapi.co/json/'
+                'https://ipapi.co/json/',
+                'http://ip-api.com/json/'
             ]
             
             detected_ip = None
             for service in ip_services:
                 try:
-                    response = requests.get(service, timeout=10)
-                    response.raise_for_status()
+                    response = requests.get(service, timeout=5)
                     data = response.json()
                     
-                    # Different services have different response formats
+                    # Extract IP based on service response format
                     if 'ip' in data:
                         detected_ip = data['ip']
                     elif 'origin' in data:
@@ -149,14 +154,14 @@ class OculusProxyManager:
                 self.logger.info(f"✅ IP auto-detected and whitelisted: {detected_ip}")
                 return detected_ip
             else:
-                # Fallback to manual IP
-                fallback_ip = '181.127.133.115'
+                # Usar fallback desde variable de entorno si está configurado
+                fallback_ip = os.getenv('FALLBACK_IP', '127.0.0.1')
                 self.oculus_config['whitelist_ip'] = [fallback_ip]
                 self.logger.warning(f"⚠️ Auto-detection failed, using fallback IP: {fallback_ip}")
                 return fallback_ip
                 
         except Exception as e:
-            fallback_ip = '181.127.133.115'
+            fallback_ip = os.getenv('FALLBACK_IP', '127.0.0.1')
             self.oculus_config['whitelist_ip'] = [fallback_ip]
             self.logger.error(f"❌ IP auto-detection error: {e}, using fallback: {fallback_ip}")
             return fallback_ip
@@ -248,21 +253,36 @@ class OculusProxyManager:
             self.logger.warning(f"❌ Failed to initialize single pool for {self.current_region.upper()}")
     
     def _initialize_multi_pools(self):
-        """Initialize multiple pools for batch operations"""
-        self.logger.info(f"🔄 Initializing {self.pool_count} pools with {self.proxies_per_pool} proxies each...")
+        """Initialize multiple proxy pools"""
+        self.logger.info(f"🔄 Initializing {self.pool_count} proxy pools...")
         
-        for pool_name, pool_data in self.region_pools.items():
-            region = pool_data['region']
-            self.logger.info(f"Loading {region.upper()} pool ({pool_name})...")
+        # Select random regions
+        selected_regions = random.sample(self.available_regions, min(self.pool_count, len(self.available_regions)))
+        
+        for i, region in enumerate(selected_regions, 1):
+            pool_name = f'pool_{i}'
+            self.region_pools[pool_name] = {
+                'region': region,
+                'proxies': [],
+                'active': True,
+                'last_refresh': 0,
+                'performance': {
+                    'success_count': 0,
+                    'error_count': 0,
+                    'consecutive_errors': 0
+                }
+            }
             
+            self.logger.info(f"Loading {region.upper()} pool ({pool_name})...")
             proxies = self._load_proxies_for_region(region, self.proxies_per_pool)
-            pool_data['proxies'] = proxies
             
             if proxies:
+                self.region_pools[pool_name]['proxies'] = proxies
+                self.region_pools[pool_name]['last_refresh'] = time.time()
                 self.logger.info(f"✅ {pool_name.upper()}: {len(proxies)} proxies loaded for {region.upper()}")
             else:
                 self.logger.warning(f"❌ {pool_name.upper()}: Failed to load proxies for {region.upper()}")
-                pool_data['active'] = False
+                self.region_pools[pool_name]['active'] = False
     
     def get_proxy(self) -> Optional[str]:
         """Get a proxy based on current mode"""
@@ -272,154 +292,129 @@ class OculusProxyManager:
             return self._get_multi_proxy()
     
     def _get_single_proxy(self) -> Optional[str]:
-        """Get proxy from single pool"""
+        """Get proxy in single mode"""
         with self._lock:
-            self.refresh_count += 1
-            
-            # Refresh pool if needed
-            if self.refresh_count >= self.refresh_interval:
+            if not self.proxy_pool:
+                self.logger.warning("No proxies available, refreshing pool...")
                 self._refresh_single_pool()
-            
-            # Rotate region if too many errors
-            if self.consecutive_errors >= 5:
-                self._rotate_single_region()
             
             if self.proxy_pool:
                 return random.choice(self.proxy_pool)
+            
             return None
     
     def _get_multi_proxy(self) -> Optional[str]:
-        """Get proxy from best performing pool"""
-        best_pool = self._get_best_performing_pool()
-        if not best_pool:
-            return None
+        """Get proxy from multi-pool with intelligent selection"""
+        with self._lock:
+            # Get active pools
+            active_pools = [(name, data) for name, data in self.region_pools.items() 
+                          if data['active'] and data['proxies']]
             
-        pool_data = self.region_pools[best_pool]
-        self.pool_requests[best_pool] += 1
-        
-        if pool_data['proxies']:
+            if not active_pools:
+                self.logger.warning("No active pools available")
+                return None
+            
+            # Select pool with best performance
+            pool_name, pool_data = min(active_pools, 
+                                      key=lambda x: x[1]['performance']['consecutive_errors'])
+            
+            # Track usage
+            self.pool_requests[pool_name] += 1
+            
+            # Return random proxy from selected pool
             return random.choice(pool_data['proxies'])
-        return None
-    
-    def _get_best_performing_pool(self) -> Optional[str]:
-        """Get the best performing pool for multi mode"""
-        active_pools = [
-            (name, pool) for name, pool in self.region_pools.items() 
-            if pool['active'] and pool['proxies']
-        ]
-        
-        if not active_pools:
-            return None
-        
-        # Score pools based on performance
-        pool_scores = []
-        for pool_name, pool_data in active_pools:
-            performance = pool_data['performance']
-            total_requests = performance['success_count'] + performance['error_count']
-            
-            if total_requests == 0:
-                score = 50.0  # Neutral score for unused pools
-            else:
-                success_rate = performance['success_count'] / total_requests
-                avg_response_time = (
-                    sum(performance['response_times']) / len(performance['response_times']) 
-                    if performance['response_times'] else 5
-                )
-                score = (success_rate * 100) - (avg_response_time * 3) - (performance['consecutive_errors'] * 15)
-            
-            pool_scores.append((pool_name, score))
-        
-        # Return best pool
-        pool_scores.sort(key=lambda x: x[1], reverse=True)
-        return pool_scores[0][0]
     
     def _refresh_single_pool(self):
-        """Refresh single pool"""
-        self.logger.info(f"🔄 Refreshing single pool after {self.refresh_count} requests")
+        """Refresh single proxy pool with new region"""
+        # Select new region
+        old_region = self.current_region
+        self.current_region = random.choice([r for r in self.available_regions if r != old_region])
+        
+        self.logger.info(f"🔄 Refreshing pool: {old_region.upper()} → {self.current_region.upper()}")
+        
+        # Load new proxies
         proxies = self._load_proxies_for_region(self.current_region, self.proxies_per_pool)
         
         if proxies:
             self.proxy_pool = proxies
-            self.logger.info(f"✅ Single pool refreshed: {len(proxies)} proxies")
+            self.refresh_count += 1
+            self.consecutive_errors = 0
+            self.logger.info(f"✅ Pool refreshed: {len(proxies)} proxies from {self.current_region.upper()}")
         else:
-            self.logger.warning("❌ Failed to refresh single pool")
-        
-        self.refresh_count = 0
+            self.logger.error(f"❌ Failed to refresh pool for {self.current_region.upper()}")
     
-    def _rotate_single_region(self):
-        """Rotate to different region for single mode"""
-        current_index = self.available_regions.index(self.current_region)
-        next_index = (current_index + 1) % len(self.available_regions)
-        new_region = self.available_regions[next_index]
+    def report_success(self, proxy: str = None):
+        """Report successful proxy usage"""
+        if self.mode == "single":
+            self.consecutive_errors = 0
+        else:
+            # Find which pool the proxy belongs to
+            for pool_name, pool_data in self.region_pools.items():
+                if proxy in pool_data['proxies']:
+                    pool_data['performance']['success_count'] += 1
+                    pool_data['performance']['consecutive_errors'] = 0
+                    break
+    
+    def report_failure(self, proxy: str = None):
+        """Report proxy failure"""
+        if self.mode == "single":
+            self.error_count += 1
+            self.consecutive_errors += 1
+            
+            # Refresh pool after threshold
+            if self.consecutive_errors >= 5:
+                self.logger.warning(f"Too many consecutive errors ({self.consecutive_errors}), refreshing pool...")
+                self._refresh_single_pool()
+        else:
+            # Find which pool the proxy belongs to
+            for pool_name, pool_data in self.region_pools.items():
+                if proxy in pool_data['proxies']:
+                    performance = pool_data['performance']
+                    performance['error_count'] += 1
+                    performance['consecutive_errors'] += 1
+                    
+                    # Disable pool if too many errors
+                    if performance['consecutive_errors'] >= 10:
+                        self.logger.warning(f"Disabling {pool_name} due to errors")
+                        pool_data['active'] = False
+                        self._refresh_pool(pool_name)
+                    break
+    
+    def _refresh_pool(self, pool_name: str):
+        """Refresh a specific pool with new region"""
+        pool_data = self.region_pools.get(pool_name)
+        if not pool_data:
+            return
         
-        self.logger.warning(f"🔄 Rotating region: {self.current_region.upper()} → {new_region.upper()}")
-        self.current_region = new_region
-        self.consecutive_errors = 0
+        # Select new region
+        old_region = pool_data['region']
+        used_regions = [p['region'] for p in self.region_pools.values()]
+        available = [r for r in self.available_regions if r not in used_regions]
         
+        if not available:
+            available = self.available_regions
+        
+        new_region = random.choice(available)
+        
+        self.logger.info(f"🔄 Refreshing {pool_name}: {old_region.upper()} → {new_region.upper()}")
+        
+        # Load new proxies
         proxies = self._load_proxies_for_region(new_region, self.proxies_per_pool)
+        
         if proxies:
-            self.proxy_pool = proxies
-            self.logger.info(f"✅ Region rotated: {len(proxies)} proxies from {new_region.upper()}")
-        else:
-            self.logger.warning(f"❌ Failed to load proxies for {new_region.upper()}")
-    
-    def record_success(self, response_time: float = 0, pool_name: str = None):
-        """Record successful request"""
-        if self.mode == "single":
-            with self._lock:
-                self.consecutive_errors = 0
-        else:
-            if pool_name and pool_name in self.region_pools:
-                performance = self.region_pools[pool_name]['performance']
-                performance['success_count'] += 1
-                performance['response_times'].append(response_time)
-                performance['consecutive_errors'] = 0
-                
-                # Keep only last 50 response times
-                if len(performance['response_times']) > 50:
-                    performance['response_times'] = performance['response_times'][-50:]
-    
-    def record_failure(self, pool_name: str = None):
-        """Record failed request"""
-        if self.mode == "single":
-            with self._lock:
-                self.error_count += 1
-                self.consecutive_errors += 1
-        else:
-            if pool_name and pool_name in self.region_pools:
-                performance = self.region_pools[pool_name]['performance']
-                performance['error_count'] += 1
-                performance['consecutive_errors'] += 1
-                performance['last_error_time'] = time.time()
-                
-                # Check if pool needs region rotation
-                if performance['consecutive_errors'] >= self.pool_error_threshold:
-                    self._rotate_pool_region(pool_name)
-    
-    def _rotate_pool_region(self, pool_name: str):
-        """Rotate region for specific pool in multi mode"""
-        pool_data = self.region_pools[pool_name]
-        current_region = pool_data['region']
-        
-        # Get unused region
-        used_regions = [pool['region'] for pool in self.region_pools.values()]
-        available_new_regions = [r for r in self.available_regions if r not in used_regions]
-        
-        if available_new_regions:
-            new_region = random.choice(available_new_regions)
-            self.logger.warning(f"🔄 {pool_name.upper()} ROTATION: {current_region.upper()} → {new_region.upper()}")
-            
             pool_data['region'] = new_region
-            pool_data['performance']['consecutive_errors'] = 0
-            
-            proxies = self._load_proxies_for_region(new_region, self.proxies_per_pool)
-            if proxies:
-                pool_data['proxies'] = proxies
-                pool_data['active'] = True
-                self.logger.info(f"✅ {pool_name.upper()}: {len(proxies)} proxies loaded for {new_region.upper()}")
-            else:
-                self.logger.warning(f"❌ {pool_name.upper()}: Failed to load proxies for {new_region.upper()}")
-                pool_data['active'] = False
+            pool_data['proxies'] = proxies
+            pool_data['last_refresh'] = time.time()
+            pool_data['active'] = True
+            pool_data['performance'] = {
+                'success_count': 0,
+                'error_count': 0,
+                'consecutive_errors': 0
+            }
+            self.logger.info(f"✅ {pool_name.upper()}: {len(proxies)} proxies loaded for {new_region.upper()}")
+        else:
+            self.logger.warning(f"❌ {pool_name.upper()}: Failed to load proxies for {new_region.upper()}")
+            pool_data['active'] = False
     
     def get_stats(self) -> Dict:
         """Get proxy manager statistics"""
@@ -467,15 +462,15 @@ class OculusProxyManager:
         self.logger.info("🧹 Proxy manager cleaned up")
 
 
-def create_proxy_manager(mode: str = "single", **kwargs) -> OculusProxyManager:
+def create_secure_proxy_manager(mode: str = "single", **kwargs) -> SecureOculusProxyManager:
     """
-    Factory function to create proxy manager
+    Factory function to create secure proxy manager
     
     Args:
         mode: "single" or "multi"
         **kwargs: Additional arguments for proxy manager
     
     Returns:
-        OculusProxyManager instance
+        SecureOculusProxyManager instance
     """
-    return OculusProxyManager(mode=mode, **kwargs)
+    return SecureOculusProxyManager(mode=mode, **kwargs)

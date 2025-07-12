@@ -1,0 +1,40 @@
+# Dependencias de Testing para BOT-VCSGO-BETA-V2
+# Instalar con: pip install -r requirements-test.txt
+
+# Framework de testing
+pytest==7.4.3
+pytest-cov==4.1.0           # Coverage
+pytest-mock==3.12.0         # Mocking utilities
+pytest-asyncio==0.21.1      # Async test support
+pytest-timeout==2.2.0       # Timeout para tests
+pytest-xdist==3.5.0         # Ejecución paralela de tests
+
+# Mocking y fixtures
+responses==0.24.1           # Mock de requests HTTP
+faker==20.1.0              # Generación de datos fake
+factory-boy==3.3.0         # Factories para tests
+
+# Análisis de código
+coverage[toml]==7.3.2      # Coverage reports
+flake8==6.1.0              # Linting
+black==23.11.0             # Formateo de código
+isort==5.12.0              # Ordenamiento de imports
+mypy==1.7.1                # Type checking
+pylint==3.0.2              # Análisis estático
+
+# Seguridad
+bandit==1.7.5              # Análisis de seguridad
+safety==3.0.1              # Verificación de vulnerabilidades
+
+# Utilidades
+python-dotenv==1.0.0       # Para tests con .env
+freezegun==1.2.2           # Mock de datetime
+httpretty==1.1.4           # Mock de HTTP
+
+# Documentación
+pytest-html==4.1.1         # Reportes HTML
+pytest-json-report==1.5.0  # Reportes JSON
+
+# Performance
+pytest-benchmark==4.0.0    # Benchmarking
+memory-profiler==0.61.0    # Profiling de memoria
