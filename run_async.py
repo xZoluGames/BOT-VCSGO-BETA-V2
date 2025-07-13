@@ -70,9 +70,18 @@ class AsyncScraperRunner:
         # Lista de scrapers asíncronos conocidos
         async_scrapers = [
             ('waxpeer', 'AsyncWaxpeerScraper'),
+            ('empire', 'AsyncEmpireScraper'),
+            ('skinport', 'AsyncSkinportScraper'),
+            ('bitskins', 'AsyncBitskinsScraper'),
+            ('shadowpay', 'AsyncShadowpayScraper'),
+            ('steam_market', 'AsyncSteamMarketScraper'),
+            ('steam_listing', 'AsyncSteamListingScraper'),
+            ('csdeals', 'AsyncCSDealsScraper'),
+            ('cstrade', 'AsyncCSTradeScraper'),
+            ('lisskins', 'AsyncLisskinsScraper'),
+            ('marketcsgo', 'AsyncMarketCSGOScraper'),
+            ('manncostore', 'AsyncManncoStoreScraper'),
             # Agregar más scrapers asíncronos aquí cuando se implementen
-            # ('empire', 'AsyncEmpireScraper'),
-            # ('skinport', 'AsyncSkinportScraper'),
         ]
         
         for platform, class_name in async_scrapers:

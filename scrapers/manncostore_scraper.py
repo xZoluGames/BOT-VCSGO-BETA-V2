@@ -25,7 +25,6 @@ class ManncoStoreScraper(BaseScraper):
     def __init__(self, use_proxy: Optional[bool] = None):
         super().__init__(
             platform_name="manncostore",
-            use_proxy=use_proxy
         )
         
         # Configuración específica de ManncoStore
@@ -228,7 +227,7 @@ class ManncoStoreScraper(BaseScraper):
 
 def main():
     """Función principal para testing"""
-    scraper = ManncoStoreScraper(use_proxy=False)
+    scraper = ManncoStoreScraper()
     
     try:
         # Usar run_once() para guardar automáticamente

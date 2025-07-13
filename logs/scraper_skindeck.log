@@ -1,0 +1,24 @@
+2025-07-13 10:25:08,619 - scraper.skindeck - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-13 10:25:08,620 - scraper.skindeck - INFO - Profitability engine disponible
+2025-07-13 10:25:08,621 - scraper.skindeck - INFO - Scraper skindeck inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-13 10:25:08,621 - scraper.skindeck - INFO - SkinDeck scraper inicializado (API key: No)
+2025-07-13 10:25:08,622 - scraper.skindeck - INFO - Token (primeros 20 chars): None...
+2025-07-13 10:25:08,622 - scraper.skindeck - INFO - Iniciando scraper skindeck
+2025-07-13 10:25:08,624 - scraper.skindeck - ERROR - API key requerida para SkinDeck. Configure la API key en config/api_keys.json
+2025-07-13 10:25:08,624 - scraper.skindeck - WARNING - No se obtuvieron datos
+2025-07-13 10:25:23,706 - scraper.skindeck - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-13 10:25:23,706 - scraper.skindeck - INFO - Profitability engine disponible
+2025-07-13 10:25:23,707 - scraper.skindeck - INFO - Scraper skindeck inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-13 10:25:23,708 - scraper.skindeck - INFO - SkinDeck scraper inicializado (API key: No)
+2025-07-13 10:25:23,708 - scraper.skindeck - INFO - Token (primeros 20 chars): None...
+2025-07-13 10:25:23,709 - scraper.skindeck - INFO - Iniciando scraper skindeck
+2025-07-13 10:25:23,709 - scraper.skindeck - ERROR - API key requerida para SkinDeck. Configure la API key en config/api_keys.json
+2025-07-13 10:25:23,710 - scraper.skindeck - WARNING - No se obtuvieron datos
+2025-07-13 10:33:50,679 - scraper.skindeck - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-13 10:33:50,680 - scraper.skindeck - INFO - Profitability engine disponible
+2025-07-13 10:33:50,680 - scraper.skindeck - INFO - Scraper skindeck inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-13 10:33:50,680 - scraper.skindeck - INFO - SkinDeck scraper inicializado (API key: No)
+2025-07-13 10:33:50,681 - scraper.skindeck - INFO - Token (primeros 20 chars): None...
+2025-07-13 10:33:50,681 - scraper.skindeck - INFO - Iniciando scraper skindeck
+2025-07-13 10:33:50,681 - scraper.skindeck - ERROR - API key requerida para SkinDeck. Configure la API key en config/api_keys.json
+2025-07-13 10:33:50,681 - scraper.skindeck - WARNING - No se obtuvieron datos

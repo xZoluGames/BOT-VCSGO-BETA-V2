@@ -1,0 +1,12 @@
+2025-07-13 10:26:40,682 - scraper.skinport - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-13 10:26:40,683 - scraper.skinport - INFO - Profitability engine disponible
+2025-07-13 10:26:40,684 - scraper.skinport - INFO - Scraper skinport inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-13 10:26:40,685 - scraper.skinport - INFO - Skinport scraper inicializado - Modo proxy: False, Intervalo: 120s
+2025-07-13 10:26:40,685 - scraper.skinport - INFO - Obteniendo datos de Skinport API (sin proxy)...
+2025-07-13 10:26:44,145 - scraper.skinport - INFO - Parseados 21493 items de Skinport
+2025-07-13 10:53:40,983 - scraper.skinport - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-13 10:53:40,986 - scraper.skinport - INFO - Profitability engine disponible
+2025-07-13 10:53:40,987 - scraper.skinport - INFO - Scraper skinport inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-13 10:53:40,988 - scraper.skinport - INFO - Skinport scraper inicializado - Modo proxy: False, Intervalo: 120s
+2025-07-13 10:53:40,988 - scraper.skinport - INFO - Obteniendo datos de Skinport API (sin proxy)...
+2025-07-13 10:53:43,961 - scraper.skinport - INFO - Parseados 21495 items de Skinport

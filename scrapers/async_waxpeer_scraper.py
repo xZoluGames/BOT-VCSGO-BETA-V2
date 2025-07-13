@@ -9,7 +9,10 @@ import asyncio
 from typing import List, Dict, Any, Optional
 import logging
 from datetime import datetime
-
+import orjson
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).parent.parent))
 from core.async_base_scraper import AsyncBaseScraper
 from core.exceptions import APIError, ParseError, ValidationError
 
@@ -47,33 +50,33 @@ class AsyncWaxpeerScraper(AsyncBaseScraper):
             custom_config=custom_config
         )
         
-        # URLs de la API
-        self.base_url = "https://api.waxpeer.com/v1"
-        self.prices_endpoint = f"{self.base_url}/prices"
+        # URLs de la API - usando la misma URL que el scraper original
+        self.api_url = 'https://api.waxpeer.com/v1/prices?game=csgo&minified=0&single=0'
         
-        # Configuración de paginación
-        self.items_per_page = 100
-        self.max_pages = 50  # Límite de seguridad
+        # Headers específicos para Waxpeer (igual que scraper original)
+        self.custom_headers = {
+            'Accept': 'application/json',
+            'Accept-Encoding': 'gzip, deflate',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
         
         self.logger.info("AsyncWaxpeerScraper inicializado")
     
     async def scrape(self) -> List[Dict[str, Any]]:
         """
-        Ejecuta el scraping de Waxpeer
+        Ejecuta el scraping de Waxpeer con implementación robusta
         
         Returns:
             Lista de items con sus precios
         """
         try:
-            # Verificar API key
-            if not self.api_key:
-                self.logger.warning("No API key configurada para Waxpeer, usando modo público")
+            self.logger.info("Iniciando scraping de Waxpeer")
             
-            # Obtener todos los items en paralelo
-            all_items = await self._fetch_all_items()
+            # Usar implementación directa más robusta
+            response_data = await self._fetch_waxpeer_data()
             
-            # Procesar y validar items
-            processed_items = await self._process_items(all_items)
+            # Procesar la respuesta usando la misma lógica que el original
+            processed_items = await self._parse_api_response(response_data)
             
             self.logger.info(f"Scraping completado: {len(processed_items)} items procesados")
             
@@ -83,202 +86,100 @@ class AsyncWaxpeerScraper(AsyncBaseScraper):
             self.logger.error(f"Error en scraping: {e}")
             raise
     
-    async def _fetch_all_items(self) -> List[Dict[str, Any]]:
-        """Obtiene todos los items disponibles"""
-        # Primero, obtener el total de items
-        first_page = await self._fetch_page(0)
-        
-        if not first_page:
-            raise APIError(self.platform_name, response_text="No se pudo obtener la primera página")
-        
-        total_items = first_page.get('count', 0)
-        items = first_page.get('items', [])
-        
-        if total_items == 0:
-            return items
-        
-        # Calcular páginas necesarias
-        total_pages = min(
-            (total_items + self.items_per_page - 1) // self.items_per_page,
-            self.max_pages
-        )
-        
-        self.logger.info(f"Total items: {total_items}, páginas a procesar: {total_pages}")
-        
-        # Si hay más páginas, obtenerlas en paralelo
-        if total_pages > 1:
-            # Crear tareas para las páginas restantes
-            tasks = []
-            for page in range(1, total_pages):
-                task = asyncio.create_task(self._fetch_page(page))
-                tasks.append(task)
+    async def _fetch_waxpeer_data(self) -> Dict[str, Any]:
+        """
+        Fetch robusto específico para Waxpeer API
+        """
+        if not self.session:
+            await self.setup()
             
-            # Ejecutar en paralelo con límite de concurrencia
-            # Para evitar saturar la API, procesamos en lotes
-            batch_size = 5
-            for i in range(0, len(tasks), batch_size):
-                batch = tasks[i:i + batch_size]
-                results = await asyncio.gather(*batch, return_exceptions=True)
+        try:
+            async with self.session.get(
+                self.api_url,
+                headers=self.custom_headers
+            ) as response:
+                if response.status != 200:
+                    raise APIError(
+                        self.platform_name,
+                        status_code=response.status,
+                        response_text=f"HTTP {response.status}",
+                        url=self.api_url
+                    )
                 
-                for result in results:
-                    if isinstance(result, Exception):
-                        self.logger.error(f"Error obteniendo página: {result}")
+                # Leer respuesta completa usando read() en lugar de text()
+                content = await response.read()
+                text = content.decode('utf-8')
+                data = orjson.loads(text)
+                
+                return data
+                
+        except Exception as e:
+            self.logger.error(f"Error fetching Waxpeer data: {e}")
+            raise
+    
+    async def _parse_api_response(self, response_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+        """
+        Parsea la respuesta de la API de Waxpeer (adaptado del scraper original)
+        
+        Args:
+            response_data: Datos JSON de respuesta de la API
+            
+        Returns:
+            Lista de items parseados
+        """
+        try:
+            # Verificar que la respuesta sea exitosa
+            if not response_data.get('success'):
+                self.logger.error(f"Respuesta no exitosa de Waxpeer: {response_data}")
+                return []
+            
+            # Verificar que haya items
+            if 'items' not in response_data:
+                self.logger.warning("No se encontraron items en la respuesta")
+                return []
+            
+            # Procesar items
+            items = []
+            for item in response_data['items']:
+                try:
+                    # Obtener nombre y precio (usando min como en el original)
+                    name = item.get('name')
+                    price_raw = item.get('min', 0)
+                    
+                    if not name or not price_raw:
                         continue
                     
-                    if result and 'items' in result:
-                        items.extend(result['items'])
-                
-                # Pequeña pausa entre lotes para ser respetuosos con la API
-                if i + batch_size < len(tasks):
-                    await asyncio.sleep(0.5)
-        
-        return items
-    
-    async def _fetch_page(self, page: int) -> Optional[Dict[str, Any]]:
-        """
-        Obtiene una página específica de items
-        
-        Args:
-            page: Número de página (0-based)
+                    # Formatear precio - el original usa /1000, nosotros adaptamos
+                    price = float(price_raw) / 1000.0
+                    
+                    # Crear item con formato estándar (adaptado para async)
+                    formatted_item = {
+                        'name': name,
+                        'price': price,
+                        'quantity': item.get('count', 0),
+                        'platform': 'waxpeer',
+                        'steam_price': item.get('steam_price', 0) / 1000.0 if item.get('steam_price') else None,
+                        'image': item.get('img'),
+                        'tradable': True,  # Asumir que todos son tradable por defecto
+                        'waxpeer_url': f"https://waxpeer.com/es?sort=ASC&order=price&all=0&search={name.replace(' ', '%20').replace('|', '%7C')}",
+                        'last_update': datetime.now().isoformat()
+                    }
+                    
+                    # Validar item
+                    if await self.validate_item(formatted_item):
+                        items.append(formatted_item)
+                    
+                except Exception as e:
+                    self.logger.warning(f"Error procesando item individual: {e}")
+                    continue
             
-        Returns:
-            Datos de la página o None si falla
-        """
-        try:
-            # Parámetros de la petición
-            params = {
-                'game': 'csgo',
-                'offset': page * self.items_per_page,
-                'limit': self.items_per_page
-            }
-            
-            # Headers con API key si está disponible
-            headers = {}
-            if self.api_key:
-                headers['Authorization'] = f'Bearer {self.api_key}'
-            
-            # Realizar petición
-            data = await self.fetch_json(
-                self.prices_endpoint,
-                params=params,
-                headers=headers
-            )
-            
-            return data
+            self.logger.info(f"Parseados {len(items)} items de Waxpeer")
+            return items
             
         except Exception as e:
-            self.logger.error(f"Error obteniendo página {page}: {e}")
-            return None
-    
-    async def _process_items(self, raw_items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """
-        Procesa y valida los items obtenidos
-        
-        Args:
-            raw_items: Items crudos de la API
-            
-        Returns:
-            Lista de items procesados y validados
-        """
-        processed_items = []
-        
-        # Procesar items en paralelo usando asyncio
-        tasks = []
-        for item in raw_items:
-            task = asyncio.create_task(self._process_single_item(item))
-            tasks.append(task)
-        
-        # Ejecutar todas las tareas
-        results = await asyncio.gather(*tasks, return_exceptions=True)
-        
-        # Filtrar resultados válidos
-        for result in results:
-            if isinstance(result, Exception):
-                self.logger.debug(f"Error procesando item: {result}")
-                continue
-            
-            if result is not None:
-                processed_items.append(result)
-        
-        # Ordenar por precio descendente
-        processed_items.sort(key=lambda x: x.get('price', 0), reverse=True)
-        
-        return processed_items
-    
-    async def _process_single_item(self, raw_item: Dict[str, Any]) -> Optional[Dict[str, Any]]:
-        """
-        Procesa un item individual
-        
-        Args:
-            raw_item: Item crudo de la API
-            
-        Returns:
-            Item procesado o None si no es válido
-        """
-        try:
-            # Extraer datos necesarios
-            name = raw_item.get('name', '').strip()
-            if not name:
-                return None
-            
-            # Precio en centavos, convertir a dólares
-            price_cents = raw_item.get('price')
-            if price_cents is None:
-                return None
-            
-            price = price_cents / 100.0
-            
-            # Validar precio
-            if price <= 0:
-                return None
-            
-            # Construir item procesado
-            processed_item = {
-                'name': name,
-                'price': price,
-                'quantity': raw_item.get('count', 0),
-                'steam_price': raw_item.get('steam_price', 0) / 100.0 if raw_item.get('steam_price') else None,
-                'discount': raw_item.get('discount', 0),
-                'tradable': raw_item.get('tradable', True),
-                'image': raw_item.get('img'),
-                'steam_id': raw_item.get('steam_id'),
-                'waxpeer_url': f"https://waxpeer.com/csgo/{raw_item.get('name', '').replace(' ', '-')}",
-                'last_update': datetime.now().isoformat()
-            }
-            
-            # Información adicional si está disponible
-            if 'float' in raw_item:
-                processed_item['float_value'] = raw_item['float']
-            
-            if 'phase' in raw_item:
-                processed_item['phase'] = raw_item['phase']
-            
-            if 'stickers' in raw_item and raw_item['stickers']:
-                processed_item['stickers'] = self._process_stickers(raw_item['stickers'])
-            
-            # Validar item completo
-            if await self.validate_item(processed_item):
-                return processed_item
-            
-            return None
-            
-        except Exception as e:
-            self.logger.debug(f"Error procesando item: {e}")
-            return None
-    
-    def _process_stickers(self, stickers: List[Dict[str, Any]]) -> List[Dict[str, str]]:
-        """Procesa información de stickers"""
-        processed_stickers = []
-        
-        for sticker in stickers:
-            if isinstance(sticker, dict) and 'name' in sticker:
-                processed_stickers.append({
-                    'name': sticker.get('name', ''),
-                    'price': sticker.get('price', 0) / 100.0 if sticker.get('price') else 0,
-                    'image': sticker.get('img', '')
-                })
-        
-        return processed_stickers
+            self.logger.error(f"Error parseando respuesta de Waxpeer: {e}")
+            return []
+
     
     async def validate_item(self, item: Dict[str, Any]) -> bool:
         """

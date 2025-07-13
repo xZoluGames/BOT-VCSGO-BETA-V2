@@ -1,0 +1,14 @@
+2025-07-13 10:24:56,896 - scraper.shadowpay - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-13 10:24:56,898 - scraper.shadowpay - INFO - Profitability engine disponible
+2025-07-13 10:24:56,898 - scraper.shadowpay - INFO - Scraper shadowpay inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-07-13 10:24:56,899 - scraper.shadowpay - INFO - ShadowPay scraper inicializado (API key: Sí)
+2025-07-13 10:24:56,899 - scraper.shadowpay - INFO - Iniciando scraping de ShadowPay...
+2025-07-13 10:24:59,707 - scraper.shadowpay - INFO - Procesados 19966 items válidos de ShadowPay
+2025-07-13 10:24:59,713 - scraper.shadowpay - INFO - ShadowPay scraping completado: 19966 items (precio promedio: $150.81, rango: $0.01-$30209.80)
+2025-07-13 10:53:25,555 - scraper.shadowpay - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-13 10:53:25,562 - scraper.shadowpay - INFO - Profitability engine disponible
+2025-07-13 10:53:25,564 - scraper.shadowpay - INFO - Scraper shadowpay inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: Sí)
+2025-07-13 10:53:25,564 - scraper.shadowpay - INFO - ShadowPay scraper inicializado (API key: Sí)
+2025-07-13 10:53:25,565 - scraper.shadowpay - INFO - Iniciando scraping de ShadowPay...
+2025-07-13 10:53:26,428 - scraper.shadowpay - INFO - Procesados 19962 items válidos de ShadowPay
+2025-07-13 10:53:26,432 - scraper.shadowpay - INFO - ShadowPay scraping completado: 19962 items (precio promedio: $150.80, rango: $0.01-$30209.80)

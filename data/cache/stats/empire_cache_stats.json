@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-07-13T10:48:41.220878",
+  "platform": "empire",
+  "stats": {
+    "hits": 0,
+    "misses": 0,
+    "hit_rate": "0.00%",
+    "evictions": 0,
+    "total_size_mb": "0.00",
+    "entries": 0,
+    "compression_saved_mb": "0.00"
+  }
+}

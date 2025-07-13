@@ -1,0 +1,12 @@
+2025-07-13 10:20:03,961 - scraper.bitskins - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-13 10:20:03,963 - scraper.bitskins - INFO - Profitability engine disponible
+2025-07-13 10:20:03,963 - scraper.bitskins - INFO - Scraper bitskins inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-13 10:20:03,964 - scraper.bitskins - INFO - BitSkins scraper inicializado - API: https://api.bitskins.com/market/insell/730, API Key: No
+2025-07-13 10:20:03,965 - scraper.bitskins - INFO - Obteniendo datos de BitSkins...
+2025-07-13 10:20:05,008 - scraper.bitskins - INFO - BitSkins parsing completado - Procesados: 16547, Válidos: 16532, Descartados: 15
+2025-07-13 10:54:03,615 - scraper.bitskins - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-13 10:54:03,618 - scraper.bitskins - INFO - Profitability engine disponible
+2025-07-13 10:54:03,620 - scraper.bitskins - INFO - Scraper bitskins inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-13 10:54:03,621 - scraper.bitskins - INFO - BitSkins scraper inicializado - API: https://api.bitskins.com/market/insell/730, API Key: No
+2025-07-13 10:54:03,621 - scraper.bitskins - INFO - Obteniendo datos de BitSkins...
+2025-07-13 10:54:04,879 - scraper.bitskins - INFO - BitSkins parsing completado - Procesados: 16547, Válidos: 16532, Descartados: 15

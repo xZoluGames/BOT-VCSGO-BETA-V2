@@ -1,0 +1,196 @@
+{
+  "timestamp": "2025-07-12T23:27:32.318960",
+  "total_time": 50.143040895462036,
+  "platforms": 9,
+  "results": [
+    {
+      "platform": "waxpeer",
+      "status": "success",
+      "items": 19945,
+      "time": 2.4320356845855713,
+      "error": null,
+      "metrics": {
+        "requests_made": 0,
+        "requests_successful": 0,
+        "requests_failed": 0,
+        "success_rate": "0.00%",
+        "total_items": 19945,
+        "total_time": "2.36s",
+        "avg_response_time": "0.000s",
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "cache_hit_rate": "0.00%",
+        "rate_limit_hits": 0,
+        "proxy_rotations": 0
+      }
+    },
+    {
+      "platform": "empire",
+      "status": "success",
+      "items": 5967,
+      "time": 50.131540060043335,
+      "error": null,
+      "metrics": {
+        "requests_made": 0,
+        "requests_successful": 0,
+        "requests_failed": 0,
+        "success_rate": "0.00%",
+        "total_items": 5967,
+        "total_time": "50.10s",
+        "avg_response_time": "0.000s",
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "cache_hit_rate": "0.00%",
+        "rate_limit_hits": 0,
+        "proxy_rotations": 0
+      }
+    },
+    {
+      "platform": "skinport",
+      "status": "success",
+      "items": 21454,
+      "time": 3.203864574432373,
+      "error": null,
+      "metrics": {
+        "requests_made": 0,
+        "requests_successful": 0,
+        "requests_failed": 0,
+        "success_rate": "0.00%",
+        "total_items": 21454,
+        "total_time": "3.14s",
+        "avg_response_time": "0.000s",
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "cache_hit_rate": "0.00%",
+        "rate_limit_hits": 0,
+        "proxy_rotations": 0
+      }
+    },
+    {
+      "platform": "bitskins",
+      "status": "success",
+      "items": 16530,
+      "time": 2.3811633586883545,
+      "error": null,
+      "metrics": {
+        "requests_made": 0,
+        "requests_successful": 0,
+        "requests_failed": 0,
+        "success_rate": "0.00%",
+        "total_items": 16530,
+        "total_time": "2.25s",
+        "avg_response_time": "0.000s",
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "cache_hit_rate": "0.00%",
+        "rate_limit_hits": 0,
+        "proxy_rotations": 0
+      }
+    },
+    {
+      "platform": "shadowpay",
+      "status": "success",
+      "items": 19737,
+      "time": 1.5655136108398438,
+      "error": null,
+      "metrics": {
+        "requests_made": 0,
+        "requests_successful": 0,
+        "requests_failed": 0,
+        "success_rate": "0.00%",
+        "total_items": 19737,
+        "total_time": "1.51s",
+        "avg_response_time": "0.000s",
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "cache_hit_rate": "0.00%",
+        "rate_limit_hits": 0,
+        "proxy_rotations": 0
+      }
+    },
+    {
+      "platform": "csdeals",
+      "status": "success",
+      "items": 4086,
+      "time": 1.3133201599121094,
+      "error": null,
+      "metrics": {
+        "requests_made": 1,
+        "requests_successful": 1,
+        "requests_failed": 0,
+        "success_rate": "100.00%",
+        "total_items": 4086,
+        "total_time": "1.29s",
+        "avg_response_time": "0.796s",
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "cache_hit_rate": "0.00%",
+        "rate_limit_hits": 0,
+        "proxy_rotations": 0
+      }
+    },
+    {
+      "platform": "cstrade",
+      "status": "success",
+      "items": 2299,
+      "time": 2.930893898010254,
+      "error": null,
+      "metrics": {
+        "requests_made": 1,
+        "requests_successful": 1,
+        "requests_failed": 0,
+        "success_rate": "100.00%",
+        "total_items": 2299,
+        "total_time": "2.91s",
+        "avg_response_time": "1.198s",
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "cache_hit_rate": "0.00%",
+        "rate_limit_hits": 0,
+        "proxy_rotations": 0
+      }
+    },
+    {
+      "platform": "marketcsgo",
+      "status": "success",
+      "items": 22086,
+      "time": 0.7659711837768555,
+      "error": null,
+      "metrics": {
+        "requests_made": 0,
+        "requests_successful": 0,
+        "requests_failed": 0,
+        "success_rate": "0.00%",
+        "total_items": 22086,
+        "total_time": "0.62s",
+        "avg_response_time": "0.000s",
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "cache_hit_rate": "0.00%",
+        "rate_limit_hits": 0,
+        "proxy_rotations": 0
+      }
+    },
+    {
+      "platform": "manncostore",
+      "status": "success",
+      "items": 0,
+      "time": 2.697801351547241,
+      "error": null,
+      "metrics": {
+        "requests_made": 0,
+        "requests_successful": 0,
+        "requests_failed": 0,
+        "success_rate": "0.00%",
+        "total_items": 0,
+        "total_time": "2.69s",
+        "avg_response_time": "0.000s",
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "cache_hit_rate": "0.00%",
+        "rate_limit_hits": 0,
+        "proxy_rotations": 0
+      }
+    }
+  ]
+}

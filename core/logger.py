@@ -95,7 +95,7 @@ class ScraperLogger:
         self.config_manager = config_manager or get_config_manager()
         
         # Obtener configuración de logging
-        self.log_config = self.config_manager.get_logging_config()
+        self.log_config = self.config_manager.get_scrapers_config()
         
         # Crear logger específico
         self.logger = logging.getLogger(f"scraper.{scraper_name}")
@@ -220,7 +220,7 @@ class UnifiedLogger:
     
     def _setup_root_logger(self):
         """Configura el logger raíz de la aplicación"""
-        log_config = self.config_manager.get_logging_config()
+        log_config = self.config_manager.get_scrapers_config()
         
         # Configurar logger raíz
         root_logger = logging.getLogger('bot_v2')

@@ -150,7 +150,8 @@ class SecureConfigManager:
             'tradeit': 'TRADEIT_API_KEY',
             'steamout': 'STEAMOUT_API_KEY',
             'lisskins': 'LISSKINS_API_KEY',
-            'white': 'WHITE_API_KEY'
+            'white': 'WHITE_API_KEY',
+            'skindeck': 'SKINDECK_API_KEY'
         }
         
         # Cargar claves de plataformas

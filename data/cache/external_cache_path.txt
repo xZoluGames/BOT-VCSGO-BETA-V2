@@ -1,1 +1,1 @@
-../csgo ico cache/images
+../../csgo ico cache/images

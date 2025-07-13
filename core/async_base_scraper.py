@@ -163,12 +163,15 @@ class AsyncBaseScraper(ABC):
         if self.is_initialized:
             return
         
-        # Crear connector con connection pooling
+        # Crear connector con configuración robusta para APIs que usan Connection: close
         self.connector = aiohttp.TCPConnector(
-            limit=100,  # Conexiones totales
-            limit_per_host=30,  # Conexiones por host
+            limit=20,  # Conexiones totales (reducido)
+            limit_per_host=5,  # Conexiones por host (muy reducido)
             ttl_dns_cache=300,  # Cache DNS 5 minutos
-            enable_cleanup_closed=True
+            enable_cleanup_closed=True,
+            force_close=True,  # Forzar cierre - necesario para APIs con Connection: close
+            verify_ssl=True,  # Verificar SSL
+            use_dns_cache=True  # Usar cache DNS
         )
         
         # Headers por defecto
@@ -259,30 +262,36 @@ class AsyncBaseScraper(ABC):
                 self.metrics.requests_made += 1
                 
                 # Realizar petición
-                async with self.session.request(method, url, **kwargs) as response:
-                    # Métricas de tiempo
-                    response_time = time.time() - start_time
-                    self.metrics.add_response_time(response_time)
-                    
-                    # Verificar rate limit
-                    if response.status == 429:
-                        self.metrics.rate_limit_hits += 1
-                        retry_after = int(response.headers.get('Retry-After', 60))
-                        raise RateLimitError(self.platform_name, retry_after)
-                    
-                    # Verificar otros errores HTTP
-                    if response.status >= 400:
+                response = await self.session.request(method, url, **kwargs)
+                
+                # Métricas de tiempo
+                response_time = time.time() - start_time
+                self.metrics.add_response_time(response_time)
+                
+                # Verificar rate limit
+                if response.status == 429:
+                    self.metrics.rate_limit_hits += 1
+                    retry_after = int(response.headers.get('Retry-After', 60))
+                    await response.close()
+                    raise RateLimitError(self.platform_name, retry_after)
+                
+                # Verificar otros errores HTTP
+                if response.status >= 400:
+                    try:
                         text = await response.text()
-                        raise APIError(
-                            self.platform_name,
-                            status_code=response.status,
-                            response_text=text,
-                            url=str(response.url)
-                        )
-                    
-                    # Éxito
-                    self.metrics.requests_successful += 1
-                    return response
+                    except:
+                        text = "Failed to read error response"
+                    await response.close()
+                    raise APIError(
+                        self.platform_name,
+                        status_code=response.status,
+                        response_text=text,
+                        url=str(response.url)
+                    )
+                
+                # Éxito
+                self.metrics.requests_successful += 1
+                return response
                     
             except (aiohttp.ClientError, asyncio.TimeoutError) as e:
                 last_error = e
@@ -348,8 +357,20 @@ class AsyncBaseScraper(ABC):
         response = await self.fetch(url, **kwargs)
         
         try:
-            # Parsear JSON con orjson (más rápido)
-            text = await response.text()
+            # Parsear JSON con manejo robusto de conexiones cerradas
+            try:
+                text = await response.text()
+            except aiohttp.ClientConnectionError as e:
+                # Si la conexión se cierra durante la lectura, intentar leer desde el buffer
+                if hasattr(response, '_body') and response._body:
+                    text = response._body.decode('utf-8')
+                else:
+                    raise e
+            finally:
+                # Asegurar que cerramos la respuesta
+                if not response.closed:
+                    response.close()
+            
             data = orjson.loads(text)
             
             # Guardar en cache
@@ -363,6 +384,11 @@ class AsyncBaseScraper(ABC):
                 self.platform_name,
                 data_type="JSON",
                 reason=str(e)
+            )
+        except aiohttp.ClientConnectionError as e:
+            raise APIError(
+                self.platform_name,
+                response_text=f"Connection error: {str(e)}"
             )
     
     async def _get_proxy(self) -> Optional[str]:

@@ -1,0 +1,11 @@
+2025-07-13 10:51:28,297 - scraper.white - INFO - Usando cache service avanzado de BOT-vCSGO-Beta
+2025-07-13 10:51:28,298 - scraper.white - INFO - Profitability engine disponible
+2025-07-13 10:51:28,299 - scraper.white - INFO - Scraper white inicializado (habilitado: Sí, proxy: No, cache: Sí, API key: No)
+2025-07-13 10:51:28,299 - scraper.white - INFO - White.market scraper inicializado (migrado desde BOT-vCSGO-Beta)
+2025-07-13 10:51:28,300 - scraper.white - INFO - Iniciando scraper white
+2025-07-13 10:51:28,300 - scraper.white - INFO - Obteniendo datos de White.market API (usando lógica BOT-vCSGO-Beta)...
+2025-07-13 10:51:33,544 - scraper.white - INFO - Parseados 24361 items de White.market
+2025-07-13 10:51:33,563 - scraper.white - ERROR - Error calculando rentabilidad: ProfitabilityEngine.calculate_opportunities() got an unexpected keyword argument 'platform_data'
+2025-07-13 10:51:33,573 - scraper.white - INFO - Datos guardados en C:\Users\Zolu\Documents\aa-Proyecto CSGO-aa\BOT-VCSGO-BETA-V2\data\white_data.json (24361 items)
+2025-07-13 10:51:33,575 - scraper.white - INFO - Scraper completado: 24361 items válidos obtenidos
+2025-07-13 10:51:33,575 - scraper.white - INFO - Estadísticas - Requests: 1, Fallos: 0, Items: 24361, Éxito: 100.0%

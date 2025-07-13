@@ -98,7 +98,7 @@ class BaseScraper(ABC):
                 proxy_config = self.config_manager.get_proxy_config()
                 self.use_proxy = proxy_config.get('enabled', False)
         
-        self.proxy_list = proxy_list or self.config_manager.load_proxy_list()
+        self.proxy_list = proxy_list or self.config_manager.get_proxy_config()
         self.current_proxy_index = 0
         self.proxy_failures = {}  # Track failed proxies
         
